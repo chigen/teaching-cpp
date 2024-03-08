@@ -1,1 +1,4 @@
-extern float pi;
+#include <vector>
+#include <iostream>
+
+using namespace std;
