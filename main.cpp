@@ -6,84 +6,68 @@
 
 using namespace std;
 
-// 不推荐使用同名的全局变量
-int reused = 42; // reused有全局作用域
-
-const double pi = 3.1415926;
-
-void printVec(vector<int>& vec){
-    int len = vec.size();
-
-    for(int i=0;i<len; ++i){
-        vec[i] += 1;
-        cout << vec[i] << " ";
-    }
-}
-
 int main()
 {
-    // 声明 定义 使用（赋值...)
-    bool b = 42; // b为true 初始化 = （声明+定义+赋值）
-    int i = b; // i的值为1 初始化
-    i = 3.14; // i的值为3 赋值
-    char c = 'b'; 
-    char cc = c;
-    string str = "he\nllo";
-    string str2 = "world";
-    cout << str << str2 << endl;
-
-    // 右值
-    vector<int> vecA(100,0);
-    vector<int> vecB;
-    vecB = std::move(vecA);
-
-    // 列表初始化
-    int units_sold = 0; 
-    int units_sold2 = {0};
-    int units_sold3{0};
-    int units_sold4(0); // 传统的构造函数初始化
-
-    // 输出全局变量unused
-    cout << "Value of reused: " << reused << endl;  //42
-    // 输出局部变量unused
-    int reused = 0;
-    cout << "Value of reused: " << reused << endl;
-    // 显式访问全局变量unused (optional)
-    cout << "Value of reused: " << ::reused << endl;
-
-    // reference
-    int val = 1024;
-    cout << "ori of val: " <<val << endl;
-    int &refVal = val; // refVal指向val
-    // int &refVal2; // 错误，引用必须初始化
-    refVal = 2; // val的值变为2
-    cout << "Value of val: " << val << endl;
-
     // pointer
-    // double val = 2.22;
-    // double *pVal = &val;
-    // double *pVal2 = pVal;
-    // cout << val << " " << *pVal << " " << *pVal2 << endl;
-    // *pVal2 = 3.333;
-    // cout << val << " " << *pVal << " " << *pVal2 << endl;
+    double val = 2.22;
+    double *pVal = &val;
+    // auto aVal = pVal;
+    double *pVal2 = pVal;
+    cout << "val's address: " << pVal << endl;
+    cout << "val: " << *pVal << endl;
+    cout << val << " " << *pVal << " " << *pVal2 << endl;
+    *pVal2 = 3.333;
+    cout << val << " " << *pVal << " " << *pVal2 << endl;
 
-    // const
-    int newI = 2; //初始化
-    const int constI = 9;
-    newI = 3;
-
-    const int &refConst = constI;
-    const int &refConst2 = constI;
+    // void type pointer
+    double obj = 6.8;
+    int obj2 = 3, *pObj = &obj2;
+    void *pv = &obj;
     
-    float fa = 1.111;
-    float &refA = fa;
+    pv = pObj;
 
+    int ival = 1024;
+    int *pi = &ival;
+    int **ppi = &pi;
+    cout << **ppi << endl;
+    cout << *ppi << endl;   
+    cout << pi << endl; 
 
-    // 类型别名
-    typedef int id;
-    id firstObj = 0;
-    using ID = int;
-    ID secondObj = 1;
+    int i = 0; 
+    int *const ptr = &i;
+    // ptr = &ival; // error
+    const int *ptr2 = &i;
+    // ptr2 = &ival; // correct
+    cout << *ptr << endl;
+    *ptr = 2;
+    cout << *ptr << endl;
 
+    int ii = 0, &r = ii; 
+    auto a = r;
+    cout << ii << " " << a << endl;
+    a = 2;
+    cout << ii << " " << a << endl;
+
+    i = 4;
+    auto const& cstRefI = i;
+    
+    shared_ptr<int> sp1 = make_shared<int> (42);
+    shared_ptr<int> sp2 = sp1;
+    *sp2 = 43;
+    
+    unique_ptr<int> up1 = make_unique<int> (10);
+    auto curr = up1.get();
+
+    int *p6 = &i;
+    {
+        int iTemp = 4;
+        p6 = &iTemp;
+    }
+    cout << *p6 << endl;
+
+    constexpr int mf = 20;
+
+    string s1{"first"}, s2{"second"};
+    auto c = s1[2];
     return 0;
 }
