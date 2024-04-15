@@ -36,6 +36,8 @@ void testThrow(int value) {
 }
 
 
+
+
 int main()
 {
     // try {
@@ -58,30 +60,79 @@ int main()
     //     cin >> rsp;
     // } while (!rsp.empty() && tolower(rsp[0]) == 'y');
 
+    // int a = 0;
+
+    // while(true){
+    //     ++a;
+
+    //     if (a == 10){
+    //         continue;
+    //     }
+
+
+    // }
+
+
     // int a = 2, b = 2;
-    // assert(a == b && "a == b");
+    // assert(a == b);
 
-    for (int i, j; cout << "Input two integers:\n", cin >> i >> j; )
-    {
-        try {
-            if (j == 0) 
-                throw runtime_error("divisor is 0");
-            cout << i / j << endl;
+    // for (int i, j; cout << "Input two integers:\n", cin >> i >> j; )
+    // {
+    //     try {
+    //         if (j == 0) 
+    //             throw runtime_error("divisor is 0");
+    //         cout << i / j << endl;
 
-            cout << "\nTry again? Enter y or n" << endl;
-            char c;
-            cin >> c;
-            if (!cin || c == 'n')
-                break;
-        }
-        catch (std::runtime_error& err) {
-            cout << err.what() << "\nTry again? Enter y or n" << endl;
-            char c;
-            cin >> c;
-            if (!cin || c == 'n')
-                break;
-        }
-    }
+    //         cout << "\nTry again? Enter y or n" << endl;
+    //         char c;
+    //         cin >> c;
+    //         if (!cin || c == 'n')
+    //             break;
+    //     }
+    //     catch (std::runtime_error& err) {
+    //         cout << err.what() << "\nTry again? Enter y or n" << endl;
+    //         char c;
+    //         cin >> c;
+    //         if (!cin || c == 'n')
+    //             break;
+    //     }
+    // }
 
     cout << fact(5) << endl;
+
+
+    // 返回类型 函数名(形参){
+    // ......
+
+    // 返回值 return xxx
+    // }
+
+    // vector<int> vec{2,3,4,5,6};
+    // // sum
+    // // 实参 argument
+    // vector<string> svec;
+    // int sum_val = sum(3 , vec);
+
+    // // x = "xxx";
+
+    // cout << sum_val << endl;
+
+    // string s1 = "aaa", s2 = "bbbbbbbbbbb";
+    // cout <<isShorter(s1, s2);
+
+
+    // vector<int> v1{1}, v2{2}, v3{3};
+ 
+    // foo(v1, v2, v3);
+    // cout << endl;
+
+    // int bb = 1;
+    // bar(&bb);
+
+    // cout << bb << endl;
+
+    // int a = 3, b = 5;
+    // cout << a << b << endl;
+    // swap(a, b);
+    // cout << a << b << endl;
 }
