@@ -137,18 +137,16 @@ int main()
     // }
     // cout << endl;
 
-    LinkList* myList = createLinkedList(); 
-    addAtHead(myList, 10); 
-    addAtHead(myList, 20); 
-    addAtTail(myList, 30); 
-    addAtTail(myList, 40); 
-    addAtTailRecursive(myList, 60);
+    // LinkList* myList = createLinkedList(); 
+    // addAtHead(myList, 10); 
+    // addAtHead(myList, 20); 
+    // addAtTail(myList, 30); 
+    // addAtTail(myList, 40); 
+    // addAtTailRecursive(myList, 60);
 
-    LinkList* current = myList;
-    while (current != nullptr) {
-        std::cout << current->val << " ";
-        current = current->next;
-    }
-
-
+    // LinkList* current = myList;
+    // while (current != nullptr) {
+    //     std::cout << current->val << " ";
+    //     current = current->next;
+    // }
 }
