@@ -25,114 +25,130 @@ struct Book{
 }
  */
 
-void testAssert(int value) {
-    assert(value > 0); // Assert 用于验证内部状态，只在开发中有效
+const string &foo(){
+    string str = "foobar";
+    if (!str.empty()){
+        return str;
+    }
+    
+    return "empty";
 }
 
-void testThrow(int value) {
-    if (value <= 0) {
-        throw std::invalid_argument("Value must be positive"); // Throw 用于在运行时处理预见的错误
+char &getChar(string &str, int index){
+    assert(str.size() > index);
+    return str[index];
+}
+
+// 函数重载
+vector<int> create_vector(int *list, int size){
+    vector<int> vec;
+    int *ptr = list;
+    for(int i=0;i<size;++i){
+        vec.push_back(*ptr);
+    }
+    return vec;
+}
+
+vector<int> create_vector(int num, int size){
+    vector<int> vec(size, num);
+    return vec;
+}
+
+struct LinkList{
+    int val;
+    LinkList* next;
+
+    // construct
+    LinkList(int x) : val(x), next(nullptr) {}
+};
+
+LinkList* createLinkedList() {
+    return nullptr; // 初始化为空指针，表示链表为空
+}
+
+void addAtHead(LinkList*& head, int val) {
+    LinkList* newNode = new LinkList(val); // 创建新节点
+    newNode->next = head; // 新节点指向原来的头节点
+    head = newNode; // 更新头节点为新节点
+}
+
+void addAtTail(LinkList*& head, int val) {
+    LinkList* newNode = new LinkList(val); // 创建新节点
+    if (head == nullptr) {
+        // 如果链表为空，新节点即为头节点
+        head = newNode;
+    } else {
+        // 否则，遍历到链表末尾
+        LinkList* temp = head;
+        while (temp->next != nullptr) {
+            temp = temp->next;
+        }
+        // 将新节点添加到最后
+        temp->next = newNode;
     }
 }
 
-
-
+void addAtTailRecursive(LinkList* node, int val) {
+    if (node->next == nullptr) {
+        // 如果当前节点是最后一个节点，则在其后添加新节点
+        node->next = new LinkList(val);
+    } else {
+        // 否则递归调用，移动到下一个节点
+        addAtTailRecursive(node->next, val);
+    }
+}
 
 int main()
 {
-    // try {
-    //     testThrow(-1); // 这将抛出异常
-    // } catch (const std::exception& e) {
-    //     std::cout << "Caught an exception: " << e.what() << std::endl;
-    // }
-
-    // testAssert(-1); // 这将在 NDEBUG 未定义的情况下终止程序
-    // return 0;
-
-    // string rsp;
-    // do {
-    //     cout << "Input two strings: ";
-    //     string str1, str2;
-    //     cin >> str1 >> str2;
-    //     cout << (str1 <= str2 ? str1 : str2) 
-    //          << " is less than the other. " << "\n\n"
-    //          << "More? Enter yes or no: ";
-    //     cin >> rsp;
-    // } while (!rsp.empty() && tolower(rsp[0]) == 'y');
-
-    // int a = 0;
-
-    // while(true){
-    //     ++a;
-
-    //     if (a == 10){
-    //         continue;
-    //     }
-
-
-    // }
-
-
-    // int a = 2, b = 2;
-    // assert(a == b);
-
-    // for (int i, j; cout << "Input two integers:\n", cin >> i >> j; )
-    // {
-    //     try {
-    //         if (j == 0) 
-    //             throw runtime_error("divisor is 0");
-    //         cout << i / j << endl;
-
-    //         cout << "\nTry again? Enter y or n" << endl;
-    //         char c;
-    //         cin >> c;
-    //         if (!cin || c == 'n')
-    //             break;
-    //     }
-    //     catch (std::runtime_error& err) {
-    //         cout << err.what() << "\nTry again? Enter y or n" << endl;
-    //         char c;
-    //         cin >> c;
-    //         if (!cin || c == 'n')
-    //             break;
-    //     }
-    // }
-
-    cout << fact(5) << endl;
-
-
     // 返回类型 函数名(形参){
     // ......
 
     // 返回值 return xxx
     // }
 
-    // vector<int> vec{2,3,4,5,6};
-    // // sum
-    // // 实参 argument
-    // vector<string> svec;
-    // int sum_val = sum(3 , vec);
+    // 1
+    // fact(5);
 
-    // // x = "xxx";
+    // 定义一个find_char函数，要求返回某一字符在某一个字符串中第一次出现的位置、以及出现的总次数
 
-    // cout << sum_val << endl;
+    // const形参和实参 & 常量引用
 
-    // string s1 = "aaa", s2 = "bbbbbbbbbbb";
-    // cout <<isShorter(s1, s2);
+    // 返回值类型为引用或指针
+    // 不要返回局部对象的引用或指针
+    // linklist
 
+    // 引用返回左值
+    // string s = "a value";
+    // cout << s << endl;
+    // getChar(s, 0) = 'A';
+    // cout << s << endl;
 
-    // vector<int> v1{1}, v2{2}, v3{3};
- 
-    // foo(v1, v2, v3);
+    // 函数重载
+    // int list[4] = {1, 2, 3, 4};
+    // vector<int> vec1 = create_vector(list, 4);
+    // for(int &num:vec1){
+    //     cout << num << " ";
+    // }
     // cout << endl;
 
-    // int bb = 1;
-    // bar(&bb);
+    // vector<int> vec2 = create_vector(2, 5);
+    // for(int &num:vec2){
+    //     cout << num << " ";
+    // }
+    // cout << endl;
 
-    // cout << bb << endl;
+    LinkList* myList = createLinkedList(); 
+    addAtHead(myList, 10); 
+    addAtHead(myList, 20); 
+    addAtTail(myList, 30); 
+    addAtTail(myList, 40); 
+    addAtTailRecursive(myList, 60);
 
-    // int a = 3, b = 5;
-    // cout << a << b << endl;
-    // swap(a, b);
-    // cout << a << b << endl;
+    LinkList* current = myList;
+    while (current != nullptr) {
+        std::cout << current->val << " ";
+        current = current->next;
+    }
+
+
 }

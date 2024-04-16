@@ -37,17 +37,6 @@ bool isShorter (string &s1, string &s2){
     return s1.size() < s2.size();
 }
 
-void foo(vector<int> &v1, vector<int> &v2, vector<int> &v3){
-    v1.push_back(-1);
-    v2.push_back(-2);
-    v3.push_back(-3);
-    return;
-}
-
-void bar(int *a){
-    *a *= 2;
-}
-
 // 交换两个int类型的变量的值
 void swap(int &a, int &b){
     int swap1 = a;
