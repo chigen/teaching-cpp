@@ -25,13 +25,9 @@ struct Book{
 }
  */
 
-const string &foo(){
-    string str = "foobar";
-    if (!str.empty()){
-        return str;
-    }
-    
-    return "empty";
+void foo(){
+
+    // string *str = new string temp("empty");
 }
 
 char &getChar(string &str, int index){
@@ -54,7 +50,7 @@ vector<int> create_vector(int num, int size){
     return vec;
 }
 
-struct LinkList{
+struct LinkList{ //结构体（类）
     int val;
     LinkList* next;
 
@@ -74,6 +70,7 @@ void addAtHead(LinkList*& head, int val) {
 
 void addAtTail(LinkList*& head, int val) {
     LinkList* newNode = new LinkList(val); // 创建新节点
+
     if (head == nullptr) {
         // 如果链表为空，新节点即为头节点
         head = newNode;
@@ -98,6 +95,52 @@ void addAtTailRecursive(LinkList* node, int val) {
     }
 }
 
+void deleteLinkedList(LinkList*& head) {
+    LinkList* current = head;
+    while (current != nullptr) {
+        LinkList* temp = current;
+        current = current->next;
+        delete temp;  // 释放当前节点的内存
+    }
+    head = nullptr; // 避免悬挂指针
+}
+
+void deleteLinkedListRecursive(LinkList*& node) {
+    if (node == nullptr) {
+        return;
+    }
+    deleteLinkedListRecursive(node->next); // 递归删除下一个节点
+    delete node; // 删除当前节点
+    node = nullptr;
+}
+
+// 定义一个find_char函数，要求返回某一字符在某一个字符串
+// 中第一次出现的位置、以及出现的总次数
+int find_char(const string& str, const char& c, int& occur){
+    int firstOccur = -1;
+
+    occur = 0;
+
+    // 遍历整个字符串，检查每一位字符是否和c相等
+    for(int i=0; i<str.size(); i++){
+        if (str[i] == c){
+            occur++;
+            if(firstOccur == -1){
+                firstOccur = i;
+            }
+        }
+    }
+
+    return firstOccur;
+}
+
+// 形参在函数被调用的时候初始化，形参初始化的值为实参
+
+void printInt(int val, double val2){
+    cout << val << endl;
+    cout << val2 << endl;
+}
+
 int main()
 {
     // 返回类型 函数名(形参){
@@ -106,12 +149,35 @@ int main()
     // 返回值 return xxx
     // }
 
-    // 1
+    
     // fact(5);
 
-    // 定义一个find_char函数，要求返回某一字符在某一个字符串中第一次出现的位置、以及出现的总次数
+    // int a = 2;
+    // double b = 2.2;
+    // printInt(a, b);
+
+    // 定义一个find_char函数，要求返回某一字符在某一个字符串
+    // 中第一次出现的位置、以及出现的总次数
+    // string str = "hello world";
+    // char c = 'l';
+    // int occur1 = 0;
+    // int firstOccur1 = find_char(str, c, occur1);
+    // cout << "first occur: " << firstOccur1 << " occur count: " << occur1 << endl;
+
+
+    // string str2 = "qwer";
+    // char key = 'e';
+    // firstOccur1 = find_char(str2, key, occur1);
+    // cout << "first occur: " << firstOccur1 << " occur count: " << occur1 << endl;
 
     // const形参和实参 & 常量引用
+
+
+    // const string& s2;
+    // s2 = foo();
+
+    // 引用和指针，不能指向一个在函数里面被定义的变量
+    // 因为该变量会在函数结束时被销毁
 
     // 返回值类型为引用或指针
     // 不要返回局部对象的引用或指针
@@ -137,16 +203,19 @@ int main()
     // }
     // cout << endl;
 
-    // LinkList* myList = createLinkedList(); 
-    // addAtHead(myList, 10); 
-    // addAtHead(myList, 20); 
-    // addAtTail(myList, 30); 
-    // addAtTail(myList, 40); 
-    // addAtTailRecursive(myList, 60);
+    LinkList* myList = createLinkedList(); 
+    addAtHead(myList, 10); 
+    addAtHead(myList, 20); 
+    addAtTail(myList, 30); 
+    addAtTail(myList, 40); 
+    addAtTailRecursive(myList, 60);
 
     // LinkList* current = myList;
     // while (current != nullptr) {
     //     std::cout << current->val << " ";
     //     current = current->next;
     // }
+
+    // deleteLinkedList(myList);
+    cout << "end" << endl;
 }
