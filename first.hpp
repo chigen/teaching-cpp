@@ -4,10 +4,12 @@
 using namespace std;
 
 
-int fact(int val);
+// int fact(int val);
 
 int sum(int n, vector<int> ivec);
 
-bool isShorter (string &s1, string &s2);
+inline bool isShorter (string &s1, string &s2){
+    return s1.size() < s2.size();
+}
 
 void swap(int &a, int &b);

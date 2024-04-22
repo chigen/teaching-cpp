@@ -1,21 +1,22 @@
 #include "first.hpp"
 
-int fact(int val)
-{
-    // recursion
-    if (val == 0 || val == 1) 
-        return 1;
-    else 
-        return val * fact(val-1);
+// int fact(int val)
+// {
+//     // recursion
+//     if (val == 0 || val == 1) 
+//         return 1;
+//     else 
+//         return val * fact(val-1);
 
-    // use loop
-    // int res = 1;
-    // while (val>1){
-    //     res *= val;
-    //     --val;
-    // }
-    // return res;
-}
+//     // use loop
+//     // int res = 1;
+//     // while (val>1){
+//     //     res *= val;
+//     //     --val;
+//     // }
+//     // return res;
+// }
+
 // param 形参
 // vector<int> ivec = vec;
 int sum(int n, vector<int> ivec){
@@ -33,9 +34,9 @@ int sum(int n, vector<int> ivec){
     return result;
 }
 
-bool isShorter (string &s1, string &s2){
-    return s1.size() < s2.size();
-}
+// bool isShorter (string &s1, string &s2){
+//     return s1.size() < s2.size();
+// }
 
 // 交换两个int类型的变量的值
 void swap(int &a, int &b){

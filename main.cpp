@@ -3,6 +3,7 @@
 #include <string>
 #include <cctype>
 #include <cassert>
+#include <optional>
 
 #include "first.hpp"
 
@@ -25,9 +26,20 @@ struct Book{
 }
  */
 
-void foo(){
+void foo(string** s){
+    delete s;
+    *s = new string("empty");
+    cout << *s << endl;
+}
 
-    // string *str = new string temp("empty");
+void foo2(string*& s){
+    delete s;
+    s = new string("occupied");
+    cout << *s << endl;
+}
+
+void bar(string* s){
+    cout << *s << endl;
 }
 
 char &getChar(string &str, int index){
@@ -141,6 +153,41 @@ void printInt(int val, double val2){
     cout << val2 << endl;
 }
 
+
+void createWindow(string windowName, int width=600, int height=800){
+    cout << "new window name: " << windowName << endl;
+    cout << "new window's width: " << width << ", height: " << height << endl;
+}
+
+void createWindowwithHeight(string windowName, int height){
+    createWindow(windowName, 600, height);
+}
+
+void createWindowwithOptional(string windowName, optional<int> width=600, optional<int> height=800){
+    cout << "new window name: " << windowName << endl;
+    cout << "new window's width: " << width.value_or(600) << ", height: " << height.value() << endl;
+}
+
+// function pointer
+int add(int a, int b) {
+    return a + b;
+}
+
+int subtract(int a, int b) {
+    return a - b;
+}
+
+int multiply(int a, int b) {
+    return a * b;
+}
+
+double divide(int a, int b) {
+    if (b != 0)
+        return static_cast<double>(a) / b;
+    else
+        return 0.0;  // case: divided by 0
+}
+
 int main()
 {
     // 返回类型 函数名(形参){
@@ -150,31 +197,48 @@ int main()
     // }
 
     
+    // inline function
+    // string str_a = "aaa", str_b = "bB";
+    // cout << isShorter(str_a, str_b);
+
+    // default parameter
+    // createWindow("window1");
+    // createWindow("window2", 1024);
+    // createWindowwithHeight("window3", 1024);
+    // createWindowwithOptional("window4", nullopt, 1024);
+
+    // function pointer 函数指针
+    // 声明一个函数指针，指向接受两个int参数，并返回int的函数
+    // int (*operation)(int, int) = nullptr;
+    // int x = 4, y = 2;
+    // char op = '*';
+
+    // if(op == '+'){
+    //     operation = add;
+    // }
+    // else if(op == '-'){
+    //     operation = subtract;
+    // }
+    // else if(op == '*'){
+    //     operation = multiply;
+    // }
+    // else if(op == '/'){
+    //     // invalid case
+    //     // operation = divide;
+    //     cout << "divide function has different return type, x/y = " << divide(x, y) << endl; 
+    // }
+
+    // if (operation != nullptr && op != '/'){
+    //     cout << x << op << y << "=" << operation(x, y) << endl;
+    // }
+
+    // 循环实现阶乘
+    // 递归实现阶乘
     // fact(5);
 
     // int a = 2;
     // double b = 2.2;
     // printInt(a, b);
-
-    // 定义一个find_char函数，要求返回某一字符在某一个字符串
-    // 中第一次出现的位置、以及出现的总次数
-    // string str = "hello world";
-    // char c = 'l';
-    // int occur1 = 0;
-    // int firstOccur1 = find_char(str, c, occur1);
-    // cout << "first occur: " << firstOccur1 << " occur count: " << occur1 << endl;
-
-
-    // string str2 = "qwer";
-    // char key = 'e';
-    // firstOccur1 = find_char(str2, key, occur1);
-    // cout << "first occur: " << firstOccur1 << " occur count: " << occur1 << endl;
-
-    // const形参和实参 & 常量引用
-
-
-    // const string& s2;
-    // s2 = foo();
 
     // 引用和指针，不能指向一个在函数里面被定义的变量
     // 因为该变量会在函数结束时被销毁
@@ -203,12 +267,24 @@ int main()
     // }
     // cout << endl;
 
-    LinkList* myList = createLinkedList(); 
-    addAtHead(myList, 10); 
-    addAtHead(myList, 20); 
-    addAtTail(myList, 30); 
-    addAtTail(myList, 40); 
-    addAtTailRecursive(myList, 60);
+    string* s_foo = nullptr;
+    foo(&s_foo);
+    cout << "s_foo points to: "<<*s_foo<<endl;
+    *s_foo = "first";
+    cout << "s_foo points to: "<<*s_foo<<endl;
+    foo2(s_foo);
+    cout << "s_foo points to: "<<*s_foo<<endl;
+    // bar(s_foo);
+
+    delete s_foo;
+
+
+    // LinkList* myList = createLinkedList(); 
+    // addAtHead(myList, 10); 
+    // addAtHead(myList, 20); 
+    // addAtTail(myList, 30); 
+    // addAtTail(myList, 40); 
+    // addAtTailRecursive(myList, 60);
 
     // LinkList* current = myList;
     // while (current != nullptr) {
@@ -217,5 +293,6 @@ int main()
     // }
 
     // deleteLinkedList(myList);
+
     cout << "end" << endl;
 }
