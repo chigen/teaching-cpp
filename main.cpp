@@ -26,21 +26,7 @@ struct Book{
 }
  */
 
-void foo(string** s){
-    delete s;
-    *s = new string("empty");
-    cout << *s << endl;
-}
 
-void foo2(string*& s){
-    delete s;
-    s = new string("occupied");
-    cout << *s << endl;
-}
-
-void bar(string* s){
-    cout << *s << endl;
-}
 
 char &getChar(string &str, int index){
     assert(str.size() > index);
@@ -51,8 +37,11 @@ char &getChar(string &str, int index){
 vector<int> create_vector(int *list, int size){
     vector<int> vec;
     int *ptr = list;
+    // *ptr and ptr
     for(int i=0;i<size;++i){
+        // push_back(num) := 往当前vector的最后加入一个num值
         vec.push_back(*ptr);
+        ptr++;
     }
     return vec;
 }
@@ -145,7 +134,6 @@ int find_char(const string& str, const char& c, int& occur){
 
     return firstOccur;
 }
-
 // 形参在函数被调用的时候初始化，形参初始化的值为实参
 
 void printInt(int val, double val2){
@@ -153,7 +141,7 @@ void printInt(int val, double val2){
     cout << val2 << endl;
 }
 
-
+// 没有默认值的参数放在参数列表的左边，有默认值的参数放在右边
 void createWindow(string windowName, int width=600, int height=800){
     cout << "new window name: " << windowName << endl;
     cout << "new window's width: " << width << ", height: " << height << endl;
@@ -188,6 +176,44 @@ double divide(int a, int b) {
         return 0.0;  // case: divided by 0
 }
 
+// 递归实现阶乘
+int fact(int n){
+    if(n == 1){
+        return 1;
+    }
+
+    // 循环/递归内容
+    int result = n * fact(n-1);
+
+    return result;
+    // case: use loop
+    // int result = 1;
+    // for(int i=1; i<=n; i++){
+    //     result *= i;
+    // }
+    // return result;
+}
+
+
+void func1(int* ptr){
+    cout << *ptr << endl;
+}
+
+void foo(string** s){
+    *s = new string("empty");
+    cout << *s << endl;
+}
+
+void foo2(string*& s){
+    s = new string("occupied");
+    cout << *s << endl;
+}
+
+void bar(string* s){
+    cout << *s << endl;
+}
+
+
 int main()
 {
     // 返回类型 函数名(形参){
@@ -204,6 +230,7 @@ int main()
     // default parameter
     // createWindow("window1");
     // createWindow("window2", 1024);
+    // createWindow("window0", 600 ,1024);
     // createWindowwithHeight("window3", 1024);
     // createWindowwithOptional("window4", nullopt, 1024);
 
@@ -234,7 +261,11 @@ int main()
 
     // 循环实现阶乘
     // 递归实现阶乘
-    // fact(5);
+    // int n = 4;
+    // fact(n);
+    // fact(4) => 4 * fact(3) => 4 * 3 * fact(2) => 4 * 3 * 2 * fact(1)
+    // fact(1) = 1
+
 
     // int a = 2;
     // double b = 2.2;
@@ -255,6 +286,7 @@ int main()
 
     // 函数重载
     // int list[4] = {1, 2, 3, 4};
+    // cout << list << " " <<list[0] << endl;
     // vector<int> vec1 = create_vector(list, 4);
     // for(int &num:vec1){
     //     cout << num << " ";
@@ -267,16 +299,16 @@ int main()
     // }
     // cout << endl;
 
-    string* s_foo = nullptr;
-    foo(&s_foo);
-    cout << "s_foo points to: "<<*s_foo<<endl;
-    *s_foo = "first";
-    cout << "s_foo points to: "<<*s_foo<<endl;
-    foo2(s_foo);
-    cout << "s_foo points to: "<<*s_foo<<endl;
+    // string* s_foo = nullptr;
+    // foo(&s_foo);
+    // cout << "s_foo points to: "<<*s_foo<<endl;
+    // *s_foo = "first";
+    // cout << "s_foo points to: "<<*s_foo<<endl;
+    // foo2(s_foo);
+    // cout << "s_foo points to: "<<*s_foo<<endl;
     // bar(s_foo);
 
-    delete s_foo;
+    // delete s_foo;
 
 
     // LinkList* myList = createLinkedList(); 
