@@ -4,6 +4,7 @@
 #include <cctype>
 #include <cassert>
 #include <optional>
+#include <algorithm>
 
 #include "first.hpp"
 
@@ -26,7 +27,12 @@ struct Book{
 }
  */
 
-
+void printVectorInt(const vector<int> & vec){
+    for(auto it=vec.begin(); it!=vec.end(); it++){
+        cout << *it << " ";
+    }
+    cout << endl;
+}
 
 char &getChar(string &str, int index){
     assert(str.size() > index);
@@ -194,7 +200,6 @@ int fact(int n){
     // return result;
 }
 
-
 void func1(int* ptr){
     cout << *ptr << endl;
 }
@@ -213,26 +218,101 @@ void bar(string* s){
     cout << *s << endl;
 }
 
+// 函数返回一个指向含有10个整数的数组的指针
+int (*arrayFunc1(int index, int num)) [10]{
+    static int arr[10];  // 静态数组
+    
+    arr[index] = num;
+    
+    return &arr;  // 返回数组的地址
+}
+
+auto arrayFunc2(int index, int num) -> int(*) [10]{
+    static int arr[10];
+
+    arr[index] = num;
+
+    return &arr;
+}
+
+const int odd[] = {1,3,5};
+const int even[] = {2,4,6};
+decltype(odd) *arrPtr(int i){
+    return (i%2) ? &odd : &even;
+}
+
+// 函数指针用于形参(callback function)
+using Comparator = bool (*)(int, int);
+// typedef bool (*Comparator)(int, int);
+
+// use callback function to determine the order of sort
+void sortVector(vector<int>& vec, Comparator comp){
+    sort(vec.begin(), vec.end(), comp);
+}
+
+bool ascending(int a, int b){
+    return a <= b;
+}
+
+bool descending(int a, int b){
+    return a >= b;
+}
 
 int main()
 {
     // 返回类型 函数名(形参){
     // ......
-
     // 返回值 return xxx
     // }
 
-    
+    // 数组本质上就是指针
+    // int arr[10] = {0,1,2,3,4,5,6,7,8,9};
+    // 指向数组元素的指针
+    // 使用方式：通过 p1，可以访问和修改数组中的元素。p1[0] 等同于 arr[0]
+    // 类型：int*
+    // int *p1 = arr;
+    // 指向整个数组的指针
+    // 使用方式：不能直接通过 p2 来访问数组的元素，因为 p2 是指向整个数组的。要访问数组元素，需要先解引用 p2，然后使用索引。
+    // e.g. (*p2)[1] 等同于 arr[1]。
+    // 类型：int (*)[10]
+    // int (*p2)[10] = &arr;
+
+    // int val = 3;
+    // int *p3 = &val;
+    // cout << p3[0] << endl;
+
+    // 类型别名
+    // typedef int arrT[10];
+    // arrT arr2 = {-1,-2,-3};
+    // using arrT2 = int[10];
+    // arrT2 arr3 = {2,4,6,8};
+    // arrT* p4 = &arr2;
+     
+    // 声明一个返回数组指针类型的函数：
+    // Type (*function_name(parameter_list)) [dimension]
+    // int (*func(int i)) [10];
+    // 拆解：
+    // func(int i)表示调用func函数时需要一个int类型的实参
+    // (*func(int i))意味着我们可以对函数调用的结果执行解引用操作
+    // (*func(int i)) [10]表示解引用func的调用将得到一个大小是10的数组
+    // int (*func(int i)) [10]表示数组中的元素是int类型
+
+    // 尾置返回类型
+    // auto func(int i) -> int(*) [10];
+
+    // 使用decltype
+    // const int odd[] = {1,3,5};
+    // const int even[] = {2,4,6};
+    // decltype(odd) *arrPtr(int i){
+    //     return (i%2) ? &odd : &even;
+    // }
+
+    // int (*arr4)[10] = arrayFunc1(1, 99);
+    // auto arr5 = arrayFunc2(2, -99);
+
     // inline function
     // string str_a = "aaa", str_b = "bB";
     // cout << isShorter(str_a, str_b);
-
-    // default parameter
-    // createWindow("window1");
-    // createWindow("window2", 1024);
-    // createWindow("window0", 600 ,1024);
-    // createWindowwithHeight("window3", 1024);
-    // createWindowwithOptional("window4", nullopt, 1024);
 
     // function pointer 函数指针
     // 声明一个函数指针，指向接受两个int参数，并返回int的函数
@@ -259,20 +339,13 @@ int main()
     //     cout << x << op << y << "=" << operation(x, y) << endl;
     // }
 
-    // 循环实现阶乘
-    // 递归实现阶乘
-    // int n = 4;
-    // fact(n);
-    // fact(4) => 4 * fact(3) => 4 * 3 * fact(2) => 4 * 3 * 2 * fact(1)
-    // fact(1) = 1
+    // vector<int> data = {21, 42, 11, -1, 0 , 99};
+    // how to call sort function to sort a vector
+    // sort(data.begin(), data.end());
+    // sort(data.begin(), data.end(), ascending);
+    // sort(data.begin(), data.end(), descending);
+    // printVectorInt(data);
 
-
-    // int a = 2;
-    // double b = 2.2;
-    // printInt(a, b);
-
-    // 引用和指针，不能指向一个在函数里面被定义的变量
-    // 因为该变量会在函数结束时被销毁
 
     // 返回值类型为引用或指针
     // 不要返回局部对象的引用或指针
@@ -283,33 +356,6 @@ int main()
     // cout << s << endl;
     // getChar(s, 0) = 'A';
     // cout << s << endl;
-
-    // 函数重载
-    // int list[4] = {1, 2, 3, 4};
-    // cout << list << " " <<list[0] << endl;
-    // vector<int> vec1 = create_vector(list, 4);
-    // for(int &num:vec1){
-    //     cout << num << " ";
-    // }
-    // cout << endl;
-
-    // vector<int> vec2 = create_vector(2, 5);
-    // for(int &num:vec2){
-    //     cout << num << " ";
-    // }
-    // cout << endl;
-
-    // string* s_foo = nullptr;
-    // foo(&s_foo);
-    // cout << "s_foo points to: "<<*s_foo<<endl;
-    // *s_foo = "first";
-    // cout << "s_foo points to: "<<*s_foo<<endl;
-    // foo2(s_foo);
-    // cout << "s_foo points to: "<<*s_foo<<endl;
-    // bar(s_foo);
-
-    // delete s_foo;
-
 
     // LinkList* myList = createLinkedList(); 
     // addAtHead(myList, 10); 
