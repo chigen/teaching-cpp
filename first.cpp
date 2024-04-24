@@ -44,14 +44,3 @@ void swap(int &a, int &b){
     a = b;
     b = swap1;
 }
-
-// 阶乘 n*n-1 ... * 1
-int factori(int n){
-    int result = 1;
-
-    for(int i=1; i<=n; ++i){
-        result = result * i; 
-    }
-
-    return result;
-}

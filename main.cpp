@@ -13,6 +13,7 @@ using namespace std;
 struct Book{
     string name = {};
     int price = 0;
+    // double discount = 0.0;
     string category = {};
 
     Book (string name, int price, string cate)
@@ -258,8 +259,23 @@ bool descending(int a, int b){
     return a >= b;
 }
 
+
+auto printInt(int i) -> int{
+    cout << i << endl;
+    i++;
+    return i;
+}
+
+// 函数返回一个指向含有10个整数的数组的指针, 并且修改该数组第index位的变量值为value
+auto fooPtr(int index, int value) -> int(*) [10]{
+    static int array[10];
+    array[index] = value;
+    return &array;
+}
+
 int main()
 {
+    // auto arrPtr = fooPtr(1, 2);
     // 返回类型 函数名(形参){
     // ......
     // 返回值 return xxx
@@ -271,17 +287,23 @@ int main()
     // 使用方式：通过 p1，可以访问和修改数组中的元素。p1[0] 等同于 arr[0]
     // 类型：int*
     // int *p1 = arr;
+
     // 指向整个数组的指针
     // 使用方式：不能直接通过 p2 来访问数组的元素，因为 p2 是指向整个数组的。要访问数组元素，需要先解引用 p2，然后使用索引。
     // e.g. (*p2)[1] 等同于 arr[1]。
     // 类型：int (*)[10]
-    // int (*p2)[10] = &arr;
+    // int (*p2)[10] = &arr; 
 
     // int val = 3;
     // int *p3 = &val;
     // cout << p3[0] << endl;
 
     // 类型别名
+    // typedef double hour;
+    // hour current = 0.0;
+    // typedef int arr10[10];
+    // arr10 arr2 = {2,3,4,5,6};
+    // arr10* p4 = &arr2;
     // typedef int arrT[10];
     // arrT arr2 = {-1,-2,-3};
     // using arrT2 = int[10];
@@ -292,13 +314,16 @@ int main()
     // Type (*function_name(parameter_list)) [dimension]
     // int (*func(int i)) [10];
     // 拆解：
-    // func(int i)表示调用func函数时需要一个int类型的实参
+    // func(int i)表示调用func函数时需要一个int类型的形参
     // (*func(int i))意味着我们可以对函数调用的结果执行解引用操作
     // (*func(int i)) [10]表示解引用func的调用将得到一个大小是10的数组
     // int (*func(int i)) [10]表示数组中的元素是int类型
 
     // 尾置返回类型
     // auto func(int i) -> int(*) [10];
+
+    // auto *p4 = &arr;
+    // decltype(p2) p3 = &arr;
 
     // 使用decltype
     // const int odd[] = {1,3,5};
@@ -320,6 +345,9 @@ int main()
     // int x = 4, y = 2;
     // char op = '*';
 
+    // Book book_a("book a", 12, "novel");
+    // Book book_b("book b", 34, "education");
+
     // if(op == '+'){
     //     operation = add;
     // }
@@ -339,12 +367,13 @@ int main()
     //     cout << x << op << y << "=" << operation(x, y) << endl;
     // }
 
-    // vector<int> data = {21, 42, 11, -1, 0 , 99};
+    vector<int> data = {21, 42, 11, -1, 0 , 99};
+    vector<Book> bookData;
     // how to call sort function to sort a vector
     // sort(data.begin(), data.end());
     // sort(data.begin(), data.end(), ascending);
-    // sort(data.begin(), data.end(), descending);
-    // printVectorInt(data);
+    sort(data.begin(), data.end(), descending);
+    printVectorInt(data);
 
 
     // 返回值类型为引用或指针
