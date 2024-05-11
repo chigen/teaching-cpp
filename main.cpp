@@ -277,33 +277,56 @@ auto fooPtr(int index, int value) -> int(*) [10]{
 class Box
 {
     public:
-        // 成员变量声明   
-        double length;   
-        double width; 
-        double height;   
         // 构造函数
         Box();
         Box(double len, double wid, double hei);
         // 成员函数声明
         double getVolume();
-        void set( double len, double wid, double hei );
+        void set(double len, double wid, double hei);
         double getLength();
         double getWidth();
         double getHeight();
-        
+        void setHeight(double h);
+    private:
+        // 成员变量声明   
+        double length;   
+        double width; 
+        double height;   
 };
+
+double Box::getLength(){
+    return length;
+}
+
+double Box::getWidth(){
+    return width;
+}
+
+double Box::getHeight(){
+    return height;
+}
+
+void Box::setHeight(double h){
+    height = h;
+}
+
 // 成员函数定义
-double Box::getVolume()
-{
+double Box::getVolume(){
     return length * width * height;
 }
 
 Box::Box(){
     // implement it
+    height = 1.0;
+    width = 1.0;
+    length = 1.0;
 }
 
 Box::Box(double len, double wid, double hei){
     // implement it
+    height = hei;
+    length = len;
+    width = wid;
 }
 
 void Box::set( double len, double wid, double hei)
