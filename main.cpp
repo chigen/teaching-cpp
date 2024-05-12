@@ -15,7 +15,6 @@ struct Book{
     int price = 0;
     // double discount = 0.0;
     string category = {};
-
     Book (string name, int price, string cate)
         : name(name), price(price), category(cate){}
 };
@@ -352,5 +351,39 @@ int main()
     box1.set(1.0, 2.0, 1.0);
     cout << "this box's volume is " << box1.getVolume() << endl;
 
-    cout << "end" << endl;
+    BinaryTree tree;
+    tree.insert(5);
+    tree.insert(3);
+    tree.insert(8);
+    tree.insert(1);
+    tree.insert(4);
+
+    tree.remove(3);
+    bool has8 = tree.find(8);
+
+    tree.remove(4);
+    tree.remove(8);
+
+    std::cout << "Inorder traversal of the binary tree: ";
+    tree.inorderTraversal();  // 输出应该是: 1 3 4 5 8
+
+    // HashMap m(10);
+    // m.insert("ab",11);
+    // m.insert("bc",22);
+    // m.insert("ww",-1);
+
+    // if (m.update("ww", 200)) {
+    //     std::cout << "Update successful" << std::endl;
+    // } else {
+    //     std::cout << "Update failed" << std::endl;
+    // }
+
+    // auto result = m.find("bc");
+    // if (result) {
+    //     std::cout << "Found: " << *result << std::endl;
+    // } else {
+    //     std::cout << "Not found" << std::endl;
+    // }
+
+    // cout << "end" << endl;
 }
