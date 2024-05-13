@@ -1,4 +1,5 @@
 #include <vector>
+#include <string>
 #include <iostream>
 #include <stdexcept>
 #include <optional>
@@ -104,7 +105,7 @@ public:
 class HashMap {
 private:
     struct HashNode {
-        int key;
+        string key;
         int value;
         bool occupied = false;  // 标记这个位置是否被占用
     };
@@ -112,8 +113,8 @@ private:
     std::vector<HashNode> table;
     size_t capacity;
 
-    size_t hashFunction(const int key) const {
-        return std::hash<int>{}(key) % capacity;
+    size_t hashFunction(const string& key) const {
+        return std::hash<string>{}(key) % capacity;
     }
 
 public:
@@ -121,7 +122,7 @@ public:
         table.resize(capacity);
     }
 
-    bool insert(const int key, const int value) {
+    bool insert(const string& key, const int value) {
         size_t idx = hashFunction(key);
         size_t start_idx = idx;
         do {
@@ -135,7 +136,7 @@ public:
         return false;  // 表已满
     }
 
-    std::optional<int> find(const int key) const {
+    std::optional<int> find(const string& key) const {
         size_t idx = hashFunction(key);
         size_t start_idx = idx;
         do {
@@ -148,7 +149,7 @@ public:
         return {};  // 没找到
     }
 
-    bool update(const int key, const int newValue) {
+    bool update(const string& key, const int newValue) {
         size_t idx = hashFunction(key);
         size_t start_idx = idx;
         do {
@@ -160,5 +161,114 @@ public:
         } while (idx != start_idx && table[idx].occupied);
 
         return false;  // 键不存在
+    }
+};
+
+class TreeNode {
+public:
+    int value;          // 节点存储的数据
+    TreeNode* left;     // 指向左子节点的指针
+    TreeNode* right;    // 指向右子节点的指针
+
+    // 构造函数
+    TreeNode(int val) : value(val), left(nullptr), right(nullptr) {}
+};
+
+class BinaryTree {
+private:
+    TreeNode* root;
+
+    // helper function
+    TreeNode* insert(TreeNode* node, int value) {
+        if (node == nullptr) {
+            return new TreeNode(value);
+        }
+        if (value < node->value) {
+            node->left = insert(node->left, value);
+        } else {
+            node->right = insert(node->right, value);
+        }
+        return node;
+    }
+
+    bool find(TreeNode* node, int value) {
+        if (node == nullptr) {
+            return false;
+        }
+        if (value == node->value) {
+            return true;
+        } else if (value < node->value) {
+            return find(node->left, value);
+        } else {
+            return find(node->right, value);
+        }
+    }
+
+    TreeNode* remove(TreeNode* node, int value) {
+        if (node == nullptr) {
+            return nullptr;
+        }
+        if (value < node->value) {
+            node->left = remove(node->left, value);
+        } else if (value > node->value) {
+            node->right = remove(node->right, value);
+        } else {
+            // 找到了要删除的节点
+            if (node->left == nullptr) {
+                TreeNode* temp = node->right;
+                delete node;
+                return temp;
+            } else if (node->right == nullptr) {
+                TreeNode* temp = node->left;
+                delete node;
+                return temp;
+            }
+
+            // 节点有两个子节点：用右子树的最小值节点替换当前节点
+            TreeNode* temp = minValueNode(node->right);
+            node->value = temp->value;
+            node->right = remove(node->right, temp->value);
+        }
+        return node;
+    }
+
+    // 辅助函数：找到给定树中的最小值节点
+    TreeNode* minValueNode(TreeNode* node) {
+        TreeNode* current = node;
+        while (current && current->left != nullptr) {
+            current = current->left;
+        }
+        return current;
+    }
+
+    void inorder(TreeNode* node) {
+        if (node != nullptr) {
+            inorder(node->left);
+            std::cout << node->value << " ";
+            inorder(node->right);
+        }
+    }
+
+public:
+    // 构造函数
+    BinaryTree() : root(nullptr) {}
+
+    // 插入节点
+    void insert(int value) {
+        root = insert(root, value);
+    }
+
+    bool find(int value) {
+        return find(root, value);
+    }
+
+    void remove(int value) {
+        root = remove(root, value);
+    }
+
+    // 中序遍历
+    void inorderTraversal() {
+        inorder(root);
+        std::cout << std::endl;
     }
 };
