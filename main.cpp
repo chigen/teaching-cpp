@@ -381,11 +381,11 @@ int main()
     tree.insert(1);
     tree.insert(4);
 
-    tree.remove(3);
-    bool has8 = tree.find(8);
+    // tree.remove(3);
+    // bool has8 = tree.find(8);
 
-    tree.remove(4);
-    tree.remove(8);
+    // tree.remove(4);
+    // tree.remove(8);
 
     std::cout << "Inorder traversal of the binary tree: ";
     tree.inorderTraversal();  // 输出应该是: 1 3 4 5 8

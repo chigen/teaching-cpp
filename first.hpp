@@ -118,7 +118,8 @@ private:
     }
 
 public:
-    HashMap(size_t size) : capacity(size) {
+    HashMap(size_t size){
+        capacity = size;
         table.resize(capacity);
     }
 
@@ -270,5 +271,68 @@ public:
     void inorderTraversal() {
         inorder(root);
         std::cout << std::endl;
+    }
+};
+
+class MinHeap {
+private:
+    std::vector<int> heap;
+
+    void heapifyUp(int index) {
+        while (index != 0 && heap[parent(index)] > heap[index]) {
+            std::swap(heap[parent(index)], heap[index]);
+            index = parent(index);
+        }
+    }
+
+    void heapifyDown(int index) {
+        int leftChild = left(index);
+        int rightChild = right(index);
+        int smallest = index;
+
+        if (leftChild < heap.size() && heap[leftChild] < heap[smallest]) {
+            smallest = leftChild;
+        }
+        if (rightChild < heap.size() && heap[rightChild] < heap[smallest]) {
+            smallest = rightChild;
+        }
+        if (smallest != index) {
+            std::swap(heap[index], heap[smallest]);
+            heapifyDown(smallest);
+        }
+    }
+
+    int parent(int index) { return (index - 1) / 2; }
+    int left(int index) { return 2 * index + 1; }
+    int right(int index) { return 2 * index + 2; }
+
+public:
+    MinHeap() {}
+
+    void insert(int element) {
+        heap.push_back(element);
+        heapifyUp(heap.size() - 1);
+    }
+
+    int getMin() {
+        if (heap.size() == 0) {
+            throw std::out_of_range("Heap is empty");
+        }
+        return heap[0];
+    }
+
+    void removeMin() {
+        if (heap.size() == 0) {
+            throw std::out_of_range("Heap is empty");
+        }
+        heap[0] = heap.back();
+        heap.pop_back();
+        if (!heap.empty()) {
+            heapifyDown(0);
+        }
+    }
+
+    bool isEmpty() const {
+        return heap.empty();
     }
 };
