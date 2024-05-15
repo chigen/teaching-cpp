@@ -102,17 +102,18 @@ public:
 };
 
 
+struct HashNode {
+    string key;
+    int value;
+    bool occupied = false;  // 标记这个位置是否被占用
+};
+
 class HashMap {
 private:
-    struct HashNode {
-        string key;
-        int value;
-        bool occupied = false;  // 标记这个位置是否被占用
-    };
-
-    std::vector<HashNode> table;
+    vector<HashNode> table;
     size_t capacity;
 
+    // 通过key生成一个index
     size_t hashFunction(const string& key) const {
         return std::hash<string>{}(key) % capacity;
     }
@@ -124,44 +125,49 @@ public:
     }
 
     bool insert(const string& key, const int value) {
-        size_t idx = hashFunction(key);
-        size_t start_idx = idx;
+        size_t index = hashFunction(key);
+        size_t start_index = index;
         do {
-            if (!table[idx].occupied) {
-                table[idx] = {key, value, true};
+            if(!table[index].occupied){
+                HashNode node;
+                node.key = key;
+                node.value = value;
+                node.occupied = true;
+                table[index] = node;
                 return true;
             }
-            idx = (idx + 1) % capacity;
-        } while (idx != start_idx);  // 防止无限循环
+            index = (index + 1) % capacity;
+        } while (index != start_index);
 
-        return false;  // 表已满
+        return false;
     }
 
     std::optional<int> find(const string& key) const {
-        size_t idx = hashFunction(key);
-        size_t start_idx = idx;
-        do {
-            if (table[idx].occupied && table[idx].key == key) {
+        int idx = hashFunction(key);
+        int start_idx = idx;
+        do{
+            // 如果找到了
+            if(table[idx].occupied==true && key == table[idx].key){
                 return table[idx].value;
             }
             idx = (idx + 1) % capacity;
-        } while (idx != start_idx && table[idx].occupied);
-
-        return {};  // 没找到
+        } while (idx != start_idx && table[idx].occupied==true);
+        
+        return {};
     }
 
     bool update(const string& key, const int newValue) {
-        size_t idx = hashFunction(key);
-        size_t start_idx = idx;
+        int idx = hashFunction(key);
+        int start_idx = idx;
         do {
-            if (table[idx].occupied && table[idx].key == key) {
+            if(table[idx].occupied==true && key == table[idx].key){
                 table[idx].value = newValue;
                 return true;
             }
             idx = (idx + 1) % capacity;
-        } while (idx != start_idx && table[idx].occupied);
+        } while (idx != start_idx && table[idx].occupied==true);
 
-        return false;  // 键不存在
+        return false; // 没找到
     }
 };
 
@@ -172,7 +178,11 @@ public:
     TreeNode* right;    // 指向右子节点的指针
 
     // 构造函数
-    TreeNode(int val) : value(val), left(nullptr), right(nullptr) {}
+    TreeNode(int val){
+        value = val;
+        left = nullptr;
+        right = nullptr;
+    }
 };
 
 class BinaryTree {
@@ -181,78 +191,38 @@ private:
 
     // helper function
     TreeNode* insert(TreeNode* node, int value) {
-        if (node == nullptr) {
+        if (node == nullptr){
             return new TreeNode(value);
         }
-        if (value < node->value) {
-            node->left = insert(node->left, value);
-        } else {
-            node->right = insert(node->right, value);
+        else{
+            if(value > node->value){
+                node->right = insert(node->right, value);
+            }
+            if(value < node->value){
+                node->left = insert(node->left, value);
+            }
         }
         return node;
     }
 
     bool find(TreeNode* node, int value) {
-        if (node == nullptr) {
-            return false;
-        }
-        if (value == node->value) {
-            return true;
-        } else if (value < node->value) {
-            return find(node->left, value);
-        } else {
-            return find(node->right, value);
-        }
     }
 
     TreeNode* remove(TreeNode* node, int value) {
-        if (node == nullptr) {
-            return nullptr;
-        }
-        if (value < node->value) {
-            node->left = remove(node->left, value);
-        } else if (value > node->value) {
-            node->right = remove(node->right, value);
-        } else {
-            // 找到了要删除的节点
-            if (node->left == nullptr) {
-                TreeNode* temp = node->right;
-                delete node;
-                return temp;
-            } else if (node->right == nullptr) {
-                TreeNode* temp = node->left;
-                delete node;
-                return temp;
-            }
-
-            // 节点有两个子节点：用右子树的最小值节点替换当前节点
-            TreeNode* temp = minValueNode(node->right);
-            node->value = temp->value;
-            node->right = remove(node->right, temp->value);
-        }
-        return node;
     }
 
     // 辅助函数：找到给定树中的最小值节点
     TreeNode* minValueNode(TreeNode* node) {
-        TreeNode* current = node;
-        while (current && current->left != nullptr) {
-            current = current->left;
-        }
-        return current;
     }
 
     void inorder(TreeNode* node) {
-        if (node != nullptr) {
-            inorder(node->left);
-            std::cout << node->value << " ";
-            inorder(node->right);
-        }
     }
 
 public:
     // 构造函数
-    BinaryTree() : root(nullptr) {}
+    BinaryTree(){
+        root = nullptr;
+    }
 
     // 插入节点
     void insert(int value) {
@@ -260,17 +230,16 @@ public:
     }
 
     bool find(int value) {
-        return find(root, value);
+        bool res = find(root, value);
+        return res;
     }
 
     void remove(int value) {
-        root = remove(root, value);
+        remove(root, value);
     }
 
     // 中序遍历
     void inorderTraversal() {
-        inorder(root);
-        std::cout << std::endl;
     }
 };
 

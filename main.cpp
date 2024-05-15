@@ -370,7 +370,7 @@ int main()
     //     }
     // }
 
-    Box box1;
+    Box box1(2,3,4);
     box1.set(1.0, 2.0, 1.0);
     cout << "this box's volume is " << box1.getVolume() << endl;
 
@@ -387,8 +387,8 @@ int main()
     // tree.remove(4);
     // tree.remove(8);
 
-    std::cout << "Inorder traversal of the binary tree: ";
-    tree.inorderTraversal();  // 输出应该是: 1 3 4 5 8
+    // std::cout << "Inorder traversal of the binary tree: ";
+    // tree.inorderTraversal();  // 输出应该是: 1 3 4 5 8
 
     // HashMap m(10);
     // m.insert("ab",11);
@@ -408,5 +408,5 @@ int main()
     //     std::cout << "Not found" << std::endl;
     // }
 
-    // cout << "end" << endl;
+    cout << "end" << endl;
 }
