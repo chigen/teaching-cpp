@@ -191,18 +191,6 @@ private:
 
     // helper function
     TreeNode* insert(TreeNode* node, int value) {
-        if (node == nullptr){
-            return new TreeNode(value);
-        }
-        else{
-            if(value > node->value){
-                node->right = insert(node->right, value);
-            }
-            if(value < node->value){
-                node->left = insert(node->left, value);
-            }
-        }
-        return node;
     }
 
     bool find(TreeNode* node, int value) {
@@ -222,6 +210,11 @@ public:
     // 构造函数
     BinaryTree(){
         root = nullptr;
+    }
+
+    // 构造函数2
+    BinaryTree(int value){
+        root = new TreeNode(value);
     }
 
     // 插入节点
