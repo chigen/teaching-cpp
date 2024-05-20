@@ -370,9 +370,9 @@ int main()
     //     }
     // }
 
-    Box box1(2,3,4);
-    box1.set(1.0, 2.0, 1.0);
-    cout << "this box's volume is " << box1.getVolume() << endl;
+    // Box box1(2,3,4);
+    // box1.set(1.0, 2.0, 1.0);
+    // cout << "this box's volume is " << box1.getVolume() << endl;
 
     BinaryTree tree;
     tree.insert(5);
@@ -380,6 +380,19 @@ int main()
     tree.insert(8);
     tree.insert(1);
     tree.insert(4);
+    tree.insert(7);
+    tree.insert(-1);
+    tree.insert(2);
+    tree.insert(6);
+
+    bool f4 = tree.find(4);
+    cout << "4 是否在tree内: "<< f4 << endl;
+    bool f6 = tree.find(6);
+    cout << "6 是否在tree内: "<< f6 << endl;
+
+    tree.remove(-1);
+    tree.remove(3);
+    tree.remove(6);
 
     // tree.remove(3);
     // bool has8 = tree.find(8);

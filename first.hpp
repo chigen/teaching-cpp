@@ -190,17 +190,81 @@ private:
     TreeNode* root;
 
     // helper function
+    // insert函数是递归函数，node代表递归时当前节点，value代表我们想插入的值
     TreeNode* insert(TreeNode* node, int value) {
+        // 如果当前节点是空的(nullptr)，在此处插入我们的值
+        if (node == nullptr){
+            return new TreeNode(value);
+        }
+        // 比较当前节点的值和手上的值
+        if(value < node->value){
+            node->left = insert(node->left, value);
+        }
+        else{
+            node->right = insert(node->right, value);
+        }
+        return node;
     }
 
+    // find函数是递归函数，node代表递归时当前节点，value代表我们想查找的值
     bool find(TreeNode* node, int value) {
+        if (node == nullptr){
+            return false;
+        }
+        if (value == node->value){
+            return true;
+        }
+        else if(value < node->value){
+            bool result = find(node->left, value); 
+            return result;
+        }
+        else {
+            bool result = find(node->right, value); 
+            return result;
+        }
     }
 
     TreeNode* remove(TreeNode* node, int value) {
+        if(value < node->value){
+            // 要删除的节点在左手边
+            node->left = remove(node->left, value);
+        }
+        else if (value > node->value){
+            // 要删除的节点在右手边
+            node->right = remove(node->right, value);
+        }
+        else{
+            // 找到了要删除的节点
+            if(node->left == nullptr){
+                // 如果左手是空，那记录右手的子节点，让父节点指向该子节点
+                TreeNode* temp = node->right;
+                delete node;
+                return temp;
+            }
+            else if(node->right == nullptr){
+                // 如果右手是空，那记录左手的子节点，让父节点指向该子节点
+                TreeNode* temp = node->left;
+                delete node;
+                return temp;
+            }
+            // 当前节点有两个子节点
+            // 找当前节点的后继，返回后继节点的值
+            TreeNode* right_successor = minValueNode(node->right);
+            // 让当前节点的值等于后继节点的值
+            node->value = right_successor->value;
+            // 删除后继节点
+            node->right = remove(node->right, right_successor->value);
+        }
+        return node;
     }
 
     // 辅助函数：找到给定树中的最小值节点
     TreeNode* minValueNode(TreeNode* node) {
+        TreeNode* currentNode = node;
+        while(currentNode!=nullptr && currentNode->left!=nullptr){
+            currentNode = currentNode->left;
+        }
+        return currentNode;
     }
 
     void inorder(TreeNode* node) {
