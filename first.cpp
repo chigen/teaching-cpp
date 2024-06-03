@@ -44,3 +44,17 @@ void swap(int &a, int &b){
     a = b;
     b = swap1;
 }
+
+void bubbleSort(vector<int> &vec){
+    int n = vec.size();
+    for(int i=0; i<n-1; ++i){
+        for(int j=0; j<n-1-i; ++j){
+            // 如果当前位的值大于下一位的值的话，互换
+            if(vec[j] > vec[j+1]){
+                int temp = vec[j];
+                vec[j] = vec[j+1];
+                vec[j+1] = temp;
+            }
+        }
+    }
+}

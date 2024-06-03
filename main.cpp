@@ -374,25 +374,45 @@ int main()
     // box1.set(1.0, 2.0, 1.0);
     // cout << "this box's volume is " << box1.getVolume() << endl;
 
-    BinaryTree tree;
-    tree.insert(5);
-    tree.insert(3);
-    tree.insert(8);
-    tree.insert(1);
-    tree.insert(4);
-    tree.insert(7);
-    tree.insert(-1);
-    tree.insert(2);
-    tree.insert(6);
+    // BinaryTree tree;
+    // tree.insert(8);
+    // tree.insert(3);
+    // tree.insert(10);
+    // tree.insert(1);
+    // tree.insert(6);
+    // tree.insert(14);
+    // tree.insert(4);
+    // tree.insert(7);
+    // tree.insert(13);
 
-    bool f4 = tree.find(4);
-    cout << "4 是否在tree内: "<< f4 << endl;
-    bool f6 = tree.find(6);
-    cout << "6 是否在tree内: "<< f6 << endl;
+    // tree.inorderTraversal();
+    // cout << endl;
 
-    tree.remove(-1);
-    tree.remove(3);
-    tree.remove(6);
+    // tree.preorderTraversal();
+    // cout << endl;
+
+    // tree.postorderTraversal();
+    // cout << endl;
+
+    // vector<int> vec{2,3,41,4,551,2,0};
+    // for(auto num : vec){
+    //     cout << num << " ";
+    // }
+    // cout << endl;
+    // bubbleSort(vec);
+    // for(auto num : vec){
+    //     cout << num << " ";
+    // }
+    // cout << endl;
+
+    // bool f4 = tree.find(4);
+    // cout << "4 是否在tree内: "<< f4 << endl;
+    // bool f6 = tree.find(6);
+    // cout << "6 是否在tree内: "<< f6 << endl;
+
+    // tree.remove(-1);
+    // tree.remove(3);
+    // tree.remove(6);
 
     // tree.remove(3);
     // bool has8 = tree.find(8);
@@ -420,6 +440,21 @@ int main()
     // } else {
     //     std::cout << "Not found" << std::endl;
     // }
+
+    MinHeap heap;
+    heap.insert(3);
+    heap.insert(4);
+    heap.insert(2);
+    heap.insert(0);
+    heap.insert(10);
+    heap.insert(11);
+    heap.insert(7);
+
+    // cout << heap.getMin() << endl;
+
+    // heap.removeMin();
+    // cout << heap.getMin() << endl;
+
 
     cout << "end" << endl;
 }

@@ -267,7 +267,39 @@ private:
         return currentNode;
     }
 
+    // 递归函数
     void inorder(TreeNode* node) {
+        if (node->left){
+            inorder(node->left);
+        }
+        // 此时，当前节点没有左子树
+        cout << node->value << " ";
+        if (node->right){
+            inorder(node->right);
+        }
+    }
+
+    void preorder(TreeNode* node) {
+        cout << node->value << " ";
+        if (node->left){
+            preorder(node->left);
+        }
+        // 此时，当前节点没有左子树
+       
+        if (node->right){
+            preorder(node->right);
+        }
+    }
+
+    void postorder(TreeNode* node) {
+        if (node->left){
+            postorder(node->left);
+        }
+        // 此时，当前节点没有左子树
+        if (node->right){
+            postorder(node->right);
+        }
+        cout << node->value << " ";
     }
 
 public:
@@ -297,32 +329,58 @@ public:
 
     // 中序遍历
     void inorderTraversal() {
+        inorder(root);
+    }
+
+    void preorderTraversal(){
+        preorder(root);
+    }
+
+    void postorderTraversal() {
+        postorder(root);
     }
 };
+
+void bubbleSort(vector<int> &vec);
+
+//   0
+//  1 2
+// 3 4 5 6
 
 class MinHeap {
 private:
     std::vector<int> heap;
 
     void heapifyUp(int index) {
-        while (index != 0 && heap[parent(index)] > heap[index]) {
-            std::swap(heap[parent(index)], heap[index]);
+        // 对于一个新插入的值，该值的下表为index
+        // 循环向上访问父节点，进行排序
+        // 父节点下标parent(index)
+        // 循环停止条件：1. index==0，2.heap[parent(index)] < heap[index]
+        while(index != 0 && heap[index] < heap[parent(index)]){
+            // 交换当前节点的值和父节点的值
+            int temp = heap[index];
+            heap[index] = heap[parent(index)];
+            heap[parent(index)] = temp;
+            // 更新下标
             index = parent(index);
         }
     }
 
     void heapifyDown(int index) {
+        // 找出两个子节点的下标
+        // 比较三个节点的大小，把最小的节点放在当前节点的位置
+        // 如果当前节点的值最小，那么结束
         int leftChild = left(index);
         int rightChild = right(index);
         int smallest = index;
 
-        if (leftChild < heap.size() && heap[leftChild] < heap[smallest]) {
+        if(leftChild < heap.size() && heap[leftChild] < heap[smallest]){
             smallest = leftChild;
         }
-        if (rightChild < heap.size() && heap[rightChild] < heap[smallest]) {
+        if(rightChild < heap.size() && heap[rightChild] < heap[smallest]){
             smallest = rightChild;
         }
-        if (smallest != index) {
+        if(smallest != index){
             std::swap(heap[index], heap[smallest]);
             heapifyDown(smallest);
         }
@@ -336,8 +394,11 @@ public:
     MinHeap() {}
 
     void insert(int element) {
+        // 把值插入至heap内
         heap.push_back(element);
-        heapifyUp(heap.size() - 1);
+        // 调用up函数对该值进行排序
+        int len = heap.size();
+        heapifyUp(len-1);
     }
 
     int getMin() {
