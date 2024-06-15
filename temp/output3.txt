@@ -120,7 +120,7 @@ reserve: inapplicable age
 reserve: 45 35 803813
 reserve: non-business hour
 reserve: non-business hour
-reserve: incompatible site
+reserve: inapplicable age
 reserve: non-business hour
 reserve: invalid starting datetime
 reserve: non-business hour
@@ -419,7 +419,7 @@ reserve: 134 95 1126088
 reserve: incompatible site
 reserve: 135 40 454072
 reserve: incompatible site
-reserve: incompatible site
+reserve: inapplicable age
 reserve: non-business hour
 reserve: non-business hour
 reserve: 136 95 42633
@@ -527,7 +527,7 @@ reserve: inapplicable age
 reserve: non-business hour
 reserve: 170 5 127788
 reserve: non-business hour
-reserve: incompatible site
+reserve: inapplicable age
 reserve: 171 50 146156
 reserve: 172 45 474631
 reserve: fully reserved
@@ -792,7 +792,7 @@ reserve: inapplicable age
 reserve: non-business hour
 reserve: inapplicable age
 reserve: non-business hour
-reserve: incompatible site
+reserve: inapplicable age
 reserve: inapplicable age
 reserve: 260 20 836981
 reserve: inapplicable age
