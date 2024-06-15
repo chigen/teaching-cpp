@@ -1,2907 +1,1383 @@
+get-reservations: 0
 reserve: incompatible site
-cancel: no reservation
-cancel: no reservation
-reserve: 1 25 911092
-get-capable: 11
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-cancel: unauthorized operation
-get-capable: 2
-reservation slot = 21:00:00, remaining capacity = 24
-reservation slot = 21:30:00, remaining capacity = 24
-get-capable: 11
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-get-capable: 23
-reservation slot = 07:30:00, remaining capacity = 3
-reservation slot = 08:00:00, remaining capacity = 3
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-reservation slot = 15:00:00, remaining capacity = 3
-reservation slot = 15:30:00, remaining capacity = 3
-reservation slot = 16:00:00, remaining capacity = 3
-reservation slot = 16:30:00, remaining capacity = 3
-reservation slot = 17:00:00, remaining capacity = 3
-reservation slot = 17:30:00, remaining capacity = 3
-reservation slot = 18:00:00, remaining capacity = 3
-reservation slot = 18:30:00, remaining capacity = 3
 reserve: non-business hour
-reserve: incompatible site
-cancel: unauthorized operation
-cancel: no reservation
-reserve: incompatible site
-cancel: unauthorized operation
-cancel: unauthorized operation
-cancel: unauthorized operation
-reserve: incompatible site
-reserve: incompatible site
-cancel: no reservation
-get-capable: 15
-reservation slot = 04:00:00, remaining capacity = 2
-reservation slot = 04:30:00, remaining capacity = 2
-reservation slot = 05:00:00, remaining capacity = 2
-reservation slot = 05:30:00, remaining capacity = 2
-reservation slot = 06:00:00, remaining capacity = 2
-reservation slot = 06:30:00, remaining capacity = 2
-reservation slot = 07:00:00, remaining capacity = 2
-reservation slot = 07:30:00, remaining capacity = 2
-reservation slot = 08:00:00, remaining capacity = 2
-reservation slot = 08:30:00, remaining capacity = 2
-reservation slot = 09:00:00, remaining capacity = 2
-reservation slot = 09:30:00, remaining capacity = 2
-reservation slot = 10:00:00, remaining capacity = 2
-reservation slot = 10:30:00, remaining capacity = 2
-reservation slot = 11:00:00, remaining capacity = 2
-reserve: incompatible site
-get-capable: 2
-reservation slot = 22:00:00, remaining capacity = 1
-reservation slot = 22:30:00, remaining capacity = 1
-reserve: non-business hour
-get-capable: 23
-reservation slot = 07:30:00, remaining capacity = 3
-reservation slot = 08:00:00, remaining capacity = 3
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-reservation slot = 15:00:00, remaining capacity = 3
-reservation slot = 15:30:00, remaining capacity = 3
-reservation slot = 16:00:00, remaining capacity = 3
-reservation slot = 16:30:00, remaining capacity = 3
-reservation slot = 17:00:00, remaining capacity = 3
-reservation slot = 17:30:00, remaining capacity = 3
-reservation slot = 18:00:00, remaining capacity = 3
-reservation slot = 18:30:00, remaining capacity = 3
-get-capable: 5
-reservation slot = 20:30:00, remaining capacity = 1
-reservation slot = 21:00:00, remaining capacity = 1
-reservation slot = 21:30:00, remaining capacity = 1
-reservation slot = 22:00:00, remaining capacity = 1
-reservation slot = 22:30:00, remaining capacity = 1
-reserve: 2 60 588255
-reserve: incompatible site
+reserve: 1 5 800263
+get-reservations: 0
+reserve: 2 20 772355
 reserve: invalid starting datetime
-reserve: 3 85 320846
-cancel: unauthorized operation
-cancel: unauthorized operation
+reserve: non-business hour
+reserve: 3 60 52708
+get-reservations: 0
+reserve: incompatible site
+get-reservations: 0
 reserve: inapplicable age
-cancel: unauthorized operation
-get-capable: 23
-reservation slot = 07:30:00, remaining capacity = 3
-reservation slot = 08:00:00, remaining capacity = 3
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-reservation slot = 15:00:00, remaining capacity = 3
-reservation slot = 15:30:00, remaining capacity = 3
-reservation slot = 16:00:00, remaining capacity = 3
-reservation slot = 16:30:00, remaining capacity = 3
-reservation slot = 17:00:00, remaining capacity = 3
-reservation slot = 17:30:00, remaining capacity = 3
-reservation slot = 18:00:00, remaining capacity = 3
-reservation slot = 18:30:00, remaining capacity = 3
-get-capable: 13
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 2
-reservation slot = 13:30:00, remaining capacity = 2
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-cancel: unauthorized operation
-reserve: non-business hour
-cancel: no reservation
-reserve: incompatible site
-reserve: inapplicable age
-reserve: 4 85 962009
-cancel: no reservation
-reserve: 5 80 283689
-get-capable: 19
-reservation slot = 11:00:00, remaining capacity = 930
-reservation slot = 11:30:00, remaining capacity = 930
-reservation slot = 12:00:00, remaining capacity = 930
-reservation slot = 12:30:00, remaining capacity = 930
-reservation slot = 13:00:00, remaining capacity = 930
-reservation slot = 13:30:00, remaining capacity = 930
-reservation slot = 14:00:00, remaining capacity = 930
-reservation slot = 14:30:00, remaining capacity = 930
-reservation slot = 15:00:00, remaining capacity = 930
-reservation slot = 15:30:00, remaining capacity = 930
-reservation slot = 16:00:00, remaining capacity = 930
-reservation slot = 16:30:00, remaining capacity = 930
-reservation slot = 17:00:00, remaining capacity = 930
-reservation slot = 17:30:00, remaining capacity = 930
-reservation slot = 18:00:00, remaining capacity = 930
-reservation slot = 18:30:00, remaining capacity = 930
-reservation slot = 19:00:00, remaining capacity = 930
-reservation slot = 19:30:00, remaining capacity = 930
-reservation slot = 20:00:00, remaining capacity = 930
-get-capable: 9
-reservation slot = 19:00:00, remaining capacity = 377
-reservation slot = 19:30:00, remaining capacity = 377
-reservation slot = 20:00:00, remaining capacity = 377
-reservation slot = 20:30:00, remaining capacity = 377
-reservation slot = 21:00:00, remaining capacity = 377
-reservation slot = 21:30:00, remaining capacity = 377
-reservation slot = 22:00:00, remaining capacity = 377
-reservation slot = 22:30:00, remaining capacity = 377
-reservation slot = 23:00:00, remaining capacity = 377
-cancel: unauthorized operation
-get-capable: 2
-reservation slot = 22:00:00, remaining capacity = 1
-reservation slot = 22:30:00, remaining capacity = 1
-cancel: unauthorized operation
-cancel: no reservation
-cancel: unauthorized operation
-cancel: unauthorized operation
-get-capable: 15
-reservation slot = 04:00:00, remaining capacity = 2
-reservation slot = 04:30:00, remaining capacity = 2
-reservation slot = 05:00:00, remaining capacity = 2
-reservation slot = 05:30:00, remaining capacity = 2
-reservation slot = 06:00:00, remaining capacity = 2
-reservation slot = 06:30:00, remaining capacity = 2
-reservation slot = 07:00:00, remaining capacity = 2
-reservation slot = 07:30:00, remaining capacity = 2
-reservation slot = 08:00:00, remaining capacity = 2
-reservation slot = 08:30:00, remaining capacity = 2
-reservation slot = 09:00:00, remaining capacity = 2
-reservation slot = 09:30:00, remaining capacity = 2
-reservation slot = 10:00:00, remaining capacity = 2
-reservation slot = 10:30:00, remaining capacity = 2
-reservation slot = 11:00:00, remaining capacity = 2
-get-capable: 5
-reservation slot = 20:30:00, remaining capacity = 1
-reservation slot = 21:00:00, remaining capacity = 1
-reservation slot = 21:30:00, remaining capacity = 1
-reservation slot = 22:00:00, remaining capacity = 1
-reservation slot = 22:30:00, remaining capacity = 1
-cancel: unauthorized operation
-get-capable: 19
-reservation slot = 11:00:00, remaining capacity = 930
-reservation slot = 11:30:00, remaining capacity = 930
-reservation slot = 12:00:00, remaining capacity = 930
-reservation slot = 12:30:00, remaining capacity = 930
-reservation slot = 13:00:00, remaining capacity = 930
-reservation slot = 13:30:00, remaining capacity = 930
-reservation slot = 14:00:00, remaining capacity = 930
-reservation slot = 14:30:00, remaining capacity = 930
-reservation slot = 15:00:00, remaining capacity = 930
-reservation slot = 15:30:00, remaining capacity = 930
-reservation slot = 16:00:00, remaining capacity = 930
-reservation slot = 16:30:00, remaining capacity = 930
-reservation slot = 17:00:00, remaining capacity = 930
-reservation slot = 17:30:00, remaining capacity = 930
-reservation slot = 18:00:00, remaining capacity = 930
-reservation slot = 18:30:00, remaining capacity = 930
-reservation slot = 19:00:00, remaining capacity = 930
-reservation slot = 19:30:00, remaining capacity = 930
-reservation slot = 20:00:00, remaining capacity = 930
-cancel: unauthorized operation
-get-capable: 26
-reservation slot = 07:00:00, remaining capacity = 73
-reservation slot = 07:30:00, remaining capacity = 73
-reservation slot = 08:00:00, remaining capacity = 73
-reservation slot = 08:30:00, remaining capacity = 73
-reservation slot = 09:00:00, remaining capacity = 73
-reservation slot = 09:30:00, remaining capacity = 73
-reservation slot = 10:00:00, remaining capacity = 73
-reservation slot = 10:30:00, remaining capacity = 73
-reservation slot = 11:00:00, remaining capacity = 73
-reservation slot = 11:30:00, remaining capacity = 73
-reservation slot = 12:00:00, remaining capacity = 73
-reservation slot = 12:30:00, remaining capacity = 73
-reservation slot = 13:00:00, remaining capacity = 73
-reservation slot = 13:30:00, remaining capacity = 72
-reservation slot = 14:00:00, remaining capacity = 73
-reservation slot = 14:30:00, remaining capacity = 73
-reservation slot = 15:00:00, remaining capacity = 73
-reservation slot = 15:30:00, remaining capacity = 73
-reservation slot = 16:00:00, remaining capacity = 73
-reservation slot = 16:30:00, remaining capacity = 73
-reservation slot = 17:00:00, remaining capacity = 73
-reservation slot = 17:30:00, remaining capacity = 73
-reservation slot = 18:00:00, remaining capacity = 73
-reservation slot = 18:30:00, remaining capacity = 73
-reservation slot = 19:00:00, remaining capacity = 73
-reservation slot = 19:30:00, remaining capacity = 73
-cancel: unauthorized operation
-get-capable: 15
-reservation slot = 04:00:00, remaining capacity = 2
-reservation slot = 04:30:00, remaining capacity = 2
-reservation slot = 05:00:00, remaining capacity = 2
-reservation slot = 05:30:00, remaining capacity = 2
-reservation slot = 06:00:00, remaining capacity = 2
-reservation slot = 06:30:00, remaining capacity = 2
-reservation slot = 07:00:00, remaining capacity = 2
-reservation slot = 07:30:00, remaining capacity = 2
-reservation slot = 08:00:00, remaining capacity = 2
-reservation slot = 08:30:00, remaining capacity = 2
-reservation slot = 09:00:00, remaining capacity = 2
-reservation slot = 09:30:00, remaining capacity = 2
-reservation slot = 10:00:00, remaining capacity = 2
-reservation slot = 10:30:00, remaining capacity = 2
-reservation slot = 11:00:00, remaining capacity = 2
-cancel: no reservation
-reserve: invalid starting datetime
-reserve: inapplicable age
-cancel: unauthorized operation
-reserve: 6 95 404467
-get-capable: 2
-reservation slot = 21:00:00, remaining capacity = 24
-reservation slot = 21:30:00, remaining capacity = 24
-cancel: unauthorized operation
-cancel: unauthorized operation
-reserve: 7 95 349400
-cancel: unauthorized operation
-reserve: 8 85 962009
-get-capable: 26
-reservation slot = 07:00:00, remaining capacity = 73
-reservation slot = 07:30:00, remaining capacity = 73
-reservation slot = 08:00:00, remaining capacity = 73
-reservation slot = 08:30:00, remaining capacity = 73
-reservation slot = 09:00:00, remaining capacity = 73
-reservation slot = 09:30:00, remaining capacity = 73
-reservation slot = 10:00:00, remaining capacity = 73
-reservation slot = 10:30:00, remaining capacity = 73
-reservation slot = 11:00:00, remaining capacity = 73
-reservation slot = 11:30:00, remaining capacity = 73
-reservation slot = 12:00:00, remaining capacity = 73
-reservation slot = 12:30:00, remaining capacity = 73
-reservation slot = 13:00:00, remaining capacity = 73
-reservation slot = 13:30:00, remaining capacity = 73
-reservation slot = 14:00:00, remaining capacity = 73
-reservation slot = 14:30:00, remaining capacity = 73
-reservation slot = 15:00:00, remaining capacity = 73
-reservation slot = 15:30:00, remaining capacity = 73
-reservation slot = 16:00:00, remaining capacity = 73
-reservation slot = 16:30:00, remaining capacity = 73
-reservation slot = 17:00:00, remaining capacity = 73
-reservation slot = 17:30:00, remaining capacity = 73
-reservation slot = 18:00:00, remaining capacity = 73
-reservation slot = 18:30:00, remaining capacity = 73
-reservation slot = 19:00:00, remaining capacity = 73
-reservation slot = 19:30:00, remaining capacity = 73
-get-capable: 20
-reservation slot = 08:00:00, remaining capacity = 62
-reservation slot = 08:30:00, remaining capacity = 62
-reservation slot = 09:00:00, remaining capacity = 62
-reservation slot = 09:30:00, remaining capacity = 62
-reservation slot = 10:00:00, remaining capacity = 62
-reservation slot = 10:30:00, remaining capacity = 62
-reservation slot = 11:00:00, remaining capacity = 62
-reservation slot = 11:30:00, remaining capacity = 62
-reservation slot = 12:00:00, remaining capacity = 62
-reservation slot = 12:30:00, remaining capacity = 62
-reservation slot = 13:00:00, remaining capacity = 62
-reservation slot = 13:30:00, remaining capacity = 62
-reservation slot = 14:00:00, remaining capacity = 61
-reservation slot = 14:30:00, remaining capacity = 61
-reservation slot = 15:00:00, remaining capacity = 61
-reservation slot = 15:30:00, remaining capacity = 61
-reservation slot = 16:00:00, remaining capacity = 62
-reservation slot = 16:30:00, remaining capacity = 62
-reservation slot = 17:00:00, remaining capacity = 62
-reservation slot = 17:30:00, remaining capacity = 62
-reserve: invalid starting datetime
-cancel: unauthorized operation
-cancel: unauthorized operation
-cancel: unauthorized operation
-reserve: 9 55 818049
-get-capable: 23
-reservation slot = 07:30:00, remaining capacity = 3
-reservation slot = 08:00:00, remaining capacity = 3
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-reservation slot = 15:00:00, remaining capacity = 3
-reservation slot = 15:30:00, remaining capacity = 3
-reservation slot = 16:00:00, remaining capacity = 3
-reservation slot = 16:30:00, remaining capacity = 3
-reservation slot = 17:00:00, remaining capacity = 3
-reservation slot = 17:30:00, remaining capacity = 3
-reservation slot = 18:00:00, remaining capacity = 3
-reservation slot = 18:30:00, remaining capacity = 3
-reserve: non-business hour
-cancel: unauthorized operation
-reserve: non-business hour
-reserve: incompatible site
-get-capable: 19
-reservation slot = 11:00:00, remaining capacity = 930
-reservation slot = 11:30:00, remaining capacity = 930
-reservation slot = 12:00:00, remaining capacity = 930
-reservation slot = 12:30:00, remaining capacity = 930
-reservation slot = 13:00:00, remaining capacity = 930
-reservation slot = 13:30:00, remaining capacity = 930
-reservation slot = 14:00:00, remaining capacity = 930
-reservation slot = 14:30:00, remaining capacity = 930
-reservation slot = 15:00:00, remaining capacity = 930
-reservation slot = 15:30:00, remaining capacity = 930
-reservation slot = 16:00:00, remaining capacity = 930
-reservation slot = 16:30:00, remaining capacity = 930
-reservation slot = 17:00:00, remaining capacity = 930
-reservation slot = 17:30:00, remaining capacity = 930
-reservation slot = 18:00:00, remaining capacity = 930
-reservation slot = 18:30:00, remaining capacity = 930
-reservation slot = 19:00:00, remaining capacity = 930
-reservation slot = 19:30:00, remaining capacity = 930
-reservation slot = 20:00:00, remaining capacity = 930
-reserve: incompatible site
-get-capable: 15
-reservation slot = 04:00:00, remaining capacity = 2
-reservation slot = 04:30:00, remaining capacity = 2
-reservation slot = 05:00:00, remaining capacity = 2
-reservation slot = 05:30:00, remaining capacity = 2
-reservation slot = 06:00:00, remaining capacity = 1
-reservation slot = 06:30:00, remaining capacity = 1
-reservation slot = 07:00:00, remaining capacity = 1
-reservation slot = 07:30:00, remaining capacity = 1
-reservation slot = 08:00:00, remaining capacity = 2
-reservation slot = 08:30:00, remaining capacity = 2
-reservation slot = 09:00:00, remaining capacity = 2
-reservation slot = 09:30:00, remaining capacity = 2
-reservation slot = 10:00:00, remaining capacity = 2
-reservation slot = 10:30:00, remaining capacity = 2
-reservation slot = 11:00:00, remaining capacity = 2
-cancel: unauthorized operation
-get-capable: 20
-reservation slot = 08:00:00, remaining capacity = 62
-reservation slot = 08:30:00, remaining capacity = 62
-reservation slot = 09:00:00, remaining capacity = 62
-reservation slot = 09:30:00, remaining capacity = 62
-reservation slot = 10:00:00, remaining capacity = 62
-reservation slot = 10:30:00, remaining capacity = 62
-reservation slot = 11:00:00, remaining capacity = 62
-reservation slot = 11:30:00, remaining capacity = 62
-reservation slot = 12:00:00, remaining capacity = 62
-reservation slot = 12:30:00, remaining capacity = 62
-reservation slot = 13:00:00, remaining capacity = 62
-reservation slot = 13:30:00, remaining capacity = 62
-reservation slot = 14:00:00, remaining capacity = 62
-reservation slot = 14:30:00, remaining capacity = 62
-reservation slot = 15:00:00, remaining capacity = 62
-reservation slot = 15:30:00, remaining capacity = 62
-reservation slot = 16:00:00, remaining capacity = 62
-reservation slot = 16:30:00, remaining capacity = 62
-reservation slot = 17:00:00, remaining capacity = 62
-reservation slot = 17:30:00, remaining capacity = 62
-reserve: incompatible site
-reserve: 10 75 968557
-get-capable: 2
-reservation slot = 21:00:00, remaining capacity = 24
-reservation slot = 21:30:00, remaining capacity = 24
-reserve: non-business hour
-cancel: unauthorized operation
-reserve: non-business hour
-cancel: unauthorized operation
-get-capable: 23
-reservation slot = 07:30:00, remaining capacity = 3
-reservation slot = 08:00:00, remaining capacity = 3
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-reservation slot = 15:00:00, remaining capacity = 3
-reservation slot = 15:30:00, remaining capacity = 3
-reservation slot = 16:00:00, remaining capacity = 3
-reservation slot = 16:30:00, remaining capacity = 3
-reservation slot = 17:00:00, remaining capacity = 3
-reservation slot = 17:30:00, remaining capacity = 3
-reservation slot = 18:00:00, remaining capacity = 3
-reservation slot = 18:30:00, remaining capacity = 3
-cancel: unauthorized operation
-get-capable: 13
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-cancel: no reservation
-cancel: unauthorized operation
-reserve: incompatible site
-cancel: unauthorized operation
-cancel: no reservation
-cancel: unauthorized operation
-reserve: non-business hour
-cancel: no reservation
-get-capable: 19
-reservation slot = 11:00:00, remaining capacity = 930
-reservation slot = 11:30:00, remaining capacity = 930
-reservation slot = 12:00:00, remaining capacity = 930
-reservation slot = 12:30:00, remaining capacity = 930
-reservation slot = 13:00:00, remaining capacity = 930
-reservation slot = 13:30:00, remaining capacity = 930
-reservation slot = 14:00:00, remaining capacity = 930
-reservation slot = 14:30:00, remaining capacity = 930
-reservation slot = 15:00:00, remaining capacity = 930
-reservation slot = 15:30:00, remaining capacity = 930
-reservation slot = 16:00:00, remaining capacity = 930
-reservation slot = 16:30:00, remaining capacity = 930
-reservation slot = 17:00:00, remaining capacity = 930
-reservation slot = 17:30:00, remaining capacity = 930
-reservation slot = 18:00:00, remaining capacity = 930
-reservation slot = 18:30:00, remaining capacity = 930
-reservation slot = 19:00:00, remaining capacity = 930
-reservation slot = 19:30:00, remaining capacity = 930
-reservation slot = 20:00:00, remaining capacity = 930
-get-capable: 5
-reservation slot = 20:30:00, remaining capacity = 1
-reservation slot = 21:00:00, remaining capacity = 1
-reservation slot = 21:30:00, remaining capacity = 1
-reservation slot = 22:00:00, remaining capacity = 1
-reservation slot = 22:30:00, remaining capacity = 1
-get-capable: 9
-reservation slot = 19:00:00, remaining capacity = 377
-reservation slot = 19:30:00, remaining capacity = 377
-reservation slot = 20:00:00, remaining capacity = 377
-reservation slot = 20:30:00, remaining capacity = 377
-reservation slot = 21:00:00, remaining capacity = 377
-reservation slot = 21:30:00, remaining capacity = 377
-reservation slot = 22:00:00, remaining capacity = 377
-reservation slot = 22:30:00, remaining capacity = 377
-reservation slot = 23:00:00, remaining capacity = 377
-cancel: unauthorized operation
-get-capable: 11
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-cancel: unauthorized operation
-reserve: 11 45 359073
-get-capable: 20
-reservation slot = 08:00:00, remaining capacity = 62
-reservation slot = 08:30:00, remaining capacity = 62
-reservation slot = 09:00:00, remaining capacity = 62
-reservation slot = 09:30:00, remaining capacity = 62
-reservation slot = 10:00:00, remaining capacity = 62
-reservation slot = 10:30:00, remaining capacity = 62
-reservation slot = 11:00:00, remaining capacity = 62
-reservation slot = 11:30:00, remaining capacity = 62
-reservation slot = 12:00:00, remaining capacity = 62
-reservation slot = 12:30:00, remaining capacity = 62
-reservation slot = 13:00:00, remaining capacity = 62
-reservation slot = 13:30:00, remaining capacity = 62
-reservation slot = 14:00:00, remaining capacity = 61
-reservation slot = 14:30:00, remaining capacity = 61
-reservation slot = 15:00:00, remaining capacity = 61
-reservation slot = 15:30:00, remaining capacity = 61
-reservation slot = 16:00:00, remaining capacity = 62
-reservation slot = 16:30:00, remaining capacity = 62
-reservation slot = 17:00:00, remaining capacity = 62
-reservation slot = 17:30:00, remaining capacity = 62
-cancel: unauthorized operation
-get-capable: 15
-reservation slot = 04:00:00, remaining capacity = 2
-reservation slot = 04:30:00, remaining capacity = 2
-reservation slot = 05:00:00, remaining capacity = 2
-reservation slot = 05:30:00, remaining capacity = 2
-reservation slot = 06:00:00, remaining capacity = 2
-reservation slot = 06:30:00, remaining capacity = 2
-reservation slot = 07:00:00, remaining capacity = 2
-reservation slot = 07:30:00, remaining capacity = 2
-reservation slot = 08:00:00, remaining capacity = 2
-reservation slot = 08:30:00, remaining capacity = 2
-reservation slot = 09:00:00, remaining capacity = 2
-reservation slot = 09:30:00, remaining capacity = 2
-reservation slot = 10:00:00, remaining capacity = 2
-reservation slot = 10:30:00, remaining capacity = 2
-reservation slot = 11:00:00, remaining capacity = 2
-cancel: unauthorized operation
-cancel: no reservation
-reserve: 12 95 349400
-reserve: 13 55 818049
-get-capable: 26
-reservation slot = 07:00:00, remaining capacity = 73
-reservation slot = 07:30:00, remaining capacity = 73
-reservation slot = 08:00:00, remaining capacity = 73
-reservation slot = 08:30:00, remaining capacity = 73
-reservation slot = 09:00:00, remaining capacity = 73
-reservation slot = 09:30:00, remaining capacity = 73
-reservation slot = 10:00:00, remaining capacity = 73
-reservation slot = 10:30:00, remaining capacity = 73
-reservation slot = 11:00:00, remaining capacity = 73
-reservation slot = 11:30:00, remaining capacity = 73
-reservation slot = 12:00:00, remaining capacity = 73
-reservation slot = 12:30:00, remaining capacity = 73
-reservation slot = 13:00:00, remaining capacity = 73
-reservation slot = 13:30:00, remaining capacity = 73
-reservation slot = 14:00:00, remaining capacity = 73
-reservation slot = 14:30:00, remaining capacity = 73
-reservation slot = 15:00:00, remaining capacity = 73
-reservation slot = 15:30:00, remaining capacity = 73
-reservation slot = 16:00:00, remaining capacity = 73
-reservation slot = 16:30:00, remaining capacity = 73
-reservation slot = 17:00:00, remaining capacity = 73
-reservation slot = 17:30:00, remaining capacity = 73
-reservation slot = 18:00:00, remaining capacity = 73
-reservation slot = 18:30:00, remaining capacity = 73
-reservation slot = 19:00:00, remaining capacity = 73
-reservation slot = 19:30:00, remaining capacity = 73
-get-capable: 2
-reservation slot = 21:00:00, remaining capacity = 24
-reservation slot = 21:30:00, remaining capacity = 24
-reserve: invalid starting datetime
-get-capable: 15
-reservation slot = 04:00:00, remaining capacity = 2
-reservation slot = 04:30:00, remaining capacity = 2
-reservation slot = 05:00:00, remaining capacity = 2
-reservation slot = 05:30:00, remaining capacity = 2
-reservation slot = 06:00:00, remaining capacity = 1
-reservation slot = 06:30:00, remaining capacity = 1
-reservation slot = 07:00:00, remaining capacity = 1
-reservation slot = 07:30:00, remaining capacity = 1
-reservation slot = 08:00:00, remaining capacity = 2
-reservation slot = 08:30:00, remaining capacity = 2
-reservation slot = 09:00:00, remaining capacity = 2
-reservation slot = 09:30:00, remaining capacity = 2
-reservation slot = 10:00:00, remaining capacity = 2
-reservation slot = 10:30:00, remaining capacity = 2
-reservation slot = 11:00:00, remaining capacity = 2
-get-capable: 9
-reservation slot = 19:00:00, remaining capacity = 376
-reservation slot = 19:30:00, remaining capacity = 376
-reservation slot = 20:00:00, remaining capacity = 375
-reservation slot = 20:30:00, remaining capacity = 376
-reservation slot = 21:00:00, remaining capacity = 375
-reservation slot = 21:30:00, remaining capacity = 376
-reservation slot = 22:00:00, remaining capacity = 376
-reservation slot = 22:30:00, remaining capacity = 377
-reservation slot = 23:00:00, remaining capacity = 377
-reserve: incompatible site
-get-capable: 19
-reservation slot = 11:00:00, remaining capacity = 930
-reservation slot = 11:30:00, remaining capacity = 930
-reservation slot = 12:00:00, remaining capacity = 930
-reservation slot = 12:30:00, remaining capacity = 930
-reservation slot = 13:00:00, remaining capacity = 930
-reservation slot = 13:30:00, remaining capacity = 930
-reservation slot = 14:00:00, remaining capacity = 930
-reservation slot = 14:30:00, remaining capacity = 930
-reservation slot = 15:00:00, remaining capacity = 930
-reservation slot = 15:30:00, remaining capacity = 930
-reservation slot = 16:00:00, remaining capacity = 930
-reservation slot = 16:30:00, remaining capacity = 930
-reservation slot = 17:00:00, remaining capacity = 930
-reservation slot = 17:30:00, remaining capacity = 930
-reservation slot = 18:00:00, remaining capacity = 930
-reservation slot = 18:30:00, remaining capacity = 930
-reservation slot = 19:00:00, remaining capacity = 930
-reservation slot = 19:30:00, remaining capacity = 930
-reservation slot = 20:00:00, remaining capacity = 930
-cancel: unauthorized operation
-reserve: 14 100 276332
-get-capable: 2
-reservation slot = 21:00:00, remaining capacity = 24
-reservation slot = 21:30:00, remaining capacity = 24
-reserve: incompatible site
-reserve: non-business hour
-get-capable: 5
-reservation slot = 20:30:00, remaining capacity = 1
-reservation slot = 21:00:00, remaining capacity = 1
-reservation slot = 21:30:00, remaining capacity = 1
-reservation slot = 22:00:00, remaining capacity = 1
-reservation slot = 22:30:00, remaining capacity = 1
-cancel: unauthorized operation
-cancel: unauthorized operation
-get-capable: 23
-reservation slot = 07:30:00, remaining capacity = 3
-reservation slot = 08:00:00, remaining capacity = 3
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-reservation slot = 15:00:00, remaining capacity = 3
-reservation slot = 15:30:00, remaining capacity = 3
-reservation slot = 16:00:00, remaining capacity = 3
-reservation slot = 16:30:00, remaining capacity = 3
-reservation slot = 17:00:00, remaining capacity = 3
-reservation slot = 17:30:00, remaining capacity = 3
-reservation slot = 18:00:00, remaining capacity = 3
-reservation slot = 18:30:00, remaining capacity = 3
-cancel: unauthorized operation
-get-capable: 9
-reservation slot = 19:00:00, remaining capacity = 377
-reservation slot = 19:30:00, remaining capacity = 377
-reservation slot = 20:00:00, remaining capacity = 377
-reservation slot = 20:30:00, remaining capacity = 377
-reservation slot = 21:00:00, remaining capacity = 377
-reservation slot = 21:30:00, remaining capacity = 377
-reservation slot = 22:00:00, remaining capacity = 377
-reservation slot = 22:30:00, remaining capacity = 377
-reservation slot = 23:00:00, remaining capacity = 377
-get-capable: 5
-reservation slot = 20:30:00, remaining capacity = 1
-reservation slot = 21:00:00, remaining capacity = 1
-reservation slot = 21:30:00, remaining capacity = 1
-reservation slot = 22:00:00, remaining capacity = 1
-reservation slot = 22:30:00, remaining capacity = 1
-get-capable: 23
-reservation slot = 07:30:00, remaining capacity = 3
-reservation slot = 08:00:00, remaining capacity = 3
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-reservation slot = 15:00:00, remaining capacity = 3
-reservation slot = 15:30:00, remaining capacity = 3
-reservation slot = 16:00:00, remaining capacity = 3
-reservation slot = 16:30:00, remaining capacity = 3
-reservation slot = 17:00:00, remaining capacity = 3
-reservation slot = 17:30:00, remaining capacity = 3
-reservation slot = 18:00:00, remaining capacity = 3
-reservation slot = 18:30:00, remaining capacity = 3
-get-capable: 40
-reservation slot = 03:30:00, remaining capacity = 80
-reservation slot = 04:00:00, remaining capacity = 80
-reservation slot = 04:30:00, remaining capacity = 80
-reservation slot = 05:00:00, remaining capacity = 80
-reservation slot = 05:30:00, remaining capacity = 80
-reservation slot = 06:00:00, remaining capacity = 79
-reservation slot = 06:30:00, remaining capacity = 79
-reservation slot = 07:00:00, remaining capacity = 80
-reservation slot = 07:30:00, remaining capacity = 80
-reservation slot = 08:00:00, remaining capacity = 80
-reservation slot = 08:30:00, remaining capacity = 80
-reservation slot = 09:00:00, remaining capacity = 80
-reservation slot = 09:30:00, remaining capacity = 80
-reservation slot = 10:00:00, remaining capacity = 80
-reservation slot = 10:30:00, remaining capacity = 80
-reservation slot = 11:00:00, remaining capacity = 80
-reservation slot = 11:30:00, remaining capacity = 80
-reservation slot = 12:00:00, remaining capacity = 80
-reservation slot = 12:30:00, remaining capacity = 80
-reservation slot = 13:00:00, remaining capacity = 80
-reservation slot = 13:30:00, remaining capacity = 80
-reservation slot = 14:00:00, remaining capacity = 80
-reservation slot = 14:30:00, remaining capacity = 80
-reservation slot = 15:00:00, remaining capacity = 80
-reservation slot = 15:30:00, remaining capacity = 80
-reservation slot = 16:00:00, remaining capacity = 80
-reservation slot = 16:30:00, remaining capacity = 80
-reservation slot = 17:00:00, remaining capacity = 80
-reservation slot = 17:30:00, remaining capacity = 80
-reservation slot = 18:00:00, remaining capacity = 80
-reservation slot = 18:30:00, remaining capacity = 80
-reservation slot = 19:00:00, remaining capacity = 80
-reservation slot = 19:30:00, remaining capacity = 80
-reservation slot = 20:00:00, remaining capacity = 80
-reservation slot = 20:30:00, remaining capacity = 80
-reservation slot = 21:00:00, remaining capacity = 80
-reservation slot = 21:30:00, remaining capacity = 80
-reservation slot = 22:00:00, remaining capacity = 80
-reservation slot = 22:30:00, remaining capacity = 80
-reservation slot = 23:00:00, remaining capacity = 80
-get-capable: 40
-reservation slot = 03:30:00, remaining capacity = 80
-reservation slot = 04:00:00, remaining capacity = 80
-reservation slot = 04:30:00, remaining capacity = 80
-reservation slot = 05:00:00, remaining capacity = 80
-reservation slot = 05:30:00, remaining capacity = 80
-reservation slot = 06:00:00, remaining capacity = 79
-reservation slot = 06:30:00, remaining capacity = 79
-reservation slot = 07:00:00, remaining capacity = 80
-reservation slot = 07:30:00, remaining capacity = 80
-reservation slot = 08:00:00, remaining capacity = 80
-reservation slot = 08:30:00, remaining capacity = 80
-reservation slot = 09:00:00, remaining capacity = 80
-reservation slot = 09:30:00, remaining capacity = 80
-reservation slot = 10:00:00, remaining capacity = 80
-reservation slot = 10:30:00, remaining capacity = 80
-reservation slot = 11:00:00, remaining capacity = 80
-reservation slot = 11:30:00, remaining capacity = 80
-reservation slot = 12:00:00, remaining capacity = 80
-reservation slot = 12:30:00, remaining capacity = 80
-reservation slot = 13:00:00, remaining capacity = 80
-reservation slot = 13:30:00, remaining capacity = 80
-reservation slot = 14:00:00, remaining capacity = 80
-reservation slot = 14:30:00, remaining capacity = 80
-reservation slot = 15:00:00, remaining capacity = 80
-reservation slot = 15:30:00, remaining capacity = 80
-reservation slot = 16:00:00, remaining capacity = 80
-reservation slot = 16:30:00, remaining capacity = 80
-reservation slot = 17:00:00, remaining capacity = 80
-reservation slot = 17:30:00, remaining capacity = 80
-reservation slot = 18:00:00, remaining capacity = 80
-reservation slot = 18:30:00, remaining capacity = 80
-reservation slot = 19:00:00, remaining capacity = 80
-reservation slot = 19:30:00, remaining capacity = 80
-reservation slot = 20:00:00, remaining capacity = 80
-reservation slot = 20:30:00, remaining capacity = 80
-reservation slot = 21:00:00, remaining capacity = 80
-reservation slot = 21:30:00, remaining capacity = 80
-reservation slot = 22:00:00, remaining capacity = 80
-reservation slot = 22:30:00, remaining capacity = 80
-reservation slot = 23:00:00, remaining capacity = 80
-reserve: incompatible site
-cancel: unauthorized operation
-cancel: unauthorized operation
-cancel: unauthorized operation
-get-capable: 23
-reservation slot = 07:30:00, remaining capacity = 3
-reservation slot = 08:00:00, remaining capacity = 3
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-reservation slot = 15:00:00, remaining capacity = 3
-reservation slot = 15:30:00, remaining capacity = 3
-reservation slot = 16:00:00, remaining capacity = 3
-reservation slot = 16:30:00, remaining capacity = 3
-reservation slot = 17:00:00, remaining capacity = 3
-reservation slot = 17:30:00, remaining capacity = 3
-reservation slot = 18:00:00, remaining capacity = 3
-reservation slot = 18:30:00, remaining capacity = 3
 reserve: invalid starting datetime
 reserve: non-business hour
-cancel: unauthorized operation
-reserve: 15 55 818049
-get-capable: 20
-reservation slot = 08:00:00, remaining capacity = 62
-reservation slot = 08:30:00, remaining capacity = 62
-reservation slot = 09:00:00, remaining capacity = 62
-reservation slot = 09:30:00, remaining capacity = 62
-reservation slot = 10:00:00, remaining capacity = 62
-reservation slot = 10:30:00, remaining capacity = 62
-reservation slot = 11:00:00, remaining capacity = 62
-reservation slot = 11:30:00, remaining capacity = 62
-reservation slot = 12:00:00, remaining capacity = 62
-reservation slot = 12:30:00, remaining capacity = 62
-reservation slot = 13:00:00, remaining capacity = 62
-reservation slot = 13:30:00, remaining capacity = 62
-reservation slot = 14:00:00, remaining capacity = 61
-reservation slot = 14:30:00, remaining capacity = 61
-reservation slot = 15:00:00, remaining capacity = 61
-reservation slot = 15:30:00, remaining capacity = 61
-reservation slot = 16:00:00, remaining capacity = 62
-reservation slot = 16:30:00, remaining capacity = 62
-reservation slot = 17:00:00, remaining capacity = 62
-reservation slot = 17:30:00, remaining capacity = 62
+get-reservations: 1
+18:00:00 19:00:00 3 8gg15tt 52708 B
+0
+get-reservations: 0
+reserve: 4 230 723265
+get-reservations: 0
+reserve: 5 10 467592
+reserve: 6 85 485604
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
 reserve: incompatible site
-cancel: unauthorized operation
-cancel: unauthorized operation
-reserve: 16 75 968557
-cancel: success
-cancel: unauthorized operation
-cancel: unauthorized operation
-get-capable: 26
-reservation slot = 07:00:00, remaining capacity = 73
-reservation slot = 07:30:00, remaining capacity = 73
-reservation slot = 08:00:00, remaining capacity = 73
-reservation slot = 08:30:00, remaining capacity = 73
-reservation slot = 09:00:00, remaining capacity = 73
-reservation slot = 09:30:00, remaining capacity = 73
-reservation slot = 10:00:00, remaining capacity = 73
-reservation slot = 10:30:00, remaining capacity = 73
-reservation slot = 11:00:00, remaining capacity = 73
-reservation slot = 11:30:00, remaining capacity = 73
-reservation slot = 12:00:00, remaining capacity = 73
-reservation slot = 12:30:00, remaining capacity = 73
-reservation slot = 13:00:00, remaining capacity = 73
-reservation slot = 13:30:00, remaining capacity = 73
-reservation slot = 14:00:00, remaining capacity = 73
-reservation slot = 14:30:00, remaining capacity = 73
-reservation slot = 15:00:00, remaining capacity = 73
-reservation slot = 15:30:00, remaining capacity = 73
-reservation slot = 16:00:00, remaining capacity = 73
-reservation slot = 16:30:00, remaining capacity = 73
-reservation slot = 17:00:00, remaining capacity = 73
-reservation slot = 17:30:00, remaining capacity = 73
-reservation slot = 18:00:00, remaining capacity = 73
-reservation slot = 18:30:00, remaining capacity = 73
-reservation slot = 19:00:00, remaining capacity = 73
-reservation slot = 19:30:00, remaining capacity = 73
-cancel: unauthorized operation
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 1
+18:00:00 19:25:00 6 3xt3w6 485604 B
+1 35
+get-reservations: 0
 reserve: invalid starting datetime
-cancel: unauthorized operation
-reserve: 17 60 588255
-reserve: 18 60 588255
-reserve: incompatible site
-cancel: unauthorized operation
-reserve: incompatible site
-reserve: 19 40 916715
-cancel: unauthorized operation
-reserve: non-business hour
-reserve: 20 95 404467
-get-capable: 15
-reservation slot = 04:00:00, remaining capacity = 2
-reservation slot = 04:30:00, remaining capacity = 2
-reservation slot = 05:00:00, remaining capacity = 2
-reservation slot = 05:30:00, remaining capacity = 2
-reservation slot = 06:00:00, remaining capacity = 1
-reservation slot = 06:30:00, remaining capacity = 1
-reservation slot = 07:00:00, remaining capacity = 1
-reservation slot = 07:30:00, remaining capacity = 1
-reservation slot = 08:00:00, remaining capacity = 2
-reservation slot = 08:30:00, remaining capacity = 2
-reservation slot = 09:00:00, remaining capacity = 2
-reservation slot = 09:30:00, remaining capacity = 2
-reservation slot = 10:00:00, remaining capacity = 2
-reservation slot = 10:30:00, remaining capacity = 2
-reservation slot = 11:00:00, remaining capacity = 2
-get-capable: 19
-reservation slot = 11:00:00, remaining capacity = 930
-reservation slot = 11:30:00, remaining capacity = 930
-reservation slot = 12:00:00, remaining capacity = 930
-reservation slot = 12:30:00, remaining capacity = 930
-reservation slot = 13:00:00, remaining capacity = 930
-reservation slot = 13:30:00, remaining capacity = 930
-reservation slot = 14:00:00, remaining capacity = 930
-reservation slot = 14:30:00, remaining capacity = 930
-reservation slot = 15:00:00, remaining capacity = 930
-reservation slot = 15:30:00, remaining capacity = 930
-reservation slot = 16:00:00, remaining capacity = 930
-reservation slot = 16:30:00, remaining capacity = 930
-reservation slot = 17:00:00, remaining capacity = 930
-reservation slot = 17:30:00, remaining capacity = 930
-reservation slot = 18:00:00, remaining capacity = 930
-reservation slot = 18:30:00, remaining capacity = 930
-reservation slot = 19:00:00, remaining capacity = 930
-reservation slot = 19:30:00, remaining capacity = 930
-reservation slot = 20:00:00, remaining capacity = 930
-cancel: unauthorized operation
-get-capable: 11
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 2
-reservation slot = 14:00:00, remaining capacity = 2
-cancel: unauthorized operation
-get-capable: 13
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 2
-reservation slot = 13:30:00, remaining capacity = 2
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-reserve: non-business hour
-reserve: invalid starting datetime
-cancel: success
-reserve: non-business hour
-cancel: unauthorized operation
-cancel: unauthorized operation
-reserve: incompatible site
-get-capable: 5
-reservation slot = 20:30:00, remaining capacity = 1
-reservation slot = 21:00:00, remaining capacity = 1
-reservation slot = 21:30:00, remaining capacity = 1
-reservation slot = 22:00:00, remaining capacity = 1
-reservation slot = 22:30:00, remaining capacity = 1
-reserve: incompatible site
-reserve: 21 40 916715
-cancel: unauthorized operation
-get-capable: 13
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 1
-reservation slot = 12:30:00, remaining capacity = 1
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-cancel: unauthorized operation
-get-capable: 19
-reservation slot = 11:00:00, remaining capacity = 930
-reservation slot = 11:30:00, remaining capacity = 930
-reservation slot = 12:00:00, remaining capacity = 930
-reservation slot = 12:30:00, remaining capacity = 930
-reservation slot = 13:00:00, remaining capacity = 929
-reservation slot = 13:30:00, remaining capacity = 929
-reservation slot = 14:00:00, remaining capacity = 929
-reservation slot = 14:30:00, remaining capacity = 929
-reservation slot = 15:00:00, remaining capacity = 930
-reservation slot = 15:30:00, remaining capacity = 930
-reservation slot = 16:00:00, remaining capacity = 930
-reservation slot = 16:30:00, remaining capacity = 930
-reservation slot = 17:00:00, remaining capacity = 930
-reservation slot = 17:30:00, remaining capacity = 930
-reservation slot = 18:00:00, remaining capacity = 930
-reservation slot = 18:30:00, remaining capacity = 930
-reservation slot = 19:00:00, remaining capacity = 930
-reservation slot = 19:30:00, remaining capacity = 930
-reservation slot = 20:00:00, remaining capacity = 930
-cancel: unauthorized operation
-get-capable: 5
-reservation slot = 20:30:00, remaining capacity = 1
-reservation slot = 21:00:00, remaining capacity = 1
-reservation slot = 21:30:00, remaining capacity = 1
-reservation slot = 22:00:00, remaining capacity = 1
-reservation slot = 22:30:00, remaining capacity = 1
-get-capable: 13
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-reserve: invalid starting datetime
+get-reservations: 0
 reserve: inapplicable age
 reserve: incompatible site
-cancel: unauthorized operation
-cancel: unauthorized operation
-reserve: 22 95 404467
-cancel: unauthorized operation
-get-capable: 20
-reservation slot = 08:00:00, remaining capacity = 62
-reservation slot = 08:30:00, remaining capacity = 62
-reservation slot = 09:00:00, remaining capacity = 62
-reservation slot = 09:30:00, remaining capacity = 62
-reservation slot = 10:00:00, remaining capacity = 62
-reservation slot = 10:30:00, remaining capacity = 62
-reservation slot = 11:00:00, remaining capacity = 62
-reservation slot = 11:30:00, remaining capacity = 62
-reservation slot = 12:00:00, remaining capacity = 62
-reservation slot = 12:30:00, remaining capacity = 62
-reservation slot = 13:00:00, remaining capacity = 62
-reservation slot = 13:30:00, remaining capacity = 62
-reservation slot = 14:00:00, remaining capacity = 61
-reservation slot = 14:30:00, remaining capacity = 61
-reservation slot = 15:00:00, remaining capacity = 61
-reservation slot = 15:30:00, remaining capacity = 61
-reservation slot = 16:00:00, remaining capacity = 62
-reservation slot = 16:30:00, remaining capacity = 62
-reservation slot = 17:00:00, remaining capacity = 62
-reservation slot = 17:30:00, remaining capacity = 62
+reserve: 7 230 723265
 reserve: incompatible site
-reserve: 23 45 889934
-cancel: unauthorized operation
-reserve: 24 115 2100385
-cancel: success
-get-capable: 9
-reservation slot = 19:00:00, remaining capacity = 377
-reservation slot = 19:30:00, remaining capacity = 377
-reservation slot = 20:00:00, remaining capacity = 377
-reservation slot = 20:30:00, remaining capacity = 377
-reservation slot = 21:00:00, remaining capacity = 377
-reservation slot = 21:30:00, remaining capacity = 377
-reservation slot = 22:00:00, remaining capacity = 377
-reservation slot = 22:30:00, remaining capacity = 377
-reservation slot = 23:00:00, remaining capacity = 377
+get-reservations: 0
+get-reservations: 0
 reserve: non-business hour
-get-capable: 26
-reservation slot = 07:00:00, remaining capacity = 73
-reservation slot = 07:30:00, remaining capacity = 73
-reservation slot = 08:00:00, remaining capacity = 73
-reservation slot = 08:30:00, remaining capacity = 73
-reservation slot = 09:00:00, remaining capacity = 73
-reservation slot = 09:30:00, remaining capacity = 73
-reservation slot = 10:00:00, remaining capacity = 73
-reservation slot = 10:30:00, remaining capacity = 73
-reservation slot = 11:00:00, remaining capacity = 73
-reservation slot = 11:30:00, remaining capacity = 73
-reservation slot = 12:00:00, remaining capacity = 73
-reservation slot = 12:30:00, remaining capacity = 73
-reservation slot = 13:00:00, remaining capacity = 73
-reservation slot = 13:30:00, remaining capacity = 73
-reservation slot = 14:00:00, remaining capacity = 73
-reservation slot = 14:30:00, remaining capacity = 73
-reservation slot = 15:00:00, remaining capacity = 73
-reservation slot = 15:30:00, remaining capacity = 73
-reservation slot = 16:00:00, remaining capacity = 73
-reservation slot = 16:30:00, remaining capacity = 73
-reservation slot = 17:00:00, remaining capacity = 73
-reservation slot = 17:30:00, remaining capacity = 73
-reservation slot = 18:00:00, remaining capacity = 73
-reservation slot = 18:30:00, remaining capacity = 73
-reservation slot = 19:00:00, remaining capacity = 73
-reservation slot = 19:30:00, remaining capacity = 73
-reserve: 25 40 916715
+reserve: 8 10 467592
+get-reservations: 0
+get-reservations: 1
+18:00:00 19:25:00 6 3xt3w6 485604 B
+1 35
+get-reservations: 0
+reserve: non-business hour
+reserve: incompatible site
+reserve: invalid starting datetime
+reserve: incompatible site
+get-reservations: 0
+get-reservations: 0
+reserve: incompatible site
+reserve: incompatible site
+reserve: incompatible site
+reserve: incompatible site
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 2
+23:00:00 23:10:00 5 awf91rd 467592 A
+0
+23:00:00 23:10:00 8 6fp2q3 467592 A
+0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
 reserve: inapplicable age
-reserve: 26 95 1241585
-cancel: unauthorized operation
-get-capable: 5
-reservation slot = 20:30:00, remaining capacity = 1
-reservation slot = 21:00:00, remaining capacity = 1
-reservation slot = 21:30:00, remaining capacity = 1
-reservation slot = 22:00:00, remaining capacity = 1
-reservation slot = 22:30:00, remaining capacity = 1
-get-capable: 15
-reservation slot = 04:00:00, remaining capacity = 2
-reservation slot = 04:30:00, remaining capacity = 2
-reservation slot = 05:00:00, remaining capacity = 2
-reservation slot = 05:30:00, remaining capacity = 2
-reservation slot = 06:00:00, remaining capacity = 1
-reservation slot = 06:30:00, remaining capacity = 1
-reservation slot = 07:00:00, remaining capacity = 1
-reservation slot = 07:30:00, remaining capacity = 1
-reservation slot = 08:00:00, remaining capacity = 2
-reservation slot = 08:30:00, remaining capacity = 2
-reservation slot = 09:00:00, remaining capacity = 2
-reservation slot = 09:30:00, remaining capacity = 2
-reservation slot = 10:00:00, remaining capacity = 2
-reservation slot = 10:30:00, remaining capacity = 2
-reservation slot = 11:00:00, remaining capacity = 2
-cancel: unauthorized operation
-cancel: unauthorized operation
-cancel: unauthorized operation
 reserve: incompatible site
-cancel: unauthorized operation
-get-capable: 19
-reservation slot = 11:00:00, remaining capacity = 930
-reservation slot = 11:30:00, remaining capacity = 930
-reservation slot = 12:00:00, remaining capacity = 930
-reservation slot = 12:30:00, remaining capacity = 930
-reservation slot = 13:00:00, remaining capacity = 930
-reservation slot = 13:30:00, remaining capacity = 930
-reservation slot = 14:00:00, remaining capacity = 930
-reservation slot = 14:30:00, remaining capacity = 930
-reservation slot = 15:00:00, remaining capacity = 930
-reservation slot = 15:30:00, remaining capacity = 930
-reservation slot = 16:00:00, remaining capacity = 930
-reservation slot = 16:30:00, remaining capacity = 930
-reservation slot = 17:00:00, remaining capacity = 930
-reservation slot = 17:30:00, remaining capacity = 930
-reservation slot = 18:00:00, remaining capacity = 930
-reservation slot = 18:30:00, remaining capacity = 930
-reservation slot = 19:00:00, remaining capacity = 930
-reservation slot = 19:30:00, remaining capacity = 930
-reservation slot = 20:00:00, remaining capacity = 930
-reserve: 27 45 359073
-cancel: unauthorized operation
-get-capable: 23
-reservation slot = 07:30:00, remaining capacity = 3
-reservation slot = 08:00:00, remaining capacity = 3
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-reservation slot = 15:00:00, remaining capacity = 3
-reservation slot = 15:30:00, remaining capacity = 3
-reservation slot = 16:00:00, remaining capacity = 3
-reservation slot = 16:30:00, remaining capacity = 3
-reservation slot = 17:00:00, remaining capacity = 3
-reservation slot = 17:30:00, remaining capacity = 3
-reservation slot = 18:00:00, remaining capacity = 3
-reservation slot = 18:30:00, remaining capacity = 3
-get-capable: 20
-reservation slot = 08:00:00, remaining capacity = 62
-reservation slot = 08:30:00, remaining capacity = 62
-reservation slot = 09:00:00, remaining capacity = 62
-reservation slot = 09:30:00, remaining capacity = 62
-reservation slot = 10:00:00, remaining capacity = 62
-reservation slot = 10:30:00, remaining capacity = 62
-reservation slot = 11:00:00, remaining capacity = 62
-reservation slot = 11:30:00, remaining capacity = 62
-reservation slot = 12:00:00, remaining capacity = 62
-reservation slot = 12:30:00, remaining capacity = 62
-reservation slot = 13:00:00, remaining capacity = 62
-reservation slot = 13:30:00, remaining capacity = 62
-reservation slot = 14:00:00, remaining capacity = 62
-reservation slot = 14:30:00, remaining capacity = 62
-reservation slot = 15:00:00, remaining capacity = 62
-reservation slot = 15:30:00, remaining capacity = 62
-reservation slot = 16:00:00, remaining capacity = 62
-reservation slot = 16:30:00, remaining capacity = 62
-reservation slot = 17:00:00, remaining capacity = 62
-reservation slot = 17:30:00, remaining capacity = 62
-cancel: unauthorized operation
-cancel: unauthorized operation
-cancel: unauthorized operation
-cancel: unauthorized operation
-cancel: unauthorized operation
-reserve: 28 55 818049
+get-reservations: 0
+get-reservations: 1
+18:00:00 19:00:00 3 8gg15tt 52708 B
+0
 reserve: incompatible site
-reserve: incompatible site
-cancel: unauthorized operation
-get-capable: 11
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 2
-reservation slot = 10:00:00, remaining capacity = 2
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-cancel: unauthorized operation
-get-capable: 2
-reservation slot = 21:00:00, remaining capacity = 24
-reservation slot = 21:30:00, remaining capacity = 24
-reserve: 29 40 202515
-cancel: unauthorized operation
-get-capable: 23
-reservation slot = 07:30:00, remaining capacity = 3
-reservation slot = 08:00:00, remaining capacity = 3
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-reservation slot = 15:00:00, remaining capacity = 3
-reservation slot = 15:30:00, remaining capacity = 3
-reservation slot = 16:00:00, remaining capacity = 3
-reservation slot = 16:30:00, remaining capacity = 3
-reservation slot = 17:00:00, remaining capacity = 3
-reservation slot = 17:30:00, remaining capacity = 3
-reservation slot = 18:00:00, remaining capacity = 3
-reservation slot = 18:30:00, remaining capacity = 3
-cancel: unauthorized operation
-get-capable: 2
-reservation slot = 22:00:00, remaining capacity = 1
-reservation slot = 22:30:00, remaining capacity = 1
-cancel: unauthorized operation
-get-capable: 13
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 2
-reservation slot = 13:30:00, remaining capacity = 2
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-reserve: 30 180 734465
+get-reservations: 0
+get-reservations: 0
+get-reservations: 1
+05:30:00 09:20:00 7 vulxy 723265 A
+0
+get-reservations: 1
+18:00:00 19:25:00 6 3xt3w6 485604 B
+1 35
 reserve: non-business hour
-reserve: incompatible site
-cancel: unauthorized operation
-cancel: unauthorized operation
-reserve: non-business hour
+get-reservations: 0
+get-reservations: 1
+18:00:00 19:25:00 6 3xt3w6 485604 B
+1 35
+get-reservations: 0
+get-reservations: 1
+17:30:00 17:35:00 1 q911f 800263 B
+0
+get-reservations: 0
+get-reservations: 0
 reserve: invalid starting datetime
-cancel: unauthorized operation
-reserve: incompatible site
-reserve: 31 45 889934
-get-capable: 26
-reservation slot = 07:00:00, remaining capacity = 73
-reservation slot = 07:30:00, remaining capacity = 73
-reservation slot = 08:00:00, remaining capacity = 73
-reservation slot = 08:30:00, remaining capacity = 73
-reservation slot = 09:00:00, remaining capacity = 73
-reservation slot = 09:30:00, remaining capacity = 73
-reservation slot = 10:00:00, remaining capacity = 73
-reservation slot = 10:30:00, remaining capacity = 73
-reservation slot = 11:00:00, remaining capacity = 73
-reservation slot = 11:30:00, remaining capacity = 73
-reservation slot = 12:00:00, remaining capacity = 73
-reservation slot = 12:30:00, remaining capacity = 73
-reservation slot = 13:00:00, remaining capacity = 73
-reservation slot = 13:30:00, remaining capacity = 73
-reservation slot = 14:00:00, remaining capacity = 73
-reservation slot = 14:30:00, remaining capacity = 73
-reservation slot = 15:00:00, remaining capacity = 73
-reservation slot = 15:30:00, remaining capacity = 73
-reservation slot = 16:00:00, remaining capacity = 73
-reservation slot = 16:30:00, remaining capacity = 73
-reservation slot = 17:00:00, remaining capacity = 73
-reservation slot = 17:30:00, remaining capacity = 73
-reservation slot = 18:00:00, remaining capacity = 73
-reservation slot = 18:30:00, remaining capacity = 73
-reservation slot = 19:00:00, remaining capacity = 73
-reservation slot = 19:30:00, remaining capacity = 73
-cancel: unauthorized operation
-get-capable: 2
-reservation slot = 21:00:00, remaining capacity = 24
-reservation slot = 21:30:00, remaining capacity = 24
-reserve: invalid starting datetime
-cancel: unauthorized operation
-cancel: start time has passed
-cancel: unauthorized operation
-reserve: 32 100 276332
-get-capable: 13
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-reserve: invalid starting datetime
-get-capable: 15
-reservation slot = 04:00:00, remaining capacity = 2
-reservation slot = 04:30:00, remaining capacity = 2
-reservation slot = 05:00:00, remaining capacity = 2
-reservation slot = 05:30:00, remaining capacity = 2
-reservation slot = 06:00:00, remaining capacity = 2
-reservation slot = 06:30:00, remaining capacity = 2
-reservation slot = 07:00:00, remaining capacity = 2
-reservation slot = 07:30:00, remaining capacity = 2
-reservation slot = 08:00:00, remaining capacity = 2
-reservation slot = 08:30:00, remaining capacity = 2
-reservation slot = 09:00:00, remaining capacity = 2
-reservation slot = 09:30:00, remaining capacity = 2
-reservation slot = 10:00:00, remaining capacity = 2
-reservation slot = 10:30:00, remaining capacity = 2
-reservation slot = 11:00:00, remaining capacity = 2
-get-capable: 20
-reservation slot = 08:00:00, remaining capacity = 62
-reservation slot = 08:30:00, remaining capacity = 62
-reservation slot = 09:00:00, remaining capacity = 62
-reservation slot = 09:30:00, remaining capacity = 62
-reservation slot = 10:00:00, remaining capacity = 62
-reservation slot = 10:30:00, remaining capacity = 62
-reservation slot = 11:00:00, remaining capacity = 62
-reservation slot = 11:30:00, remaining capacity = 62
-reservation slot = 12:00:00, remaining capacity = 62
-reservation slot = 12:30:00, remaining capacity = 62
-reservation slot = 13:00:00, remaining capacity = 62
-reservation slot = 13:30:00, remaining capacity = 62
-reservation slot = 14:00:00, remaining capacity = 61
-reservation slot = 14:30:00, remaining capacity = 61
-reservation slot = 15:00:00, remaining capacity = 61
-reservation slot = 15:30:00, remaining capacity = 61
-reservation slot = 16:00:00, remaining capacity = 62
-reservation slot = 16:30:00, remaining capacity = 62
-reservation slot = 17:00:00, remaining capacity = 62
-reservation slot = 17:30:00, remaining capacity = 62
-cancel: unauthorized operation
 reserve: non-business hour
-cancel: unauthorized operation
-get-capable: 15
-reservation slot = 04:00:00, remaining capacity = 2
-reservation slot = 04:30:00, remaining capacity = 2
-reservation slot = 05:00:00, remaining capacity = 2
-reservation slot = 05:30:00, remaining capacity = 2
-reservation slot = 06:00:00, remaining capacity = 2
-reservation slot = 06:30:00, remaining capacity = 2
-reservation slot = 07:00:00, remaining capacity = 2
-reservation slot = 07:30:00, remaining capacity = 2
-reservation slot = 08:00:00, remaining capacity = 2
-reservation slot = 08:30:00, remaining capacity = 2
-reservation slot = 09:00:00, remaining capacity = 2
-reservation slot = 09:30:00, remaining capacity = 2
-reservation slot = 10:00:00, remaining capacity = 2
-reservation slot = 10:30:00, remaining capacity = 2
-reservation slot = 11:00:00, remaining capacity = 2
-cancel: unauthorized operation
-get-capable: 2
-reservation slot = 21:00:00, remaining capacity = 24
-reservation slot = 21:30:00, remaining capacity = 24
-get-capable: 15
-reservation slot = 04:00:00, remaining capacity = 2
-reservation slot = 04:30:00, remaining capacity = 2
-reservation slot = 05:00:00, remaining capacity = 2
-reservation slot = 05:30:00, remaining capacity = 2
-reservation slot = 06:00:00, remaining capacity = 2
-reservation slot = 06:30:00, remaining capacity = 2
-reservation slot = 07:00:00, remaining capacity = 2
-reservation slot = 07:30:00, remaining capacity = 2
-reservation slot = 08:00:00, remaining capacity = 2
-reservation slot = 08:30:00, remaining capacity = 2
-reservation slot = 09:00:00, remaining capacity = 2
-reservation slot = 09:30:00, remaining capacity = 2
-reservation slot = 10:00:00, remaining capacity = 2
-reservation slot = 10:30:00, remaining capacity = 2
-reservation slot = 11:00:00, remaining capacity = 2
-get-capable: 20
-reservation slot = 08:00:00, remaining capacity = 62
-reservation slot = 08:30:00, remaining capacity = 61
-reservation slot = 09:00:00, remaining capacity = 61
-reservation slot = 09:30:00, remaining capacity = 61
-reservation slot = 10:00:00, remaining capacity = 61
-reservation slot = 10:30:00, remaining capacity = 61
-reservation slot = 11:00:00, remaining capacity = 61
-reservation slot = 11:30:00, remaining capacity = 62
-reservation slot = 12:00:00, remaining capacity = 62
-reservation slot = 12:30:00, remaining capacity = 62
-reservation slot = 13:00:00, remaining capacity = 62
-reservation slot = 13:30:00, remaining capacity = 62
-reservation slot = 14:00:00, remaining capacity = 62
-reservation slot = 14:30:00, remaining capacity = 62
-reservation slot = 15:00:00, remaining capacity = 62
-reservation slot = 15:30:00, remaining capacity = 61
-reservation slot = 16:00:00, remaining capacity = 61
-reservation slot = 16:30:00, remaining capacity = 62
-reservation slot = 17:00:00, remaining capacity = 62
-reservation slot = 17:30:00, remaining capacity = 62
-get-capable: 40
-reservation slot = 03:30:00, remaining capacity = 80
-reservation slot = 04:00:00, remaining capacity = 80
-reservation slot = 04:30:00, remaining capacity = 80
-reservation slot = 05:00:00, remaining capacity = 80
-reservation slot = 05:30:00, remaining capacity = 80
-reservation slot = 06:00:00, remaining capacity = 80
-reservation slot = 06:30:00, remaining capacity = 80
-reservation slot = 07:00:00, remaining capacity = 80
-reservation slot = 07:30:00, remaining capacity = 80
-reservation slot = 08:00:00, remaining capacity = 80
-reservation slot = 08:30:00, remaining capacity = 80
-reservation slot = 09:00:00, remaining capacity = 80
-reservation slot = 09:30:00, remaining capacity = 80
-reservation slot = 10:00:00, remaining capacity = 80
-reservation slot = 10:30:00, remaining capacity = 80
-reservation slot = 11:00:00, remaining capacity = 80
-reservation slot = 11:30:00, remaining capacity = 80
-reservation slot = 12:00:00, remaining capacity = 80
-reservation slot = 12:30:00, remaining capacity = 80
-reservation slot = 13:00:00, remaining capacity = 79
-reservation slot = 13:30:00, remaining capacity = 79
-reservation slot = 14:00:00, remaining capacity = 80
-reservation slot = 14:30:00, remaining capacity = 80
-reservation slot = 15:00:00, remaining capacity = 80
-reservation slot = 15:30:00, remaining capacity = 80
-reservation slot = 16:00:00, remaining capacity = 79
-reservation slot = 16:30:00, remaining capacity = 79
-reservation slot = 17:00:00, remaining capacity = 80
-reservation slot = 17:30:00, remaining capacity = 80
-reservation slot = 18:00:00, remaining capacity = 80
-reservation slot = 18:30:00, remaining capacity = 80
-reservation slot = 19:00:00, remaining capacity = 80
-reservation slot = 19:30:00, remaining capacity = 80
-reservation slot = 20:00:00, remaining capacity = 80
-reservation slot = 20:30:00, remaining capacity = 80
-reservation slot = 21:00:00, remaining capacity = 80
-reservation slot = 21:30:00, remaining capacity = 80
-reservation slot = 22:00:00, remaining capacity = 80
-reservation slot = 22:30:00, remaining capacity = 80
-reservation slot = 23:00:00, remaining capacity = 80
-get-capable: 11
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 2
-reservation slot = 13:30:00, remaining capacity = 2
-reservation slot = 14:00:00, remaining capacity = 2
-get-capable: 2
-reservation slot = 21:00:00, remaining capacity = 24
-reservation slot = 21:30:00, remaining capacity = 24
-get-capable: 9
-reservation slot = 19:00:00, remaining capacity = 377
-reservation slot = 19:30:00, remaining capacity = 377
-reservation slot = 20:00:00, remaining capacity = 377
-reservation slot = 20:30:00, remaining capacity = 377
-reservation slot = 21:00:00, remaining capacity = 377
-reservation slot = 21:30:00, remaining capacity = 377
-reservation slot = 22:00:00, remaining capacity = 377
-reservation slot = 22:30:00, remaining capacity = 377
-reservation slot = 23:00:00, remaining capacity = 377
 reserve: incompatible site
-cancel: unauthorized operation
-reserve: 33 75 968557
-cancel: unauthorized operation
-get-capable: 2
-reservation slot = 22:00:00, remaining capacity = 1
-reservation slot = 22:30:00, remaining capacity = 1
-reserve: 34 35 86546
-cancel: unauthorized operation
-cancel: unauthorized operation
-cancel: unauthorized operation
-reserve: 35 85 320846
-get-capable: 20
-reservation slot = 08:00:00, remaining capacity = 62
-reservation slot = 08:30:00, remaining capacity = 62
-reservation slot = 09:00:00, remaining capacity = 62
-reservation slot = 09:30:00, remaining capacity = 62
-reservation slot = 10:00:00, remaining capacity = 62
-reservation slot = 10:30:00, remaining capacity = 62
-reservation slot = 11:00:00, remaining capacity = 62
-reservation slot = 11:30:00, remaining capacity = 62
-reservation slot = 12:00:00, remaining capacity = 62
-reservation slot = 12:30:00, remaining capacity = 62
-reservation slot = 13:00:00, remaining capacity = 62
-reservation slot = 13:30:00, remaining capacity = 62
-reservation slot = 14:00:00, remaining capacity = 61
-reservation slot = 14:30:00, remaining capacity = 61
-reservation slot = 15:00:00, remaining capacity = 61
-reservation slot = 15:30:00, remaining capacity = 61
-reservation slot = 16:00:00, remaining capacity = 62
-reservation slot = 16:30:00, remaining capacity = 62
-reservation slot = 17:00:00, remaining capacity = 62
-reservation slot = 17:30:00, remaining capacity = 62
-reserve: 36 25 911092
-cancel: unauthorized operation
-cancel: unauthorized operation
-cancel: unauthorized operation
-reserve: 37 95 404467
+reserve: 9 85 559416
 reserve: incompatible site
 reserve: incompatible site
-reserve: non-business hour
-reserve: 38 60 588255
-reserve: incompatible site
-reserve: incompatible site
-reserve: 39 40 916715
-cancel: unauthorized operation
-reserve: incompatible site
-cancel: start time has passed
-reserve: incompatible site
-cancel: unauthorized operation
-get-capable: 15
-reservation slot = 04:00:00, remaining capacity = 2
-reservation slot = 04:30:00, remaining capacity = 2
-reservation slot = 05:00:00, remaining capacity = 2
-reservation slot = 05:30:00, remaining capacity = 2
-reservation slot = 06:00:00, remaining capacity = 1
-reservation slot = 06:30:00, remaining capacity = 1
-reservation slot = 07:00:00, remaining capacity = 1
-reservation slot = 07:30:00, remaining capacity = 1
-reservation slot = 08:00:00, remaining capacity = 2
-reservation slot = 08:30:00, remaining capacity = 2
-reservation slot = 09:00:00, remaining capacity = 2
-reservation slot = 09:30:00, remaining capacity = 2
-reservation slot = 10:00:00, remaining capacity = 2
-reservation slot = 10:30:00, remaining capacity = 2
-reservation slot = 11:00:00, remaining capacity = 2
-cancel: unauthorized operation
-cancel: unauthorized operation
-reserve: non-business hour
-get-capable: 9
-reservation slot = 19:00:00, remaining capacity = 377
-reservation slot = 19:30:00, remaining capacity = 377
-reservation slot = 20:00:00, remaining capacity = 378
-reservation slot = 20:30:00, remaining capacity = 378
-reservation slot = 21:00:00, remaining capacity = 378
-reservation slot = 21:30:00, remaining capacity = 377
-reservation slot = 22:00:00, remaining capacity = 377
-reservation slot = 22:30:00, remaining capacity = 377
-reservation slot = 23:00:00, remaining capacity = 377
-cancel: unauthorized operation
-get-capable: 9
-reservation slot = 19:00:00, remaining capacity = 377
-reservation slot = 19:30:00, remaining capacity = 377
-reservation slot = 20:00:00, remaining capacity = 378
-reservation slot = 20:30:00, remaining capacity = 378
-reservation slot = 21:00:00, remaining capacity = 378
-reservation slot = 21:30:00, remaining capacity = 377
-reservation slot = 22:00:00, remaining capacity = 377
-reservation slot = 22:30:00, remaining capacity = 377
-reservation slot = 23:00:00, remaining capacity = 377
-reserve: non-business hour
-cancel: unauthorized operation
-cancel: unauthorized operation
-cancel: unauthorized operation
-get-capable: 11
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 2
-reservation slot = 13:30:00, remaining capacity = 2
-reservation slot = 14:00:00, remaining capacity = 2
-reserve: 40 25 911092
-reserve: incompatible site
-reserve: invalid starting datetime
-cancel: unauthorized operation
-get-capable: 9
-reservation slot = 19:00:00, remaining capacity = 377
-reservation slot = 19:30:00, remaining capacity = 377
-reservation slot = 20:00:00, remaining capacity = 378
-reservation slot = 20:30:00, remaining capacity = 378
-reservation slot = 21:00:00, remaining capacity = 378
-reservation slot = 21:30:00, remaining capacity = 377
-reservation slot = 22:00:00, remaining capacity = 377
-reservation slot = 22:30:00, remaining capacity = 377
-reservation slot = 23:00:00, remaining capacity = 377
-get-capable: 9
-reservation slot = 19:00:00, remaining capacity = 377
-reservation slot = 19:30:00, remaining capacity = 377
-reservation slot = 20:00:00, remaining capacity = 377
-reservation slot = 20:30:00, remaining capacity = 377
-reservation slot = 21:00:00, remaining capacity = 377
-reservation slot = 21:30:00, remaining capacity = 377
-reservation slot = 22:00:00, remaining capacity = 377
-reservation slot = 22:30:00, remaining capacity = 377
-reservation slot = 23:00:00, remaining capacity = 377
-cancel: unauthorized operation
-cancel: unauthorized operation
-get-capable: 2
-reservation slot = 21:00:00, remaining capacity = 24
-reservation slot = 21:30:00, remaining capacity = 24
-cancel: unauthorized operation
-cancel: unauthorized operation
-cancel: unauthorized operation
-cancel: unauthorized operation
-cancel: unauthorized operation
-cancel: unauthorized operation
-cancel: unauthorized operation
-cancel: unauthorized operation
-reserve: non-business hour
-cancel: unauthorized operation
-cancel: unauthorized operation
-reserve: incompatible site
-reserve: 41 45 359073
-cancel: start time has passed
-reserve: incompatible site
-reserve: non-business hour
-cancel: unauthorized operation
-get-capable: 5
-reservation slot = 20:30:00, remaining capacity = 1
-reservation slot = 21:00:00, remaining capacity = 1
-reservation slot = 21:30:00, remaining capacity = 1
-reservation slot = 22:00:00, remaining capacity = 1
-reservation slot = 22:30:00, remaining capacity = 1
-get-capable: 19
-reservation slot = 11:00:00, remaining capacity = 930
-reservation slot = 11:30:00, remaining capacity = 929
-reservation slot = 12:00:00, remaining capacity = 929
-reservation slot = 12:30:00, remaining capacity = 929
-reservation slot = 13:00:00, remaining capacity = 929
-reservation slot = 13:30:00, remaining capacity = 930
-reservation slot = 14:00:00, remaining capacity = 930
-reservation slot = 14:30:00, remaining capacity = 930
-reservation slot = 15:00:00, remaining capacity = 930
-reservation slot = 15:30:00, remaining capacity = 930
-reservation slot = 16:00:00, remaining capacity = 930
-reservation slot = 16:30:00, remaining capacity = 930
-reservation slot = 17:00:00, remaining capacity = 930
-reservation slot = 17:30:00, remaining capacity = 930
-reservation slot = 18:00:00, remaining capacity = 930
-reservation slot = 18:30:00, remaining capacity = 930
-reservation slot = 19:00:00, remaining capacity = 930
-reservation slot = 19:30:00, remaining capacity = 930
-reservation slot = 20:00:00, remaining capacity = 930
-reserve: invalid starting datetime
-get-capable: 5
-reservation slot = 20:30:00, remaining capacity = 1
-reservation slot = 21:00:00, remaining capacity = 1
-reservation slot = 21:30:00, remaining capacity = 1
-reservation slot = 22:00:00, remaining capacity = 1
-reservation slot = 22:30:00, remaining capacity = 1
-get-capable: 23
-reservation slot = 07:30:00, remaining capacity = 3
-reservation slot = 08:00:00, remaining capacity = 3
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-reservation slot = 15:00:00, remaining capacity = 3
-reservation slot = 15:30:00, remaining capacity = 3
-reservation slot = 16:00:00, remaining capacity = 3
-reservation slot = 16:30:00, remaining capacity = 3
-reservation slot = 17:00:00, remaining capacity = 3
-reservation slot = 17:30:00, remaining capacity = 3
-reservation slot = 18:00:00, remaining capacity = 3
-reservation slot = 18:30:00, remaining capacity = 3
-get-capable: 19
-reservation slot = 11:00:00, remaining capacity = 930
-reservation slot = 11:30:00, remaining capacity = 930
-reservation slot = 12:00:00, remaining capacity = 930
-reservation slot = 12:30:00, remaining capacity = 930
-reservation slot = 13:00:00, remaining capacity = 930
-reservation slot = 13:30:00, remaining capacity = 930
-reservation slot = 14:00:00, remaining capacity = 930
-reservation slot = 14:30:00, remaining capacity = 930
-reservation slot = 15:00:00, remaining capacity = 930
-reservation slot = 15:30:00, remaining capacity = 930
-reservation slot = 16:00:00, remaining capacity = 930
-reservation slot = 16:30:00, remaining capacity = 930
-reservation slot = 17:00:00, remaining capacity = 930
-reservation slot = 17:30:00, remaining capacity = 930
-reservation slot = 18:00:00, remaining capacity = 930
-reservation slot = 18:30:00, remaining capacity = 930
-reservation slot = 19:00:00, remaining capacity = 930
-reservation slot = 19:30:00, remaining capacity = 930
-reservation slot = 20:00:00, remaining capacity = 930
-reserve: incompatible site
-cancel: unauthorized operation
-get-capable: 2
-reservation slot = 21:00:00, remaining capacity = 24
-reservation slot = 21:30:00, remaining capacity = 24
-cancel: unauthorized operation
-cancel: unauthorized operation
-get-capable: 26
-reservation slot = 07:00:00, remaining capacity = 73
-reservation slot = 07:30:00, remaining capacity = 73
-reservation slot = 08:00:00, remaining capacity = 73
-reservation slot = 08:30:00, remaining capacity = 73
-reservation slot = 09:00:00, remaining capacity = 73
-reservation slot = 09:30:00, remaining capacity = 73
-reservation slot = 10:00:00, remaining capacity = 73
-reservation slot = 10:30:00, remaining capacity = 73
-reservation slot = 11:00:00, remaining capacity = 73
-reservation slot = 11:30:00, remaining capacity = 73
-reservation slot = 12:00:00, remaining capacity = 73
-reservation slot = 12:30:00, remaining capacity = 73
-reservation slot = 13:00:00, remaining capacity = 73
-reservation slot = 13:30:00, remaining capacity = 73
-reservation slot = 14:00:00, remaining capacity = 73
-reservation slot = 14:30:00, remaining capacity = 73
-reservation slot = 15:00:00, remaining capacity = 73
-reservation slot = 15:30:00, remaining capacity = 73
-reservation slot = 16:00:00, remaining capacity = 73
-reservation slot = 16:30:00, remaining capacity = 73
-reservation slot = 17:00:00, remaining capacity = 73
-reservation slot = 17:30:00, remaining capacity = 73
-reservation slot = 18:00:00, remaining capacity = 73
-reservation slot = 18:30:00, remaining capacity = 73
-reservation slot = 19:00:00, remaining capacity = 73
-reservation slot = 19:30:00, remaining capacity = 73
-get-capable: 5
-reservation slot = 20:30:00, remaining capacity = 1
-reservation slot = 21:00:00, remaining capacity = 1
-reservation slot = 21:30:00, remaining capacity = 1
-reservation slot = 22:00:00, remaining capacity = 1
-reservation slot = 22:30:00, remaining capacity = 1
-get-capable: 40
-reservation slot = 03:30:00, remaining capacity = 80
-reservation slot = 04:00:00, remaining capacity = 80
-reservation slot = 04:30:00, remaining capacity = 80
-reservation slot = 05:00:00, remaining capacity = 80
-reservation slot = 05:30:00, remaining capacity = 80
-reservation slot = 06:00:00, remaining capacity = 80
-reservation slot = 06:30:00, remaining capacity = 80
-reservation slot = 07:00:00, remaining capacity = 80
-reservation slot = 07:30:00, remaining capacity = 79
-reservation slot = 08:00:00, remaining capacity = 79
-reservation slot = 08:30:00, remaining capacity = 80
-reservation slot = 09:00:00, remaining capacity = 80
-reservation slot = 09:30:00, remaining capacity = 80
-reservation slot = 10:00:00, remaining capacity = 79
-reservation slot = 10:30:00, remaining capacity = 79
-reservation slot = 11:00:00, remaining capacity = 80
-reservation slot = 11:30:00, remaining capacity = 80
-reservation slot = 12:00:00, remaining capacity = 80
-reservation slot = 12:30:00, remaining capacity = 80
-reservation slot = 13:00:00, remaining capacity = 80
-reservation slot = 13:30:00, remaining capacity = 80
-reservation slot = 14:00:00, remaining capacity = 80
-reservation slot = 14:30:00, remaining capacity = 80
-reservation slot = 15:00:00, remaining capacity = 80
-reservation slot = 15:30:00, remaining capacity = 80
-reservation slot = 16:00:00, remaining capacity = 80
-reservation slot = 16:30:00, remaining capacity = 80
-reservation slot = 17:00:00, remaining capacity = 80
-reservation slot = 17:30:00, remaining capacity = 80
-reservation slot = 18:00:00, remaining capacity = 80
-reservation slot = 18:30:00, remaining capacity = 80
-reservation slot = 19:00:00, remaining capacity = 80
-reservation slot = 19:30:00, remaining capacity = 80
-reservation slot = 20:00:00, remaining capacity = 80
-reservation slot = 20:30:00, remaining capacity = 80
-reservation slot = 21:00:00, remaining capacity = 80
-reservation slot = 21:30:00, remaining capacity = 80
-reservation slot = 22:00:00, remaining capacity = 80
-reservation slot = 22:30:00, remaining capacity = 80
-reservation slot = 23:00:00, remaining capacity = 80
-reserve: incompatible site
-cancel: unauthorized operation
-reserve: 42 100 276332
-get-capable: 19
-reservation slot = 11:00:00, remaining capacity = 930
-reservation slot = 11:30:00, remaining capacity = 929
-reservation slot = 12:00:00, remaining capacity = 929
-reservation slot = 12:30:00, remaining capacity = 929
-reservation slot = 13:00:00, remaining capacity = 929
-reservation slot = 13:30:00, remaining capacity = 930
-reservation slot = 14:00:00, remaining capacity = 930
-reservation slot = 14:30:00, remaining capacity = 930
-reservation slot = 15:00:00, remaining capacity = 930
-reservation slot = 15:30:00, remaining capacity = 930
-reservation slot = 16:00:00, remaining capacity = 930
-reservation slot = 16:30:00, remaining capacity = 930
-reservation slot = 17:00:00, remaining capacity = 930
-reservation slot = 17:30:00, remaining capacity = 930
-reservation slot = 18:00:00, remaining capacity = 930
-reservation slot = 18:30:00, remaining capacity = 930
-reservation slot = 19:00:00, remaining capacity = 930
-reservation slot = 19:30:00, remaining capacity = 930
-reservation slot = 20:00:00, remaining capacity = 930
-get-capable: 40
-reservation slot = 03:30:00, remaining capacity = 80
-reservation slot = 04:00:00, remaining capacity = 80
-reservation slot = 04:30:00, remaining capacity = 80
-reservation slot = 05:00:00, remaining capacity = 80
-reservation slot = 05:30:00, remaining capacity = 80
-reservation slot = 06:00:00, remaining capacity = 79
-reservation slot = 06:30:00, remaining capacity = 79
-reservation slot = 07:00:00, remaining capacity = 80
-reservation slot = 07:30:00, remaining capacity = 80
-reservation slot = 08:00:00, remaining capacity = 80
-reservation slot = 08:30:00, remaining capacity = 80
-reservation slot = 09:00:00, remaining capacity = 80
-reservation slot = 09:30:00, remaining capacity = 80
-reservation slot = 10:00:00, remaining capacity = 80
-reservation slot = 10:30:00, remaining capacity = 80
-reservation slot = 11:00:00, remaining capacity = 80
-reservation slot = 11:30:00, remaining capacity = 80
-reservation slot = 12:00:00, remaining capacity = 80
-reservation slot = 12:30:00, remaining capacity = 80
-reservation slot = 13:00:00, remaining capacity = 80
-reservation slot = 13:30:00, remaining capacity = 80
-reservation slot = 14:00:00, remaining capacity = 80
-reservation slot = 14:30:00, remaining capacity = 80
-reservation slot = 15:00:00, remaining capacity = 80
-reservation slot = 15:30:00, remaining capacity = 80
-reservation slot = 16:00:00, remaining capacity = 80
-reservation slot = 16:30:00, remaining capacity = 80
-reservation slot = 17:00:00, remaining capacity = 80
-reservation slot = 17:30:00, remaining capacity = 80
-reservation slot = 18:00:00, remaining capacity = 80
-reservation slot = 18:30:00, remaining capacity = 80
-reservation slot = 19:00:00, remaining capacity = 80
-reservation slot = 19:30:00, remaining capacity = 80
-reservation slot = 20:00:00, remaining capacity = 80
-reservation slot = 20:30:00, remaining capacity = 80
-reservation slot = 21:00:00, remaining capacity = 80
-reservation slot = 21:30:00, remaining capacity = 80
-reservation slot = 22:00:00, remaining capacity = 80
-reservation slot = 22:30:00, remaining capacity = 80
-reservation slot = 23:00:00, remaining capacity = 80
-reserve: 43 40 202515
-reserve: non-business hour
-cancel: unauthorized operation
-cancel: unauthorized operation
-reserve: 44 45 889934
-reserve: incompatible site
-reserve: invalid starting datetime
-reserve: invalid starting datetime
-cancel: unauthorized operation
-reserve: 45 95 404467
-cancel: unauthorized operation
-cancel: unauthorized operation
-cancel: unauthorized operation
-reserve: incompatible site
-cancel: unauthorized operation
-reserve: incompatible site
-reserve: incompatible site
-get-capable: 40
-reservation slot = 03:30:00, remaining capacity = 80
-reservation slot = 04:00:00, remaining capacity = 80
-reservation slot = 04:30:00, remaining capacity = 80
-reservation slot = 05:00:00, remaining capacity = 80
-reservation slot = 05:30:00, remaining capacity = 80
-reservation slot = 06:00:00, remaining capacity = 80
-reservation slot = 06:30:00, remaining capacity = 80
-reservation slot = 07:00:00, remaining capacity = 80
-reservation slot = 07:30:00, remaining capacity = 80
-reservation slot = 08:00:00, remaining capacity = 80
-reservation slot = 08:30:00, remaining capacity = 80
-reservation slot = 09:00:00, remaining capacity = 80
-reservation slot = 09:30:00, remaining capacity = 80
-reservation slot = 10:00:00, remaining capacity = 80
-reservation slot = 10:30:00, remaining capacity = 80
-reservation slot = 11:00:00, remaining capacity = 80
-reservation slot = 11:30:00, remaining capacity = 80
-reservation slot = 12:00:00, remaining capacity = 80
-reservation slot = 12:30:00, remaining capacity = 80
-reservation slot = 13:00:00, remaining capacity = 79
-reservation slot = 13:30:00, remaining capacity = 79
-reservation slot = 14:00:00, remaining capacity = 80
-reservation slot = 14:30:00, remaining capacity = 80
-reservation slot = 15:00:00, remaining capacity = 80
-reservation slot = 15:30:00, remaining capacity = 80
-reservation slot = 16:00:00, remaining capacity = 79
-reservation slot = 16:30:00, remaining capacity = 79
-reservation slot = 17:00:00, remaining capacity = 80
-reservation slot = 17:30:00, remaining capacity = 80
-reservation slot = 18:00:00, remaining capacity = 80
-reservation slot = 18:30:00, remaining capacity = 80
-reservation slot = 19:00:00, remaining capacity = 80
-reservation slot = 19:30:00, remaining capacity = 80
-reservation slot = 20:00:00, remaining capacity = 80
-reservation slot = 20:30:00, remaining capacity = 80
-reservation slot = 21:00:00, remaining capacity = 80
-reservation slot = 21:30:00, remaining capacity = 80
-reservation slot = 22:00:00, remaining capacity = 80
-reservation slot = 22:30:00, remaining capacity = 80
-reservation slot = 23:00:00, remaining capacity = 80
-get-capable: 19
-reservation slot = 11:00:00, remaining capacity = 930
-reservation slot = 11:30:00, remaining capacity = 929
-reservation slot = 12:00:00, remaining capacity = 929
-reservation slot = 12:30:00, remaining capacity = 929
-reservation slot = 13:00:00, remaining capacity = 929
-reservation slot = 13:30:00, remaining capacity = 930
-reservation slot = 14:00:00, remaining capacity = 930
-reservation slot = 14:30:00, remaining capacity = 930
-reservation slot = 15:00:00, remaining capacity = 930
-reservation slot = 15:30:00, remaining capacity = 930
-reservation slot = 16:00:00, remaining capacity = 930
-reservation slot = 16:30:00, remaining capacity = 930
-reservation slot = 17:00:00, remaining capacity = 930
-reservation slot = 17:30:00, remaining capacity = 930
-reservation slot = 18:00:00, remaining capacity = 930
-reservation slot = 18:30:00, remaining capacity = 930
-reservation slot = 19:00:00, remaining capacity = 930
-reservation slot = 19:30:00, remaining capacity = 930
-reservation slot = 20:00:00, remaining capacity = 930
-reserve: 46 45 889934
-reserve: incompatible site
-cancel: unauthorized operation
-cancel: unauthorized operation
-reserve: 47 95 404467
-reserve: invalid starting datetime
-get-capable: 40
-reservation slot = 03:30:00, remaining capacity = 80
-reservation slot = 04:00:00, remaining capacity = 80
-reservation slot = 04:30:00, remaining capacity = 80
-reservation slot = 05:00:00, remaining capacity = 80
-reservation slot = 05:30:00, remaining capacity = 80
-reservation slot = 06:00:00, remaining capacity = 80
-reservation slot = 06:30:00, remaining capacity = 80
-reservation slot = 07:00:00, remaining capacity = 80
-reservation slot = 07:30:00, remaining capacity = 80
-reservation slot = 08:00:00, remaining capacity = 80
-reservation slot = 08:30:00, remaining capacity = 80
-reservation slot = 09:00:00, remaining capacity = 80
-reservation slot = 09:30:00, remaining capacity = 80
-reservation slot = 10:00:00, remaining capacity = 80
-reservation slot = 10:30:00, remaining capacity = 80
-reservation slot = 11:00:00, remaining capacity = 80
-reservation slot = 11:30:00, remaining capacity = 79
-reservation slot = 12:00:00, remaining capacity = 79
-reservation slot = 12:30:00, remaining capacity = 80
-reservation slot = 13:00:00, remaining capacity = 80
-reservation slot = 13:30:00, remaining capacity = 80
-reservation slot = 14:00:00, remaining capacity = 80
-reservation slot = 14:30:00, remaining capacity = 80
-reservation slot = 15:00:00, remaining capacity = 80
-reservation slot = 15:30:00, remaining capacity = 80
-reservation slot = 16:00:00, remaining capacity = 80
-reservation slot = 16:30:00, remaining capacity = 80
-reservation slot = 17:00:00, remaining capacity = 80
-reservation slot = 17:30:00, remaining capacity = 80
-reservation slot = 18:00:00, remaining capacity = 80
-reservation slot = 18:30:00, remaining capacity = 80
-reservation slot = 19:00:00, remaining capacity = 80
-reservation slot = 19:30:00, remaining capacity = 80
-reservation slot = 20:00:00, remaining capacity = 80
-reservation slot = 20:30:00, remaining capacity = 80
-reservation slot = 21:00:00, remaining capacity = 80
-reservation slot = 21:30:00, remaining capacity = 80
-reservation slot = 22:00:00, remaining capacity = 80
-reservation slot = 22:30:00, remaining capacity = 80
-reservation slot = 23:00:00, remaining capacity = 80
-reserve: 48 85 962009
-get-capable: 9
-reservation slot = 19:00:00, remaining capacity = 376
-reservation slot = 19:30:00, remaining capacity = 376
-reservation slot = 20:00:00, remaining capacity = 375
-reservation slot = 20:30:00, remaining capacity = 376
-reservation slot = 21:00:00, remaining capacity = 375
-reservation slot = 21:30:00, remaining capacity = 376
-reservation slot = 22:00:00, remaining capacity = 376
-reservation slot = 22:30:00, remaining capacity = 377
-reservation slot = 23:00:00, remaining capacity = 377
-reserve: non-business hour
-get-capable: 9
-reservation slot = 19:00:00, remaining capacity = 376
-reservation slot = 19:30:00, remaining capacity = 376
-reservation slot = 20:00:00, remaining capacity = 375
-reservation slot = 20:30:00, remaining capacity = 376
-reservation slot = 21:00:00, remaining capacity = 375
-reservation slot = 21:30:00, remaining capacity = 376
-reservation slot = 22:00:00, remaining capacity = 376
-reservation slot = 22:30:00, remaining capacity = 377
-reservation slot = 23:00:00, remaining capacity = 377
-reserve: 49 75 968557
-get-capable: 13
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 1
-reservation slot = 12:30:00, remaining capacity = 1
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-reserve: 50 95 349400
-cancel: unauthorized operation
-reserve: non-business hour
-cancel: unauthorized operation
-get-capable: 26
-reservation slot = 07:00:00, remaining capacity = 73
-reservation slot = 07:30:00, remaining capacity = 73
-reservation slot = 08:00:00, remaining capacity = 73
-reservation slot = 08:30:00, remaining capacity = 73
-reservation slot = 09:00:00, remaining capacity = 73
-reservation slot = 09:30:00, remaining capacity = 73
-reservation slot = 10:00:00, remaining capacity = 73
-reservation slot = 10:30:00, remaining capacity = 73
-reservation slot = 11:00:00, remaining capacity = 73
-reservation slot = 11:30:00, remaining capacity = 73
-reservation slot = 12:00:00, remaining capacity = 73
-reservation slot = 12:30:00, remaining capacity = 73
-reservation slot = 13:00:00, remaining capacity = 73
-reservation slot = 13:30:00, remaining capacity = 73
-reservation slot = 14:00:00, remaining capacity = 73
-reservation slot = 14:30:00, remaining capacity = 73
-reservation slot = 15:00:00, remaining capacity = 73
-reservation slot = 15:30:00, remaining capacity = 73
-reservation slot = 16:00:00, remaining capacity = 73
-reservation slot = 16:30:00, remaining capacity = 73
-reservation slot = 17:00:00, remaining capacity = 73
-reservation slot = 17:30:00, remaining capacity = 73
-reservation slot = 18:00:00, remaining capacity = 73
-reservation slot = 18:30:00, remaining capacity = 73
-reservation slot = 19:00:00, remaining capacity = 73
-reservation slot = 19:30:00, remaining capacity = 73
-reserve: incompatible site
-cancel: unauthorized operation
-get-capable: 9
-reservation slot = 19:00:00, remaining capacity = 377
-reservation slot = 19:30:00, remaining capacity = 377
-reservation slot = 20:00:00, remaining capacity = 377
-reservation slot = 20:30:00, remaining capacity = 377
-reservation slot = 21:00:00, remaining capacity = 377
-reservation slot = 21:30:00, remaining capacity = 377
-reservation slot = 22:00:00, remaining capacity = 377
-reservation slot = 22:30:00, remaining capacity = 377
-reservation slot = 23:00:00, remaining capacity = 377
-reserve: incompatible site
-reserve: incompatible site
-reserve: non-business hour
-reserve: non-business hour
-cancel: unauthorized operation
-get-capable: 2
-reservation slot = 21:00:00, remaining capacity = 24
-reservation slot = 21:30:00, remaining capacity = 24
+get-reservations: 0
+get-reservations: 0
+get-reservations: 1
+05:30:00 09:20:00 7 vulxy 723265 A
+0
+get-reservations: 0
+get-reservations: 0
+reserve: 10 85 559416
 reserve: inapplicable age
-cancel: unauthorized operation
-get-capable: 13
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 2
-reservation slot = 13:30:00, remaining capacity = 2
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-reserve: non-business hour
-get-capable: 40
-reservation slot = 03:30:00, remaining capacity = 80
-reservation slot = 04:00:00, remaining capacity = 80
-reservation slot = 04:30:00, remaining capacity = 80
-reservation slot = 05:00:00, remaining capacity = 80
-reservation slot = 05:30:00, remaining capacity = 80
-reservation slot = 06:00:00, remaining capacity = 80
-reservation slot = 06:30:00, remaining capacity = 80
-reservation slot = 07:00:00, remaining capacity = 80
-reservation slot = 07:30:00, remaining capacity = 79
-reservation slot = 08:00:00, remaining capacity = 79
-reservation slot = 08:30:00, remaining capacity = 80
-reservation slot = 09:00:00, remaining capacity = 80
-reservation slot = 09:30:00, remaining capacity = 80
-reservation slot = 10:00:00, remaining capacity = 79
-reservation slot = 10:30:00, remaining capacity = 79
-reservation slot = 11:00:00, remaining capacity = 80
-reservation slot = 11:30:00, remaining capacity = 80
-reservation slot = 12:00:00, remaining capacity = 80
-reservation slot = 12:30:00, remaining capacity = 80
-reservation slot = 13:00:00, remaining capacity = 80
-reservation slot = 13:30:00, remaining capacity = 80
-reservation slot = 14:00:00, remaining capacity = 80
-reservation slot = 14:30:00, remaining capacity = 80
-reservation slot = 15:00:00, remaining capacity = 80
-reservation slot = 15:30:00, remaining capacity = 80
-reservation slot = 16:00:00, remaining capacity = 80
-reservation slot = 16:30:00, remaining capacity = 80
-reservation slot = 17:00:00, remaining capacity = 80
-reservation slot = 17:30:00, remaining capacity = 80
-reservation slot = 18:00:00, remaining capacity = 80
-reservation slot = 18:30:00, remaining capacity = 80
-reservation slot = 19:00:00, remaining capacity = 80
-reservation slot = 19:30:00, remaining capacity = 80
-reservation slot = 20:00:00, remaining capacity = 80
-reservation slot = 20:30:00, remaining capacity = 80
-reservation slot = 21:00:00, remaining capacity = 80
-reservation slot = 21:30:00, remaining capacity = 80
-reservation slot = 22:00:00, remaining capacity = 80
-reservation slot = 22:30:00, remaining capacity = 80
-reservation slot = 23:00:00, remaining capacity = 80
+reserve: 11 10 467592
+get-reservations: 2
+23:00:00 23:10:00 5 awf91rd 467592 A
+0
+23:00:00 23:10:00 8 6fp2q3 467592 A
+0
+reserve: 12 100 552894
+reserve: 13 85 677751
+get-reservations: 0
+reserve: invalid starting datetime
 reserve: incompatible site
-reserve: 51 100 276332
-reserve: invalid starting datetime
-get-capable: 2
-reservation slot = 22:00:00, remaining capacity = 1
-reservation slot = 22:30:00, remaining capacity = 1
-cancel: start time has passed
-get-capable: 20
-reservation slot = 08:00:00, remaining capacity = 62
-reservation slot = 08:30:00, remaining capacity = 62
-reservation slot = 09:00:00, remaining capacity = 62
-reservation slot = 09:30:00, remaining capacity = 62
-reservation slot = 10:00:00, remaining capacity = 62
-reservation slot = 10:30:00, remaining capacity = 62
-reservation slot = 11:00:00, remaining capacity = 62
-reservation slot = 11:30:00, remaining capacity = 62
-reservation slot = 12:00:00, remaining capacity = 62
-reservation slot = 12:30:00, remaining capacity = 62
-reservation slot = 13:00:00, remaining capacity = 62
-reservation slot = 13:30:00, remaining capacity = 62
-reservation slot = 14:00:00, remaining capacity = 61
-reservation slot = 14:30:00, remaining capacity = 61
-reservation slot = 15:00:00, remaining capacity = 61
-reservation slot = 15:30:00, remaining capacity = 61
-reservation slot = 16:00:00, remaining capacity = 62
-reservation slot = 16:30:00, remaining capacity = 62
-reservation slot = 17:00:00, remaining capacity = 62
-reservation slot = 17:30:00, remaining capacity = 62
-get-capable: 9
-reservation slot = 19:00:00, remaining capacity = 377
-reservation slot = 19:30:00, remaining capacity = 377
-reservation slot = 20:00:00, remaining capacity = 378
-reservation slot = 20:30:00, remaining capacity = 378
-reservation slot = 21:00:00, remaining capacity = 378
-reservation slot = 21:30:00, remaining capacity = 377
-reservation slot = 22:00:00, remaining capacity = 377
-reservation slot = 22:30:00, remaining capacity = 377
-reservation slot = 23:00:00, remaining capacity = 377
-get-capable: 2
-reservation slot = 22:00:00, remaining capacity = 1
-reservation slot = 22:30:00, remaining capacity = 1
+get-reservations: 2
+23:00:00 23:10:00 5 awf91rd 467592 A
+0
+23:00:00 23:10:00 8 6fp2q3 467592 A
+0
+get-reservations: 0
+reserve: 14 5 574962
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+reserve: 15 15 778797
+reserve: inapplicable age
+reserve: inapplicable age
 reserve: incompatible site
-get-capable: 9
-reservation slot = 19:00:00, remaining capacity = 377
-reservation slot = 19:30:00, remaining capacity = 377
-reservation slot = 20:00:00, remaining capacity = 377
-reservation slot = 20:30:00, remaining capacity = 376
-reservation slot = 21:00:00, remaining capacity = 376
-reservation slot = 21:30:00, remaining capacity = 376
-reservation slot = 22:00:00, remaining capacity = 377
-reservation slot = 22:30:00, remaining capacity = 377
-reservation slot = 23:00:00, remaining capacity = 377
-cancel: unauthorized operation
-cancel: unauthorized operation
-cancel: unauthorized operation
-cancel: unauthorized operation
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 2
+23:00:00 23:10:00 5 awf91rd 467592 A
+0
+23:00:00 23:10:00 8 6fp2q3 467592 A
+0
+reserve: incompatible site
+reserve: 16 10 467592
 reserve: inapplicable age
-cancel: unauthorized operation
-reserve: inapplicable age
-cancel: unauthorized operation
-cancel: unauthorized operation
-cancel: start time has passed
-cancel: unauthorized operation
-cancel: unauthorized operation
-reserve: 52 95 404467
-cancel: unauthorized operation
-cancel: unauthorized operation
-get-capable: 9
-reservation slot = 19:00:00, remaining capacity = 377
-reservation slot = 19:30:00, remaining capacity = 377
-reservation slot = 20:00:00, remaining capacity = 378
-reservation slot = 20:30:00, remaining capacity = 378
-reservation slot = 21:00:00, remaining capacity = 378
-reservation slot = 21:30:00, remaining capacity = 377
-reservation slot = 22:00:00, remaining capacity = 377
-reservation slot = 22:30:00, remaining capacity = 377
-reservation slot = 23:00:00, remaining capacity = 377
-reserve: invalid starting datetime
-get-capable: 23
-reservation slot = 07:30:00, remaining capacity = 3
-reservation slot = 08:00:00, remaining capacity = 3
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 2
-reservation slot = 12:30:00, remaining capacity = 2
-reservation slot = 13:00:00, remaining capacity = 2
-reservation slot = 13:30:00, remaining capacity = 2
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-reservation slot = 15:00:00, remaining capacity = 3
-reservation slot = 15:30:00, remaining capacity = 3
-reservation slot = 16:00:00, remaining capacity = 3
-reservation slot = 16:30:00, remaining capacity = 3
-reservation slot = 17:00:00, remaining capacity = 2
-reservation slot = 17:30:00, remaining capacity = 2
-reservation slot = 18:00:00, remaining capacity = 2
-reservation slot = 18:30:00, remaining capacity = 2
-get-capable: 20
-reservation slot = 08:00:00, remaining capacity = 62
-reservation slot = 08:30:00, remaining capacity = 62
-reservation slot = 09:00:00, remaining capacity = 62
-reservation slot = 09:30:00, remaining capacity = 62
-reservation slot = 10:00:00, remaining capacity = 62
-reservation slot = 10:30:00, remaining capacity = 62
-reservation slot = 11:00:00, remaining capacity = 62
-reservation slot = 11:30:00, remaining capacity = 62
-reservation slot = 12:00:00, remaining capacity = 62
-reservation slot = 12:30:00, remaining capacity = 62
-reservation slot = 13:00:00, remaining capacity = 62
-reservation slot = 13:30:00, remaining capacity = 62
-reservation slot = 14:00:00, remaining capacity = 62
-reservation slot = 14:30:00, remaining capacity = 62
-reservation slot = 15:00:00, remaining capacity = 62
-reservation slot = 15:30:00, remaining capacity = 62
-reservation slot = 16:00:00, remaining capacity = 62
-reservation slot = 16:30:00, remaining capacity = 62
-reservation slot = 17:00:00, remaining capacity = 62
-reservation slot = 17:30:00, remaining capacity = 62
-reserve: invalid starting datetime
-get-capable: 13
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 2
-reservation slot = 13:30:00, remaining capacity = 2
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-get-capable: 20
-reservation slot = 08:00:00, remaining capacity = 62
-reservation slot = 08:30:00, remaining capacity = 61
-reservation slot = 09:00:00, remaining capacity = 61
-reservation slot = 09:30:00, remaining capacity = 61
-reservation slot = 10:00:00, remaining capacity = 61
-reservation slot = 10:30:00, remaining capacity = 61
-reservation slot = 11:00:00, remaining capacity = 61
-reservation slot = 11:30:00, remaining capacity = 62
-reservation slot = 12:00:00, remaining capacity = 62
-reservation slot = 12:30:00, remaining capacity = 62
-reservation slot = 13:00:00, remaining capacity = 62
-reservation slot = 13:30:00, remaining capacity = 62
-reservation slot = 14:00:00, remaining capacity = 62
-reservation slot = 14:30:00, remaining capacity = 62
-reservation slot = 15:00:00, remaining capacity = 62
-reservation slot = 15:30:00, remaining capacity = 61
-reservation slot = 16:00:00, remaining capacity = 61
-reservation slot = 16:30:00, remaining capacity = 62
-reservation slot = 17:00:00, remaining capacity = 62
-reservation slot = 17:30:00, remaining capacity = 62
-get-capable: 13
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 2
-reservation slot = 13:30:00, remaining capacity = 2
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-cancel: unauthorized operation
-get-capable: 5
-reservation slot = 20:30:00, remaining capacity = 1
-reservation slot = 21:00:00, remaining capacity = 0
-reservation slot = 21:30:00, remaining capacity = 0
-reservation slot = 22:00:00, remaining capacity = 0
-reservation slot = 22:30:00, remaining capacity = 1
-reserve: invalid starting datetime
-get-capable: 2
-reservation slot = 22:00:00, remaining capacity = 1
-reservation slot = 22:30:00, remaining capacity = 1
-reserve: invalid starting datetime
-get-capable: 2
-reservation slot = 21:00:00, remaining capacity = 24
-reservation slot = 21:30:00, remaining capacity = 24
-cancel: unauthorized operation
-get-capable: 19
-reservation slot = 11:00:00, remaining capacity = 929
-reservation slot = 11:30:00, remaining capacity = 929
-reservation slot = 12:00:00, remaining capacity = 929
-reservation slot = 12:30:00, remaining capacity = 929
-reservation slot = 13:00:00, remaining capacity = 930
-reservation slot = 13:30:00, remaining capacity = 930
-reservation slot = 14:00:00, remaining capacity = 930
-reservation slot = 14:30:00, remaining capacity = 930
-reservation slot = 15:00:00, remaining capacity = 930
-reservation slot = 15:30:00, remaining capacity = 930
-reservation slot = 16:00:00, remaining capacity = 930
-reservation slot = 16:30:00, remaining capacity = 930
-reservation slot = 17:00:00, remaining capacity = 930
-reservation slot = 17:30:00, remaining capacity = 929
-reservation slot = 18:00:00, remaining capacity = 929
-reservation slot = 18:30:00, remaining capacity = 929
-reservation slot = 19:00:00, remaining capacity = 929
-reservation slot = 19:30:00, remaining capacity = 930
-reservation slot = 20:00:00, remaining capacity = 930
-reserve: invalid starting datetime
-reserve: invalid starting datetime
-reserve: invalid starting datetime
-reserve: invalid starting datetime
-cancel: unauthorized operation
-cancel: unauthorized operation
-reserve: invalid starting datetime
-cancel: unauthorized operation
-get-capable: 2
-reservation slot = 22:00:00, remaining capacity = 0
-reservation slot = 22:30:00, remaining capacity = 0
-reserve: invalid starting datetime
-reserve: invalid starting datetime
-get-capable: 13
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-reserve: invalid starting datetime
-cancel: unauthorized operation
-get-capable: 26
-reservation slot = 07:00:00, remaining capacity = 73
-reservation slot = 07:30:00, remaining capacity = 73
-reservation slot = 08:00:00, remaining capacity = 73
-reservation slot = 08:30:00, remaining capacity = 73
-reservation slot = 09:00:00, remaining capacity = 73
-reservation slot = 09:30:00, remaining capacity = 73
-reservation slot = 10:00:00, remaining capacity = 73
-reservation slot = 10:30:00, remaining capacity = 73
-reservation slot = 11:00:00, remaining capacity = 73
-reservation slot = 11:30:00, remaining capacity = 73
-reservation slot = 12:00:00, remaining capacity = 73
-reservation slot = 12:30:00, remaining capacity = 73
-reservation slot = 13:00:00, remaining capacity = 73
-reservation slot = 13:30:00, remaining capacity = 73
-reservation slot = 14:00:00, remaining capacity = 73
-reservation slot = 14:30:00, remaining capacity = 73
-reservation slot = 15:00:00, remaining capacity = 73
-reservation slot = 15:30:00, remaining capacity = 73
-reservation slot = 16:00:00, remaining capacity = 73
-reservation slot = 16:30:00, remaining capacity = 73
-reservation slot = 17:00:00, remaining capacity = 73
-reservation slot = 17:30:00, remaining capacity = 73
-reservation slot = 18:00:00, remaining capacity = 73
-reservation slot = 18:30:00, remaining capacity = 73
-reservation slot = 19:00:00, remaining capacity = 73
-reservation slot = 19:30:00, remaining capacity = 73
-reserve: invalid starting datetime
-get-capable: 20
-reservation slot = 08:00:00, remaining capacity = 62
-reservation slot = 08:30:00, remaining capacity = 61
-reservation slot = 09:00:00, remaining capacity = 61
-reservation slot = 09:30:00, remaining capacity = 61
-reservation slot = 10:00:00, remaining capacity = 61
-reservation slot = 10:30:00, remaining capacity = 61
-reservation slot = 11:00:00, remaining capacity = 61
-reservation slot = 11:30:00, remaining capacity = 62
-reservation slot = 12:00:00, remaining capacity = 62
-reservation slot = 12:30:00, remaining capacity = 62
-reservation slot = 13:00:00, remaining capacity = 62
-reservation slot = 13:30:00, remaining capacity = 62
-reservation slot = 14:00:00, remaining capacity = 62
-reservation slot = 14:30:00, remaining capacity = 62
-reservation slot = 15:00:00, remaining capacity = 62
-reservation slot = 15:30:00, remaining capacity = 61
-reservation slot = 16:00:00, remaining capacity = 61
-reservation slot = 16:30:00, remaining capacity = 62
-reservation slot = 17:00:00, remaining capacity = 62
-reservation slot = 17:30:00, remaining capacity = 62
-cancel: unauthorized operation
-cancel: unauthorized operation
-get-capable: 20
-reservation slot = 08:00:00, remaining capacity = 62
-reservation slot = 08:30:00, remaining capacity = 62
-reservation slot = 09:00:00, remaining capacity = 62
-reservation slot = 09:30:00, remaining capacity = 62
-reservation slot = 10:00:00, remaining capacity = 62
-reservation slot = 10:30:00, remaining capacity = 62
-reservation slot = 11:00:00, remaining capacity = 62
-reservation slot = 11:30:00, remaining capacity = 62
-reservation slot = 12:00:00, remaining capacity = 62
-reservation slot = 12:30:00, remaining capacity = 62
-reservation slot = 13:00:00, remaining capacity = 62
-reservation slot = 13:30:00, remaining capacity = 62
-reservation slot = 14:00:00, remaining capacity = 61
-reservation slot = 14:30:00, remaining capacity = 61
-reservation slot = 15:00:00, remaining capacity = 61
-reservation slot = 15:30:00, remaining capacity = 61
-reservation slot = 16:00:00, remaining capacity = 62
-reservation slot = 16:30:00, remaining capacity = 62
-reservation slot = 17:00:00, remaining capacity = 62
-reservation slot = 17:30:00, remaining capacity = 62
-reserve: invalid starting datetime
-cancel: unauthorized operation
-get-capable: 20
-reservation slot = 08:00:00, remaining capacity = 62
-reservation slot = 08:30:00, remaining capacity = 61
-reservation slot = 09:00:00, remaining capacity = 61
-reservation slot = 09:30:00, remaining capacity = 61
-reservation slot = 10:00:00, remaining capacity = 61
-reservation slot = 10:30:00, remaining capacity = 61
-reservation slot = 11:00:00, remaining capacity = 61
-reservation slot = 11:30:00, remaining capacity = 62
-reservation slot = 12:00:00, remaining capacity = 62
-reservation slot = 12:30:00, remaining capacity = 62
-reservation slot = 13:00:00, remaining capacity = 62
-reservation slot = 13:30:00, remaining capacity = 62
-reservation slot = 14:00:00, remaining capacity = 62
-reservation slot = 14:30:00, remaining capacity = 62
-reservation slot = 15:00:00, remaining capacity = 62
-reservation slot = 15:30:00, remaining capacity = 61
-reservation slot = 16:00:00, remaining capacity = 61
-reservation slot = 16:30:00, remaining capacity = 62
-reservation slot = 17:00:00, remaining capacity = 62
-reservation slot = 17:30:00, remaining capacity = 62
-get-capable: 9
-reservation slot = 19:00:00, remaining capacity = 377
-reservation slot = 19:30:00, remaining capacity = 377
-reservation slot = 20:00:00, remaining capacity = 377
-reservation slot = 20:30:00, remaining capacity = 376
-reservation slot = 21:00:00, remaining capacity = 376
-reservation slot = 21:30:00, remaining capacity = 376
-reservation slot = 22:00:00, remaining capacity = 377
-reservation slot = 22:30:00, remaining capacity = 377
-reservation slot = 23:00:00, remaining capacity = 377
-reserve: invalid starting datetime
-get-capable: 11
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-cancel: unauthorized operation
-get-capable: 13
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-cancel: unauthorized operation
-get-capable: 23
-reservation slot = 07:30:00, remaining capacity = 3
-reservation slot = 08:00:00, remaining capacity = 3
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-reservation slot = 15:00:00, remaining capacity = 3
-reservation slot = 15:30:00, remaining capacity = 3
-reservation slot = 16:00:00, remaining capacity = 3
-reservation slot = 16:30:00, remaining capacity = 3
-reservation slot = 17:00:00, remaining capacity = 3
-reservation slot = 17:30:00, remaining capacity = 3
-reservation slot = 18:00:00, remaining capacity = 3
-reservation slot = 18:30:00, remaining capacity = 3
-cancel: unauthorized operation
-get-capable: 13
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-get-capable: 5
-reservation slot = 20:30:00, remaining capacity = 1
-reservation slot = 21:00:00, remaining capacity = 1
-reservation slot = 21:30:00, remaining capacity = 1
-reservation slot = 22:00:00, remaining capacity = 1
-reservation slot = 22:30:00, remaining capacity = 1
-get-capable: 9
-reservation slot = 19:00:00, remaining capacity = 377
-reservation slot = 19:30:00, remaining capacity = 377
-reservation slot = 20:00:00, remaining capacity = 377
-reservation slot = 20:30:00, remaining capacity = 377
-reservation slot = 21:00:00, remaining capacity = 377
-reservation slot = 21:30:00, remaining capacity = 377
-reservation slot = 22:00:00, remaining capacity = 377
-reservation slot = 22:30:00, remaining capacity = 377
-reservation slot = 23:00:00, remaining capacity = 377
-reserve: invalid starting datetime
-reserve: 53 45 359073
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+reserve: incompatible site
+reserve: incompatible site
 reserve: non-business hour
-cancel: unauthorized operation
-get-capable: 20
-reservation slot = 08:00:00, remaining capacity = 62
-reservation slot = 08:30:00, remaining capacity = 62
-reservation slot = 09:00:00, remaining capacity = 62
-reservation slot = 09:30:00, remaining capacity = 62
-reservation slot = 10:00:00, remaining capacity = 62
-reservation slot = 10:30:00, remaining capacity = 62
-reservation slot = 11:00:00, remaining capacity = 62
-reservation slot = 11:30:00, remaining capacity = 62
-reservation slot = 12:00:00, remaining capacity = 62
-reservation slot = 12:30:00, remaining capacity = 62
-reservation slot = 13:00:00, remaining capacity = 62
-reservation slot = 13:30:00, remaining capacity = 62
-reservation slot = 14:00:00, remaining capacity = 61
-reservation slot = 14:30:00, remaining capacity = 61
-reservation slot = 15:00:00, remaining capacity = 61
-reservation slot = 15:30:00, remaining capacity = 61
-reservation slot = 16:00:00, remaining capacity = 62
-reservation slot = 16:30:00, remaining capacity = 62
-reservation slot = 17:00:00, remaining capacity = 62
-reservation slot = 17:30:00, remaining capacity = 62
-get-capable: 11
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 2
-reservation slot = 14:00:00, remaining capacity = 2
-reserve: invalid starting datetime
-cancel: unauthorized operation
-cancel: no reservation
+get-reservations: 1
+14:30:00 14:45:00 15 fji31u 778797 A
+0
+reserve: non-business hour
+get-reservations: 0
+get-reservations: 0
+reserve: 17 20 772355
+get-reservations: 1
+19:00:00 19:20:00 17 jrb9 772355 B
+0
+reserve: incompatible site
+reserve: incompatible site
+get-reservations: 0
+get-reservations: 0
+reserve: incompatible site
+reserve: non-business hour
+get-reservations: 1
+17:30:00 17:35:00 14 mkoulu 574962 A
+0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
 reserve: non-business hour
 reserve: incompatible site
-reserve: 54 40 916715
-get-capable: 20
-reservation slot = 08:00:00, remaining capacity = 62
-reservation slot = 08:30:00, remaining capacity = 62
-reservation slot = 09:00:00, remaining capacity = 62
-reservation slot = 09:30:00, remaining capacity = 62
-reservation slot = 10:00:00, remaining capacity = 62
-reservation slot = 10:30:00, remaining capacity = 62
-reservation slot = 11:00:00, remaining capacity = 62
-reservation slot = 11:30:00, remaining capacity = 62
-reservation slot = 12:00:00, remaining capacity = 62
-reservation slot = 12:30:00, remaining capacity = 62
-reservation slot = 13:00:00, remaining capacity = 61
-reservation slot = 13:30:00, remaining capacity = 61
-reservation slot = 14:00:00, remaining capacity = 62
-reservation slot = 14:30:00, remaining capacity = 62
-reservation slot = 15:00:00, remaining capacity = 61
-reservation slot = 15:30:00, remaining capacity = 61
-reservation slot = 16:00:00, remaining capacity = 61
-reservation slot = 16:30:00, remaining capacity = 61
-reservation slot = 17:00:00, remaining capacity = 62
-reservation slot = 17:30:00, remaining capacity = 62
-get-capable: 23
-reservation slot = 07:30:00, remaining capacity = 3
-reservation slot = 08:00:00, remaining capacity = 3
-reservation slot = 08:30:00, remaining capacity = 3
-reservation slot = 09:00:00, remaining capacity = 3
-reservation slot = 09:30:00, remaining capacity = 3
-reservation slot = 10:00:00, remaining capacity = 3
-reservation slot = 10:30:00, remaining capacity = 3
-reservation slot = 11:00:00, remaining capacity = 3
-reservation slot = 11:30:00, remaining capacity = 3
-reservation slot = 12:00:00, remaining capacity = 3
-reservation slot = 12:30:00, remaining capacity = 3
-reservation slot = 13:00:00, remaining capacity = 3
-reservation slot = 13:30:00, remaining capacity = 3
-reservation slot = 14:00:00, remaining capacity = 3
-reservation slot = 14:30:00, remaining capacity = 3
-reservation slot = 15:00:00, remaining capacity = 3
-reservation slot = 15:30:00, remaining capacity = 3
-reservation slot = 16:00:00, remaining capacity = 3
-reservation slot = 16:30:00, remaining capacity = 3
-reservation slot = 17:00:00, remaining capacity = 3
-reservation slot = 17:30:00, remaining capacity = 3
-reservation slot = 18:00:00, remaining capacity = 3
-reservation slot = 18:30:00, remaining capacity = 3
-reserve: invalid starting datetime
-get-capable: 2
-reservation slot = 21:00:00, remaining capacity = 24
-reservation slot = 21:30:00, remaining capacity = 24
-get-capable: 2
-reservation slot = 22:00:00, remaining capacity = 0
-reservation slot = 22:30:00, remaining capacity = 0
+get-reservations: 1
+17:30:00 17:35:00 14 mkoulu 574962 A
+0
+get-reservations: 0
+reserve: incompatible site
+get-reservations: 0
+reserve: 18 15 781489
+reserve: non-business hour
+get-reservations: 1
+18:00:00 19:25:00 6 3xt3w6 485604 B
+1 35
+reserve: incompatible site
 reserve: inapplicable age
-cancel: unauthorized operation
-get-capable: 15
-reservation slot = 04:00:00, remaining capacity = 2
-reservation slot = 04:30:00, remaining capacity = 2
-reservation slot = 05:00:00, remaining capacity = 2
-reservation slot = 05:30:00, remaining capacity = 2
-reservation slot = 06:00:00, remaining capacity = 1
-reservation slot = 06:30:00, remaining capacity = 1
-reservation slot = 07:00:00, remaining capacity = 1
-reservation slot = 07:30:00, remaining capacity = 1
-reservation slot = 08:00:00, remaining capacity = 2
-reservation slot = 08:30:00, remaining capacity = 2
-reservation slot = 09:00:00, remaining capacity = 2
-reservation slot = 09:30:00, remaining capacity = 2
-reservation slot = 10:00:00, remaining capacity = 2
-reservation slot = 10:30:00, remaining capacity = 2
-reservation slot = 11:00:00, remaining capacity = 2
+get-reservations: 0
+reserve: incompatible site
+get-reservations: 0
+get-reservations: 1
+09:30:00 10:55:00 13 9ura3oo 677751 A
+0
+get-reservations: 0
+get-reservations: 1
+19:30:00 19:50:00 2 egog 772355 B
+0
 reserve: invalid starting datetime
-get-capable: 40
-reservation slot = 03:30:00, remaining capacity = 80
-reservation slot = 04:00:00, remaining capacity = 80
-reservation slot = 04:30:00, remaining capacity = 80
-reservation slot = 05:00:00, remaining capacity = 80
-reservation slot = 05:30:00, remaining capacity = 80
-reservation slot = 06:00:00, remaining capacity = 80
-reservation slot = 06:30:00, remaining capacity = 80
-reservation slot = 07:00:00, remaining capacity = 80
-reservation slot = 07:30:00, remaining capacity = 80
-reservation slot = 08:00:00, remaining capacity = 80
-reservation slot = 08:30:00, remaining capacity = 80
-reservation slot = 09:00:00, remaining capacity = 80
-reservation slot = 09:30:00, remaining capacity = 80
-reservation slot = 10:00:00, remaining capacity = 80
-reservation slot = 10:30:00, remaining capacity = 80
-reservation slot = 11:00:00, remaining capacity = 80
-reservation slot = 11:30:00, remaining capacity = 79
-reservation slot = 12:00:00, remaining capacity = 79
-reservation slot = 12:30:00, remaining capacity = 80
-reservation slot = 13:00:00, remaining capacity = 80
-reservation slot = 13:30:00, remaining capacity = 80
-reservation slot = 14:00:00, remaining capacity = 80
-reservation slot = 14:30:00, remaining capacity = 80
-reservation slot = 15:00:00, remaining capacity = 80
-reservation slot = 15:30:00, remaining capacity = 80
-reservation slot = 16:00:00, remaining capacity = 80
-reservation slot = 16:30:00, remaining capacity = 80
-reservation slot = 17:00:00, remaining capacity = 80
-reservation slot = 17:30:00, remaining capacity = 80
-reservation slot = 18:00:00, remaining capacity = 80
-reservation slot = 18:30:00, remaining capacity = 80
-reservation slot = 19:00:00, remaining capacity = 80
-reservation slot = 19:30:00, remaining capacity = 80
-reservation slot = 20:00:00, remaining capacity = 80
-reservation slot = 20:30:00, remaining capacity = 80
-reservation slot = 21:00:00, remaining capacity = 80
-reservation slot = 21:30:00, remaining capacity = 80
-reservation slot = 22:00:00, remaining capacity = 80
-reservation slot = 22:30:00, remaining capacity = 80
-reservation slot = 23:00:00, remaining capacity = 80
-get-capable: 2
-reservation slot = 21:00:00, remaining capacity = 24
-reservation slot = 21:30:00, remaining capacity = 24
-cancel: unauthorized operation
-get-capable: 19
-reservation slot = 11:00:00, remaining capacity = 930
-reservation slot = 11:30:00, remaining capacity = 930
-reservation slot = 12:00:00, remaining capacity = 930
-reservation slot = 12:30:00, remaining capacity = 930
-reservation slot = 13:00:00, remaining capacity = 930
-reservation slot = 13:30:00, remaining capacity = 930
-reservation slot = 14:00:00, remaining capacity = 930
-reservation slot = 14:30:00, remaining capacity = 930
-reservation slot = 15:00:00, remaining capacity = 930
-reservation slot = 15:30:00, remaining capacity = 930
-reservation slot = 16:00:00, remaining capacity = 930
-reservation slot = 16:30:00, remaining capacity = 930
-reservation slot = 17:00:00, remaining capacity = 930
-reservation slot = 17:30:00, remaining capacity = 930
-reservation slot = 18:00:00, remaining capacity = 930
-reservation slot = 18:30:00, remaining capacity = 930
-reservation slot = 19:00:00, remaining capacity = 930
-reservation slot = 19:30:00, remaining capacity = 930
-reservation slot = 20:00:00, remaining capacity = 930
-get-capable: 26
-reservation slot = 07:00:00, remaining capacity = 73
-reservation slot = 07:30:00, remaining capacity = 73
-reservation slot = 08:00:00, remaining capacity = 73
-reservation slot = 08:30:00, remaining capacity = 73
-reservation slot = 09:00:00, remaining capacity = 73
-reservation slot = 09:30:00, remaining capacity = 73
-reservation slot = 10:00:00, remaining capacity = 73
-reservation slot = 10:30:00, remaining capacity = 73
-reservation slot = 11:00:00, remaining capacity = 73
-reservation slot = 11:30:00, remaining capacity = 73
-reservation slot = 12:00:00, remaining capacity = 73
-reservation slot = 12:30:00, remaining capacity = 73
-reservation slot = 13:00:00, remaining capacity = 73
-reservation slot = 13:30:00, remaining capacity = 73
-reservation slot = 14:00:00, remaining capacity = 73
-reservation slot = 14:30:00, remaining capacity = 73
-reservation slot = 15:00:00, remaining capacity = 73
-reservation slot = 15:30:00, remaining capacity = 73
-reservation slot = 16:00:00, remaining capacity = 73
-reservation slot = 16:30:00, remaining capacity = 73
-reservation slot = 17:00:00, remaining capacity = 73
-reservation slot = 17:30:00, remaining capacity = 73
-reservation slot = 18:00:00, remaining capacity = 73
-reservation slot = 18:30:00, remaining capacity = 73
-reservation slot = 19:00:00, remaining capacity = 73
-reservation slot = 19:30:00, remaining capacity = 73
-get-capable: 5
-reservation slot = 20:30:00, remaining capacity = 1
-reservation slot = 21:00:00, remaining capacity = 0
-reservation slot = 21:30:00, remaining capacity = 0
-reservation slot = 22:00:00, remaining capacity = 0
-reservation slot = 22:30:00, remaining capacity = 1
-get-capable: 20
-reservation slot = 08:00:00, remaining capacity = 62
-reservation slot = 08:30:00, remaining capacity = 62
-reservation slot = 09:00:00, remaining capacity = 62
-reservation slot = 09:30:00, remaining capacity = 62
-reservation slot = 10:00:00, remaining capacity = 62
-reservation slot = 10:30:00, remaining capacity = 62
-reservation slot = 11:00:00, remaining capacity = 62
-reservation slot = 11:30:00, remaining capacity = 62
-reservation slot = 12:00:00, remaining capacity = 62
-reservation slot = 12:30:00, remaining capacity = 62
-reservation slot = 13:00:00, remaining capacity = 62
-reservation slot = 13:30:00, remaining capacity = 62
-reservation slot = 14:00:00, remaining capacity = 62
-reservation slot = 14:30:00, remaining capacity = 62
-reservation slot = 15:00:00, remaining capacity = 62
-reservation slot = 15:30:00, remaining capacity = 62
-reservation slot = 16:00:00, remaining capacity = 62
-reservation slot = 16:30:00, remaining capacity = 62
-reservation slot = 17:00:00, remaining capacity = 62
-reservation slot = 17:30:00, remaining capacity = 62
-get-capable: 9
-reservation slot = 19:00:00, remaining capacity = 377
-reservation slot = 19:30:00, remaining capacity = 377
-reservation slot = 20:00:00, remaining capacity = 378
-reservation slot = 20:30:00, remaining capacity = 378
-reservation slot = 21:00:00, remaining capacity = 378
-reservation slot = 21:30:00, remaining capacity = 377
-reservation slot = 22:00:00, remaining capacity = 377
-reservation slot = 22:30:00, remaining capacity = 377
-reservation slot = 23:00:00, remaining capacity = 377
-get-capable: 20
-reservation slot = 08:00:00, remaining capacity = 62
-reservation slot = 08:30:00, remaining capacity = 61
-reservation slot = 09:00:00, remaining capacity = 61
-reservation slot = 09:30:00, remaining capacity = 61
-reservation slot = 10:00:00, remaining capacity = 61
-reservation slot = 10:30:00, remaining capacity = 61
-reservation slot = 11:00:00, remaining capacity = 61
-reservation slot = 11:30:00, remaining capacity = 62
-reservation slot = 12:00:00, remaining capacity = 62
-reservation slot = 12:30:00, remaining capacity = 62
-reservation slot = 13:00:00, remaining capacity = 62
-reservation slot = 13:30:00, remaining capacity = 62
-reservation slot = 14:00:00, remaining capacity = 62
-reservation slot = 14:30:00, remaining capacity = 62
-reservation slot = 15:00:00, remaining capacity = 62
-reservation slot = 15:30:00, remaining capacity = 61
-reservation slot = 16:00:00, remaining capacity = 61
-reservation slot = 16:30:00, remaining capacity = 62
-reservation slot = 17:00:00, remaining capacity = 62
-reservation slot = 17:30:00, remaining capacity = 62
-cancel: unauthorized operation
-cancel: unauthorized operation
-get-capable: 26
-reservation slot = 07:00:00, remaining capacity = 73
-reservation slot = 07:30:00, remaining capacity = 73
-reservation slot = 08:00:00, remaining capacity = 73
-reservation slot = 08:30:00, remaining capacity = 73
-reservation slot = 09:00:00, remaining capacity = 73
-reservation slot = 09:30:00, remaining capacity = 73
-reservation slot = 10:00:00, remaining capacity = 73
-reservation slot = 10:30:00, remaining capacity = 73
-reservation slot = 11:00:00, remaining capacity = 73
-reservation slot = 11:30:00, remaining capacity = 73
-reservation slot = 12:00:00, remaining capacity = 73
-reservation slot = 12:30:00, remaining capacity = 73
-reservation slot = 13:00:00, remaining capacity = 73
-reservation slot = 13:30:00, remaining capacity = 72
-reservation slot = 14:00:00, remaining capacity = 73
-reservation slot = 14:30:00, remaining capacity = 73
-reservation slot = 15:00:00, remaining capacity = 73
-reservation slot = 15:30:00, remaining capacity = 73
-reservation slot = 16:00:00, remaining capacity = 73
-reservation slot = 16:30:00, remaining capacity = 73
-reservation slot = 17:00:00, remaining capacity = 73
-reservation slot = 17:30:00, remaining capacity = 73
-reservation slot = 18:00:00, remaining capacity = 73
-reservation slot = 18:30:00, remaining capacity = 73
-reservation slot = 19:00:00, remaining capacity = 73
-reservation slot = 19:30:00, remaining capacity = 73
-get-capable: 2
-reservation slot = 22:00:00, remaining capacity = 0
-reservation slot = 22:30:00, remaining capacity = 0
-cancel: unauthorized operation
+get-reservations: 0
+reserve: non-business hour
+reserve: invalid starting datetime
+reserve: incompatible site
+get-reservations: 0
+get-reservations: 0
+reserve: inapplicable age
+reserve: invalid starting datetime
+reserve: non-business hour
+get-reservations: 1
+19:00:00 19:20:00 17 jrb9 772355 B
+0
+reserve: inapplicable age
+reserve: non-business hour
+reserve: 19 95 71423
+get-reservations: 1
+09:30:00 10:55:00 13 9ura3oo 677751 A
+0
+reserve: 20 90 334307
+get-reservations: 1
+18:00:00 19:25:00 6 3xt3w6 485604 B
+1 35
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 1
+09:30:00 10:55:00 13 9ura3oo 677751 A
+0
+reserve: incompatible site
+reserve: inapplicable age
+get-reservations: 0
+reserve: non-business hour
+reserve: non-business hour
+get-reservations: 1
+16:30:00 18:10:00 12 p4yr 552894 A
+0
+get-reservations: 1
+18:00:00 19:25:00 6 3xt3w6 485604 B
+1 35
+reserve: incompatible site
+reserve: incompatible site
+get-reservations: 0
+get-reservations: 0
+get-reservations: 1
+09:30:00 10:55:00 13 9ura3oo 677751 A
+0
+reserve: non-business hour
+get-reservations: 0
+get-reservations: 1
+19:00:00 19:20:00 17 jrb9 772355 B
+0
+get-reservations: 0
+get-reservations: 1
+23:00:00 23:15:00 18 defdg 781489 B
+0
+get-reservations: 0
+reserve: incompatible site
+reserve: 21 100 699876
+reserve: non-business hour
+get-reservations: 1
+23:00:00 23:15:00 18 defdg 781489 B
+0
+reserve: incompatible site
+reserve: 22 95 71423
+get-reservations: 1
+19:30:00 21:00:00 20 ce87t 334307 B
+0
+reserve: invalid starting datetime
+get-reservations: 0
+get-reservations: 0
+reserve: incompatible site
+reserve: incompatible site
+reserve: non-business hour
+get-reservations: 0
+reserve: 23 80 399667
+get-reservations: 2
+23:00:00 23:10:00 11 9olsrvu 467592 A
+0
+23:00:00 23:10:00 16 iuq 467592 A
+0
+reserve: incompatible site
+reserve: invalid starting datetime
+reserve: incompatible site
+get-reservations: 0
+get-reservations: 0
+get-reservations: 2
+00:30:00 01:55:00 9 0ob 559416 B
+0
+03:30:00 04:55:00 10 ro5 559416 B
+0
+get-reservations: 0
+reserve: 24 35 88900
+reserve: incompatible site
+reserve: incompatible site
+get-reservations: 0
+reserve: non-business hour
+reserve: incompatible site
+reserve: 25 125 381821
+reserve: non-business hour
+reserve: inapplicable age
+reserve: incompatible site
+reserve: 26 35 88900
+get-reservations: 0
+get-reservations: 1
+14:30:00 14:45:00 15 fji31u 778797 A
+0
+get-reservations: 0
+reserve: 27 5 574962
+get-reservations: 0
+reserve: non-business hour
+reserve: incompatible site
+get-reservations: 1
+19:30:00 21:00:00 20 ce87t 334307 B
+0
+reserve: non-business hour
+reserve: incompatible site
+reserve: incompatible site
+get-reservations: 0
+get-reservations: 1
+09:30:00 11:05:00 19 370uii2 71423 A
+0
+reserve: incompatible site
+reserve: non-business hour
+reserve: incompatible site
+get-reservations: 1
+17:30:00 17:35:00 14 mkoulu 574962 A
+0
+reserve: non-business hour
+reserve: inapplicable age
+reserve: non-business hour
+reserve: inapplicable age
+get-reservations: 0
+reserve: 28 95 71423
+get-reservations: 0
+get-reservations: 2
+23:00:00 23:10:00 11 9olsrvu 467592 A
+0
+23:00:00 23:10:00 16 iuq 467592 A
+0
+reserve: incompatible site
+get-reservations: 0
+reserve: 29 35 88900
+reserve: 30 5 574962
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 2
+09:00:00 10:35:00 22 kmu0f 71423 A
+0
+10:00:00 11:35:00 28 p22fkit 71423 A
+0
+get-reservations: 1
+17:30:00 18:50:00 23 lrogo 399667 B
+0
+reserve: incompatible site
+reserve: incompatible site
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+reserve: incompatible site
+get-reservations: 0
+get-reservations: 1
+14:30:00 14:45:00 15 fji31u 778797 A
+0
+get-reservations: 1
+09:30:00 11:05:00 19 370uii2 71423 A
+0
+get-reservations: 0
+get-reservations: 0
+reserve: inapplicable age
+get-reservations: 1
+16:30:00 18:10:00 12 p4yr 552894 A
+0
+reserve: 31 30 679099
+reserve: inapplicable age
+get-reservations: 1
+23:00:00 23:15:00 18 defdg 781489 B
+0
+reserve: non-business hour
+reserve: invalid starting datetime
+reserve: incompatible site
+reserve: inapplicable age
+reserve: incompatible site
+reserve: non-business hour
+reserve: 32 80 399667
+reserve: non-business hour
+get-reservations: 1
+17:00:00 18:40:00 21 c8yij92n 699876 A
+0
+get-reservations: 0
+get-reservations: 0
+reserve: 33 20 772355
+reserve: 34 100 552894
+get-reservations: 2
+23:00:00 23:10:00 11 9olsrvu 467592 A
+0
+23:00:00 23:10:00 16 iuq 467592 A
+0
+reserve: incompatible site
+reserve: non-business hour
+reserve: non-business hour
+reserve: 35 85 559416
+get-reservations: 0
+reserve: 36 95 71423
+reserve: inapplicable age
+reserve: inapplicable age
+get-reservations: 0
+get-reservations: 0
+reserve: 37 95 71423
+reserve: incompatible site
+reserve: inapplicable age
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 1
+18:00:00 20:05:00 25 5qf4 381821 B
+1 565
+reserve: incompatible site
+reserve: non-business hour
+get-reservations: 1
+14:30:00 14:45:00 15 fji31u 778797 A
+0
+reserve: 38 15 778797
+reserve: incompatible site
+get-reservations: 1
+16:30:00 18:10:00 12 p4yr 552894 A
+0
+get-reservations: 1
+05:30:00 09:20:00 7 vulxy 723265 A
+0
+get-reservations: 0
+reserve: incompatible site
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 1
+14:00:00 15:40:00 34 e90i 552894 A
+0
+reserve: fully reserved
+get-reservations: 1
+17:30:00 17:35:00 14 mkoulu 574962 A
+0
+reserve: incompatible site
+reserve: 39 65 794079
+reserve: incompatible site
+reserve: incompatible site
+get-reservations: 1
+09:30:00 10:55:00 13 9ura3oo 677751 A
+0
+reserve: 40 115 947666
+get-reservations: 1
+19:30:00 21:00:00 20 ce87t 334307 B
+0
+reserve: incompatible site
+reserve: 41 35 88900
+get-reservations: 0
+reserve: non-business hour
+get-reservations: 1
+09:30:00 10:55:00 13 9ura3oo 677751 A
+0
+reserve: inapplicable age
+get-reservations: 0
+reserve: non-business hour
+reserve: 42 15 778797
+get-reservations: 1
+18:00:00 19:25:00 6 3xt3w6 485604 B
+1 35
+reserve: 43 15 778797
+reserve: incompatible site
+get-reservations: 0
+reserve: non-business hour
+get-reservations: 1
+19:00:00 19:20:00 33 goejir 772355 B
+0
+get-reservations: 0
+reserve: non-business hour
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+reserve: invalid starting datetime
+reserve: incompatible site
+reserve: incompatible site
+reserve: non-business hour
+get-reservations: 1
+18:00:00 18:30:00 31 wgrxj 679099 A
+0
+reserve: incompatible site
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+reserve: 44 20 772355
+reserve: 45 60 52708
+reserve: 46 100 699876
+reserve: non-business hour
+get-reservations: 0
+reserve: incompatible site
+reserve: incompatible site
+get-reservations: 0
+reserve: incompatible site
+reserve: non-business hour
+get-reservations: 1
+08:30:00 09:05:00 29 kkrc 88900 B
+0
+get-reservations: 0
+reserve: 47 30 679099
+reserve: incompatible site
+get-reservations: 1
+17:30:00 18:50:00 23 lrogo 399667 B
+0
+reserve: inapplicable age
+get-reservations: 2
+23:00:00 23:10:00 11 9olsrvu 467592 A
+0
+23:00:00 23:10:00 16 iuq 467592 A
+0
+reserve: 48 30 679099
+get-reservations: 1
+17:30:00 18:50:00 32 j778 399667 B
+0
+reserve: non-business hour
+reserve: incompatible site
+reserve: incompatible site
+get-reservations: 0
+reserve: 49 110 831769
+reserve: invalid starting datetime
+reserve: inapplicable age
+reserve: 50 90 334307
+reserve: invalid starting datetime
+reserve: non-business hour
+get-reservations: 0
+get-reservations: 1
+17:30:00 17:35:00 14 mkoulu 574962 A
+0
+reserve: non-business hour
+get-reservations: 0
+get-reservations: 0
+reserve: incompatible site
+reserve: incompatible site
+get-reservations: 0
+reserve: 51 100 699876
+reserve: inapplicable age
+reserve: non-business hour
+get-reservations: 0
+get-reservations: 0
+reserve: incompatible site
+reserve: incompatible site
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 2
+17:00:00 18:40:00 46 3ryhh 699876 A
+0
+17:30:00 19:10:00 51 k2pn6ka 699876 A
+0
+reserve: incompatible site
+get-reservations: 0
+reserve: invalid starting datetime
+reserve: inapplicable age
+reserve: 52 30 1506713
+get-reservations: 1
+23:00:00 23:15:00 18 defdg 781489 B
+0
+reserve: incompatible site
+get-reservations: 1
+09:30:00 10:55:00 13 9ura3oo 677751 A
+0
+get-reservations: 1
+01:30:00 03:25:00 40 fwzq4 947666 B
+1 618
+get-reservations: 1
+18:00:00 18:30:00 31 wgrxj 679099 A
+0
+reserve: non-business hour
+get-reservations: 0
+reserve: inapplicable age
+get-reservations: 1
+14:30:00 14:45:00 15 fji31u 778797 A
+0
+reserve: 53 95 71423
+reserve: non-business hour
+reserve: invalid starting datetime
+reserve: incompatible site
+reserve: incompatible site
+reserve: inapplicable age
+reserve: 54 5 574962
+get-reservations: 0
+reserve: incompatible site
+reserve: invalid starting datetime
+get-reservations: 0
+reserve: invalid starting datetime
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+reserve: incompatible site
+reserve: non-business hour
+reserve: incompatible site
+get-reservations: 0
+reserve: 55 85 559416
+reserve: invalid starting datetime
+get-reservations: 0
+reserve: inapplicable age
+reserve: incompatible site
+get-reservations: 0
+reserve: incompatible site
+reserve: incompatible site
+reserve: non-business hour
+get-reservations: 0
+reserve: 56 100 552894
+reserve: incompatible site
+get-reservations: 1
+19:00:00 19:20:00 17 jrb9 772355 B
+0
+get-reservations: 0
+get-reservations: 0
+reserve: non-business hour
+get-reservations: 0
+reserve: 57 90 1127144
+get-reservations: 1
+14:30:00 16:20:00 49 qhsph 831769 A
+1 647
+reserve: invalid starting datetime
+reserve: non-business hour
+get-reservations: 0
+reserve: inapplicable age
+reserve: incompatible site
+get-reservations: 1
+09:00:00 09:35:00 41 bz7wu1w 88900 B
+0
+reserve: incompatible site
+get-reservations: 1
+16:30:00 17:30:00 45 3kc7 52708 B
+0
+reserve: non-business hour
+reserve: 58 90 334307
+get-reservations: 1
+14:30:00 16:20:00 49 qhsph 831769 A
+1 647
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+reserve: invalid starting datetime
+reserve: 59 5 574962
+reserve: inapplicable age
+get-reservations: 0
+reserve: non-business hour
+get-reservations: 0
+get-reservations: 1
+08:30:00 09:05:00 29 kkrc 88900 B
+0
+get-reservations: 0
+reserve: fully reserved
+get-reservations: 0
+reserve: non-business hour
+get-reservations: 0
+reserve: incompatible site
+get-reservations: 1
+19:00:00 19:20:00 17 jrb9 772355 B
+0
+reserve: non-business hour
+get-reservations: 1
+14:30:00 16:20:00 49 qhsph 831769 A
+1 647
+reserve: non-business hour
+reserve: incompatible site
+reserve: non-business hour
+reserve: inapplicable age
+reserve: non-business hour
+reserve: inapplicable age
+get-reservations: 0
+reserve: inapplicable age
+get-reservations: 0
+reserve: incompatible site
+reserve: 60 15 778797
+get-reservations: 1
+14:00:00 15:40:00 34 e90i 552894 A
+0
+get-reservations: 1
+17:30:00 18:50:00 23 lrogo 399667 B
+0
+get-reservations: 0
+reserve: invalid starting datetime
+reserve: incompatible site
+reserve: inapplicable age
+reserve: non-business hour
+reserve: incompatible site
+get-reservations: 0
+reserve: non-business hour
+reserve: incompatible site
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+reserve: 61 5 574962
+reserve: non-business hour
+get-reservations: 0
+get-reservations: 0
+get-reservations: 1
+16:30:00 18:10:00 12 p4yr 552894 A
+0
+get-reservations: 2
+17:30:00 17:35:00 27 8jxrv 574962 A
+0
+17:30:00 17:35:00 30 yfy2r1 574962 A
+0
+reserve: non-business hour
+reserve: incompatible site
+get-reservations: 0
+reserve: incompatible site
+get-reservations: 0
+get-reservations: 0
+reserve: 62 100 699876
+get-reservations: 0
+reserve: non-business hour
+reserve: 63 15 781489
+get-reservations: 1
+05:30:00 09:20:00 7 vulxy 723265 A
+0
+get-reservations: 2
+08:30:00 09:05:00 24 862g7 88900 B
+0
+09:00:00 09:35:00 26 yic52 88900 B
+0
+reserve: incompatible site
+get-reservations: 0
+reserve: 64 5 574962
+reserve: incompatible site
+get-reservations: 2
+23:00:00 23:10:00 5 awf91rd 467592 A
+0
+23:00:00 23:10:00 8 6fp2q3 467592 A
+0
+get-reservations: 1
+14:00:00 15:40:00 34 e90i 552894 A
+0
+reserve: incompatible site
+get-reservations: 1
+14:30:00 16:20:00 49 qhsph 831769 A
+1 647
+get-reservations: 1
+17:30:00 19:10:00 62 2joq 699876 A
+0
+reserve: fully reserved
+get-reservations: 1
+04:00:00 05:25:00 55 cmd8t08 559416 B
+0
+get-reservations: 0
+get-reservations: 0
+reserve: 65 20 772355
+reserve: inapplicable age
+reserve: 66 20 772355
+get-reservations: 0
+get-reservations: 0
+reserve: 67 55 936793
+get-reservations: 1
+17:30:00 19:10:00 62 2joq 699876 A
+0
+get-reservations: 0
+get-reservations: 1
+19:30:00 21:00:00 58 perp3a 334307 B
+0
+get-reservations: 0
+reserve: inapplicable age
+get-reservations: 0
+get-reservations: 2
+19:30:00 19:50:00 65 2wyam 772355 B
+0
+19:00:00 19:20:00 66 e6lwe 772355 B
+0
+get-reservations: 0
+reserve: non-business hour
+get-reservations: 0
+reserve: non-business hour
+get-reservations: 0
+get-reservations: 1
+20:00:00 20:20:00 44 s56n9 772355 B
+0
+get-reservations: 2
+17:30:00 17:35:00 54 2b0gdfnq 574962 A
+0
+17:30:00 17:35:00 59 b0dcj 574962 A
+0
+reserve: 68 230 723265
+get-reservations: 1
+17:00:00 18:40:00 21 c8yij92n 699876 A
+0
+reserve: 69 15 781489
+reserve: 70 85 559416
+get-reservations: 1
+01:30:00 03:25:00 40 fwzq4 947666 B
+1 618
+get-reservations: 1
+14:30:00 16:20:00 49 qhsph 831769 A
+1 647
+reserve: incompatible site
+get-reservations: 0
+get-reservations: 1
+16:00:00 16:15:00 60 llcxsk 778797 A
+0
+get-reservations: 0
+get-reservations: 0
+reserve: inapplicable age
+get-reservations: 1
+15:00:00 16:30:00 57 wd3z0 1127144 A
+1 428
+get-reservations: 0
+reserve: incompatible site
+reserve: incompatible site
+reserve: inapplicable age
+reserve: incompatible site
+reserve: incompatible site
+reserve: 71 35 88900
+reserve: 72 85 677751
+reserve: 73 25 726717
+reserve: incompatible site
+get-reservations: 1
+16:30:00 17:30:00 45 3kc7 52708 B
+0
+get-reservations: 0
+get-reservations: 0
+reserve: incompatible site
+get-reservations: 0
+reserve: non-business hour
+get-reservations: 0
+get-reservations: 2
+00:30:00 01:55:00 9 0ob 559416 B
+0
+03:30:00 04:55:00 10 ro5 559416 B
+0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 1
+19:00:00 19:20:00 33 goejir 772355 B
+0
+get-reservations: 0
+reserve: non-business hour
+get-reservations: 1
+17:30:00 17:35:00 1 q911f 800263 B
+0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 1
+19:00:00 19:20:00 17 jrb9 772355 B
+0
+get-reservations: 1
+01:30:00 03:25:00 40 fwzq4 947666 B
+1 618
+get-reservations: 0
+reserve: 74 20 772355
+reserve: inapplicable age
+get-reservations: 1
+17:30:00 18:50:00 23 lrogo 399667 B
+0
+get-reservations: 0
+reserve: 75 5 800263
+get-reservations: 0
+reserve: 76 100 552894
+get-reservations: 0
+reserve: inapplicable age
+get-reservations: 0
+get-reservations: 0
+get-reservations: 1
+19:30:00 21:00:00 50 e613 334307 B
+0
+get-reservations: 0
+get-reservations: 1
+16:00:00 16:15:00 60 llcxsk 778797 A
+0
+get-reservations: 1
+18:00:00 18:30:00 31 wgrxj 679099 A
+0
+get-reservations: 0
+reserve: 77 85 559416
+get-reservations: 2
+19:30:00 19:50:00 65 2wyam 772355 B
+0
+19:00:00 19:20:00 66 e6lwe 772355 B
+0
+reserve: inapplicable age
+reserve: invalid starting datetime
+get-reservations: 0
+reserve: non-business hour
+get-reservations: 0
+reserve: incompatible site
+get-reservations: 0
+reserve: inapplicable age
+get-reservations: 2
+17:30:00 17:35:00 61 x5o 574962 A
+0
+17:30:00 17:35:00 64 2sxyhw4 574962 A
+0
+reserve: incompatible site
+get-reservations: 0
+get-reservations: 1
+09:30:00 10:55:00 13 9ura3oo 677751 A
+0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+reserve: 78 15 781489
+get-reservations: 0
+get-reservations: 0
+get-reservations: 1
+01:30:00 03:25:00 40 fwzq4 947666 B
+1 618
+get-reservations: 0
+get-reservations: 0
+reserve: incompatible site
+reserve: inapplicable age
+get-reservations: 1
+21:30:00 22:35:00 39 czcm73f 794079 B
+1 55
+reserve: inapplicable age
+get-reservations: 0
+get-reservations: 2
+23:00:00 23:10:00 5 awf91rd 467592 A
+0
+23:00:00 23:10:00 8 6fp2q3 467592 A
+0
+get-reservations: 0
+reserve: non-business hour
+reserve: 79 85 677751
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+reserve: inapplicable age
+get-reservations: 0
+get-reservations: 0
+reserve: inapplicable age
+reserve: 80 80 399667
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 1
+18:00:00 20:05:00 25 5qf4 381821 B
+1 565
+reserve: non-business hour
+get-reservations: 1
+15:00:00 16:30:00 57 wd3z0 1127144 A
+1 428
+reserve: 81 15 781489
+reserve: non-business hour
+get-reservations: 1
+17:30:00 18:50:00 32 j778 399667 B
+0
+reserve: incompatible site
+reserve: incompatible site
+reserve: 82 15 778797
+get-reservations: 0
+reserve: 83 35 88900
+get-reservations: 0
+reserve: 84 5 574962
+reserve: invalid starting datetime
+get-reservations: 1
+02:00:00 05:50:00 68 zhxlx 723265 A
+0
+get-reservations: 1
+15:00:00 16:30:00 57 wd3z0 1127144 A
+1 428
+reserve: 85 160 1129919
+get-reservations: 0
+get-reservations: 2
+09:00:00 10:35:00 22 kmu0f 71423 A
+0
+10:00:00 11:35:00 28 p22fkit 71423 A
+0
+reserve: non-business hour
+get-reservations: 0
+reserve: 86 100 552894
+get-reservations: 0
+get-reservations: 0
+reserve: non-business hour
+get-reservations: 0
+get-reservations: 0
+reserve: 87 20 772355
+reserve: incompatible site
+get-reservations: 2
+17:30:00 17:35:00 61 x5o 574962 A
+0
+17:30:00 17:35:00 64 2sxyhw4 574962 A
+0
+get-reservations: 0
+get-reservations: 1
+14:30:00 14:45:00 15 fji31u 778797 A
+0
+reserve: 88 135 942607
+reserve: non-business hour
+reserve: 89 95 71423
+reserve: incompatible site
+reserve: incompatible site
+reserve: 90 60 52708
+get-reservations: 1
+04:30:00 05:55:00 77 s9pn 559416 B
+0
+reserve: incompatible site
+get-reservations: 2
+09:00:00 10:35:00 36 jvpbzvy 71423 A
+0
+09:00:00 10:35:00 37 n3e6 71423 A
+0
+reserve: 91 30 679099
+reserve: non-business hour
+reserve: invalid starting datetime
+get-reservations: 0
+reserve: invalid starting datetime
+reserve: incompatible site
+reserve: 92 5 800263
+reserve: 93 250 1545324
+reserve: non-business hour
+get-reservations: 1
+14:30:00 14:45:00 15 fji31u 778797 A
+0
+reserve: inapplicable age
+get-reservations: 0
+reserve: inapplicable age
+get-reservations: 1
+14:30:00 14:45:00 15 fji31u 778797 A
+0
+get-reservations: 0
+reserve: 94 90 334307
+reserve: non-business hour
+get-reservations: 2
+17:30:00 17:35:00 54 2b0gdfnq 574962 A
+0
+17:30:00 17:35:00 59 b0dcj 574962 A
+0
+get-reservations: 1
+08:30:00 09:05:00 71 py6 88900 B
+0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 1
+01:30:00 03:25:00 40 fwzq4 947666 B
+1 618
+reserve: invalid starting datetime
+get-reservations: 0
+get-reservations: 1
+17:30:00 17:35:00 14 mkoulu 574962 A
+0
+get-reservations: 0
+get-reservations: 1
+23:00:00 23:15:00 18 defdg 781489 B
+0
+get-reservations: 2
+23:00:00 23:10:00 11 9olsrvu 467592 A
+0
+23:00:00 23:10:00 16 iuq 467592 A
+0
+reserve: 95 35 88900
+reserve: 96 60 52708
+reserve: 97 20 772355
+get-reservations: 0
+get-reservations: 0
+reserve: incompatible site
+reserve: invalid starting datetime
+get-reservations: 0
+reserve: invalid starting datetime
+reserve: non-business hour
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+reserve: non-business hour
+reserve: 98 100 552894
+get-reservations: 0
+get-reservations: 1
+19:30:00 21:00:00 50 e613 334307 B
+0
+reserve: inapplicable age
+reserve: incompatible site
+get-reservations: 0
+get-reservations: 1
+17:30:00 17:35:00 14 mkoulu 574962 A
+0
+reserve: non-business hour
+reserve: invalid starting datetime
+reserve: non-business hour
+reserve: incompatible site
+reserve: inapplicable age
+get-reservations: 0
+reserve: non-business hour
+reserve: incompatible site
+reserve: non-business hour
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+reserve: 99 95 71423
+get-reservations: 0
+get-reservations: 0
+get-reservations: 1
+18:00:00 18:30:00 31 wgrxj 679099 A
+0
+get-reservations: 0
+reserve: non-business hour
+reserve: non-business hour
+reserve: 100 15 778797
+get-reservations: 2
+17:30:00 17:35:00 27 8jxrv 574962 A
+0
+17:30:00 17:35:00 30 yfy2r1 574962 A
+0
+get-reservations: 2
+23:00:00 23:10:00 11 9olsrvu 467592 A
+0
+23:00:00 23:10:00 16 iuq 467592 A
+0
+get-reservations: 0
+reserve: invalid starting datetime
+get-reservations: 0
+get-reservations: 0
+get-reservations: 1
+18:00:00 18:30:00 31 wgrxj 679099 A
+0
+reserve: non-business hour
+reserve: inapplicable age
+get-reservations: 1
+15:30:00 15:35:00 92 2fd 800263 B
+0
+reserve: fully reserved
+get-reservations: 1
+19:00:00 19:20:00 17 jrb9 772355 B
+0
+get-reservations: 0
+get-reservations: 0
+reserve: incompatible site
+reserve: non-business hour
+get-reservations: 0
+reserve: non-business hour
+reserve: incompatible site
+reserve: inapplicable age
+reserve: invalid starting datetime
+reserve: incompatible site
+reserve: non-business hour
+reserve: 101 30 679099
+get-reservations: 0
+get-reservations: 0
+reserve: inapplicable age
+get-reservations: 0
+reserve: incompatible site
+get-reservations: 3
+14:30:00 14:45:00 38 ird 778797 A
+0
+15:00:00 15:15:00 42 i5me 778797 A
+0
+15:30:00 15:45:00 43 pef4 778797 A
+0
+reserve: 102 10 467592
+reserve: 103 100 809539
+reserve: non-business hour
+get-reservations: 0
+get-reservations: 0
+reserve: non-business hour
+reserve: 104 100 552894
+get-reservations: 1
+19:30:00 21:00:00 58 perp3a 334307 B
+0
+get-reservations: 0
+reserve: invalid starting datetime
+get-reservations: 0
+reserve: incompatible site
+reserve: 105 15 778797
+get-reservations: 2
+09:00:00 10:35:00 36 jvpbzvy 71423 A
+0
+09:00:00 10:35:00 37 n3e6 71423 A
+0
+reserve: 106 15 778797
+get-reservations: 0
+get-reservations: 0
+get-reservations: 2
+17:30:00 17:35:00 61 x5o 574962 A
+0
+17:30:00 17:35:00 64 2sxyhw4 574962 A
+0
+get-reservations: 1
+23:00:00 23:10:00 102 jku 467592 A
+0
+reserve: incompatible site
+get-reservations: 0
+reserve: incompatible site
+reserve: non-business hour
+get-reservations: 2
+17:30:00 17:35:00 27 8jxrv 574962 A
+0
+17:30:00 17:35:00 30 yfy2r1 574962 A
+0
+reserve: incompatible site
+reserve: inapplicable age
+get-reservations: 1
+16:30:00 18:10:00 12 p4yr 552894 A
+0
+get-reservations: 0
+reserve: incompatible site
+get-reservations: 0
+get-reservations: 0
+reserve: incompatible site
+get-reservations: 0
+reserve: 107 100 552894
+get-reservations: 0
+get-reservations: 0
+reserve: 108 230 723265
+reserve: 109 30 679099
+reserve: incompatible site
+get-reservations: 0
+reserve: 110 5 574962
+reserve: incompatible site
+get-reservations: 1
+19:30:00 20:00:00 52 eqv 1506713 B
+1 74
+reserve: non-business hour
+get-reservations: 0
+reserve: 111 15 778797
+reserve: incompatible site
+reserve: invalid starting datetime
+reserve: 112 80 399667
+reserve: inapplicable age
+reserve: incompatible site
+get-reservations: 0
+get-reservations: 0
+get-reservations: 1
+17:30:00 18:50:00 32 j778 399667 B
+0
+get-reservations: 1
+19:00:00 19:20:00 33 goejir 772355 B
+0
+get-reservations: 1
+17:30:00 19:10:00 62 2joq 699876 A
+0
+reserve: inapplicable age
+get-reservations: 0
+get-reservations: 1
+19:00:00 19:20:00 33 goejir 772355 B
+0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 1
+06:00:00 07:35:00 53 b5zzdc 71423 A
+0
+reserve: non-business hour
+get-reservations: 0
+get-reservations: 1
+17:30:00 18:50:00 23 lrogo 399667 B
+0
+get-reservations: 0
+reserve: non-business hour
+get-reservations: 0
+reserve: incompatible site
+get-reservations: 1
+21:30:00 22:35:00 39 czcm73f 794079 B
+1 55
+reserve: invalid starting datetime
+get-reservations: 0
+reserve: incompatible site
+get-reservations: 1
+04:00:00 07:50:00 108 f0uq5 723265 A
+0
+get-reservations: 1
+03:30:00 04:55:00 70 talw44w 559416 B
+0
+reserve: non-business hour
+get-reservations: 0
+reserve: 113 100 699876
+reserve: inapplicable age
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+reserve: non-business hour
+get-reservations: 0
+get-reservations: 2
+17:30:00 17:35:00 61 x5o 574962 A
+0
+17:30:00 17:35:00 64 2sxyhw4 574962 A
+0
+get-reservations: 0
+reserve: incompatible site
+reserve: 114 100 699876
+reserve: non-business hour
+get-reservations: 2
+17:30:00 17:35:00 61 x5o 574962 A
+0
+17:30:00 17:35:00 64 2sxyhw4 574962 A
+0
+get-reservations: 0
+get-reservations: 3
+15:00:00 15:15:00 105 cwwa4h1ky 778797 A
+0
+16:00:00 16:15:00 106 lm38ndb 778797 A
+0
+15:30:00 15:45:00 111 394 778797 A
+0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+reserve: 115 80 399667
+get-reservations: 1
+19:00:00 19:20:00 17 jrb9 772355 B
+0
+get-reservations: 0
+reserve: inapplicable age
+reserve: incompatible site
+reserve: 116 80 399667
+reserve: incompatible site
+reserve: 117 80 399667
+get-reservations: 0
+reserve: non-business hour
+get-reservations: 0
+reserve: invalid starting datetime
+get-reservations: 0
+get-reservations: 0
+reserve: non-business hour
+reserve: incompatible site
+reserve: inapplicable age
+reserve: 118 5 574962
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+reserve: 119 100 552894
+reserve: non-business hour
+get-reservations: 1
+22:00:00 22:15:00 63 t7736n 781489 B
+0
+get-reservations: 0
+get-reservations: 0
+reserve: non-business hour
+get-reservations: 2
+09:00:00 10:35:00 22 kmu0f 71423 A
+0
+10:00:00 11:35:00 28 p22fkit 71423 A
+0
+get-reservations: 1
+09:00:00 09:35:00 83 469zzv 88900 B
+0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+reserve: inapplicable age
+reserve: incompatible site
+reserve: non-business hour
+reserve: incompatible site
+reserve: incompatible site
+reserve: incompatible site
+reserve: 120 90 334307
+reserve: incompatible site
+get-reservations: 0
+get-reservations: 1
+19:00:00 19:20:00 33 goejir 772355 B
+0
+get-reservations: 2
+12:00:00 13:40:00 104 cwhd 552894 A
+0
+06:30:00 08:10:00 107 5w0pan6 552894 A
+0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 0
+get-reservations: 1
+09:00:00 09:35:00 83 469zzv 88900 B
+0
+get-reservations: 0
+reserve: non-business hour
+reserve: incompatible site
+get-reservations: 0
+reserve: incompatible site
