@@ -341,18 +341,18 @@ reserve: non-business hour
 reserve: non-business hour
 reserve: incompatible site
 reserve: 114 50 146156
-reserve: 115 1455 1304673
 reserve: non-business hour
-reserve: 116 55 1413867
-reserve: 117 45 474631
-reserve: 118 50 146156
-reserve: fully reserved
+reserve: non-business hour
+reserve: 115 55 1413867
+reserve: 116 45 474631
+reserve: 117 50 146156
+reserve: 118 40 454072
 reserve: invalid starting datetime
 reserve: inapplicable age
 reserve: 119 65 717714
 reserve: inapplicable age
 reserve: incompatible site
-reserve: fully reserved
+reserve: non-business hour
 reserve: 120 5 127788
 reserve: non-business hour
 reserve: 121 45 474631
